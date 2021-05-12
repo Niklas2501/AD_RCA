@@ -1,0 +1,83 @@
+..
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 2277
+obj = 1066544.478566, rho = 941.744238
+nSV = 2329, nBSV = 2296
+...
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 3968
+obj = 4409862.804684, rho = 1964.239858
+nSV = 4638, nBSV = 4614
+....
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 4903
+obj = 10214271.521736, rho = 3072.041791
+nSV = 6949, nBSV = 6929
+.....
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 5643
+obj = 18682969.280902, rho = 4261.495502
+nSV = 9260, nBSV = 9246
+......
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 6087
+obj = 29974369.362336, rho = 5525.475592
+nSV = 11566, nBSV = 11559
+......
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 6054
+obj = 44411165.945742, rho = 7021.832591
+nSV = 13878, nBSV = 13874
+.....
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 5221
+obj = 62738910.125118, rho = 8876.692753
+nSV = 16190, nBSV = 16186
+....
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 4587
+obj = 85601395.298960, rho = 10903.230197
+nSV = 18501, nBSV = 18499
+
+Dataset loaded:
+Shape of training set (example, time, channels): (23125, 500, 61)
+Shape of test set (example, time, channels): (3989, 500, 61)
+Shape of validation set (example, time, channels): (1710, 500, 61)
+Num of classes in all: 25
+
+Using the standard data as input
+
+(23125, 30500) (1710, 30500)
+Evaluating OneClassSVM on the validation dataset with 8 parameter configurations.
+
+Evaluating OneClassSVM with configuration 1/8
+[LibSVM]Evaluating OneClassSVM with configuration 2/8
+[LibSVM]Evaluating OneClassSVM with configuration 3/8
+[LibSVM]Evaluating OneClassSVM with configuration 4/8
+[LibSVM]Evaluating OneClassSVM with configuration 5/8
+[LibSVM]Evaluating OneClassSVM with configuration 6/8
+[LibSVM]Evaluating OneClassSVM with configuration 7/8
+[LibSVM]Evaluating OneClassSVM with configuration 8/8
+[LibSVM]
+Grid search results:
+        ACC       FNR       TNR       FPR        TPR        Prec         F1         F2                                                                                                                                                      Parameters
+0  0.237427  0.384615  0.148736  0.851264   0.615385    0.145033   0.234742   0.373274                  {'cache_size': 8000, 'coef0': 0.0, 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'nu': 0.1, 'shrinking': True, 'tol': 0.001}
+1  0.266667  0.609231  0.237545  0.762455   0.390769    0.107354   0.168435   0.255739                  {'cache_size': 8000, 'coef0': 0.0, 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'nu': 0.2, 'shrinking': True, 'tol': 0.001}
+2  0.308772  0.775385   0.32852   0.67148   0.224615   0.0727817    0.10994   0.158489  {'cache_size': 8000, 'coef0': 0.0, 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'nu': 0.30000000000000004, 'shrinking': True, 'tol': 0.001}
+3  0.363158  0.846154  0.412274  0.587726   0.153846   0.0578704  0.0841043   0.115527                  {'cache_size': 8000, 'coef0': 0.0, 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'nu': 0.4, 'shrinking': True, 'tol': 0.001}
+4  0.421637  0.947692  0.508303  0.491697  0.0523077   0.0243553  0.0332356  0.0425425                  {'cache_size': 8000, 'coef0': 0.0, 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'nu': 0.5, 'shrinking': True, 'tol': 0.001}
+5  0.497076  0.984615  0.610108  0.389892  0.0153846  0.00917431  0.0114943  0.0135501                  {'cache_size': 8000, 'coef0': 0.0, 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'nu': 0.6, 'shrinking': True, 'tol': 0.001}
+6  0.608187         1  0.750903  0.249097          0           0        NaN        NaN   {'cache_size': 8000, 'coef0': 0.0, 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'nu': 0.7000000000000001, 'shrinking': True, 'tol': 0.001}
+7  0.687719         1  0.849097  0.150903          0           0        NaN        NaN                  {'cache_size': 8000, 'coef0': 0.0, 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'nu': 0.8, 'shrinking': True, 'tol': 0.001}
+
+
+Best result in detail:
+0

@@ -1,0 +1,53 @@
+{
+    "time_series_length": 500,
+    "time_series_depth": 61,
+    "notes": "48, F1 candiate 3",
+    "variants": [
+        "reconstruct_gru"
+    ],
+    "defined_variants": [
+        "zhao",
+        "reconstruct_gru",
+        "gru_fbm",
+        "gru_ae",
+        "reconstruction_error"
+    ],
+    "batch_size": 128,
+    "epochs": 5000,
+    "learning_rate": 0.0001,
+    "early_stopping_enabled": true,
+    "early_stopping_limit": 15,
+    "gradient_cap_enabled": true,
+    "gradient_cap": 10,
+    "gamma": null,
+    "conv_filters": [
+        32,
+        1
+    ],
+    "conv_kernel_size": [
+        3,
+        3
+    ],
+    "conv_strides": [
+        1,
+        1
+    ],
+    "d1_gru_units": [
+        256,
+        61
+    ],
+    "d2_fc_units": [
+        512,
+        256,
+        61
+    ],
+    "d3_vae_latent_dim": 1536,
+    "d3_vae_inter_dim": 3072,
+    "sw_size_time_gat": 251,
+    "single_timestamp_anomaly_threshold": null,
+    "affected_timestamps_threshold": null,
+    "unaffected_component_threshold": null,
+    "relevance_mapping": null,
+    "si_parameter": null,
+    "si_mode": null
+}

@@ -1,0 +1,93 @@
+{
+  "notes": "",
+  "ad_metrics": [
+    "F1",
+    "F2",
+    "TPR",
+    "Prec",
+    "ACC",
+    "TNR",
+    "FPR"
+  ],
+  "si_st_metrics": [
+    "AVG-HR@100%",
+    "AVG-HR@150%",
+    "AVG-HR@K",
+    "F1",
+    "TPR",
+    "Prec"
+  ],
+  "sorted_by": [
+    0,
+    1,
+    10
+  ],
+  "gamma": [
+    0.55,
+    0.50,
+    0.35,
+    0.30,
+    0.4
+  ],
+  "single_timestamp_anomaly_threshold": [
+    0.31,
+    0.28,
+    0.27,
+    0.29
+  ],
+  "affected_timestamps_threshold": [
+    230,
+    240,
+    220,
+    210,
+    200
+  ],
+  "unaffected_component_threshold": [
+    0.05,
+    0.10,
+    0.15,
+    0.20,
+    0.25,
+    0.30,
+    0.45,
+    0.50,
+    0.60,
+    0.70
+  ],
+  "relevance_mapping": [
+    {
+      "h": 1.0,
+      "m": 1.0,
+      "l": 0.0,
+      "e": 0.0
+    },
+    {
+      "h": 1.0,
+      "m": 0.0,
+      "l": 0.0,
+      "e": 0.0
+    },
+    {
+      "h": 1.0,
+      "m": 0.5,
+      "l": 0.0,
+      "e": 0.0
+    },
+    {
+      "h": 1.0,
+      "m": 0.5,
+      "l": 0.5,
+      "e": 0.0
+    },
+    {
+      "h": 1.0,
+      "m": 0.5,
+      "l": 0.3,
+      "e": 0.0
+    }
+  ],
+  "si_parameter": [
+  ],
+  "si_mode": [
+  ]
+}

@@ -1,0 +1,116 @@
+
+Dataset loaded:
+Shape of training set (example, time, channels): (20812, 500, 61)
+Shape of test set (example, time, channels): (3989, 500, 61)
+Shape of train validation set (example, time, channels): (2313, 500, 61)
+Shape of test validation set (example, time, channels): (1710, 500, 61)
+Num of classes in all: 25
+
+Using the TSFresh representation of the data as input
+
+(20812, 47519) (1710, 47519)
+Evaluating IsolationForest on the validation dataset with 48 parameter configurations.
+
+Evaluating IsolationForest with configuration 1/48
+Evaluating IsolationForest with configuration 2/48
+Evaluating IsolationForest with configuration 3/48
+Evaluating IsolationForest with configuration 4/48
+Evaluating IsolationForest with configuration 5/48
+Evaluating IsolationForest with configuration 6/48
+Evaluating IsolationForest with configuration 7/48
+Evaluating IsolationForest with configuration 8/48
+Evaluating IsolationForest with configuration 9/48
+Evaluating IsolationForest with configuration 10/48
+Evaluating IsolationForest with configuration 11/48
+Evaluating IsolationForest with configuration 12/48
+Evaluating IsolationForest with configuration 13/48
+Evaluating IsolationForest with configuration 14/48
+Evaluating IsolationForest with configuration 15/48
+Evaluating IsolationForest with configuration 16/48
+Evaluating IsolationForest with configuration 17/48
+Evaluating IsolationForest with configuration 18/48
+Evaluating IsolationForest with configuration 19/48
+Evaluating IsolationForest with configuration 20/48
+Evaluating IsolationForest with configuration 21/48
+Evaluating IsolationForest with configuration 22/48
+Evaluating IsolationForest with configuration 23/48
+Evaluating IsolationForest with configuration 24/48
+Evaluating IsolationForest with configuration 25/48
+Evaluating IsolationForest with configuration 26/48
+Evaluating IsolationForest with configuration 27/48
+Evaluating IsolationForest with configuration 28/48
+Evaluating IsolationForest with configuration 29/48
+Evaluating IsolationForest with configuration 30/48
+Evaluating IsolationForest with configuration 31/48
+Evaluating IsolationForest with configuration 32/48
+Evaluating IsolationForest with configuration 33/48
+Evaluating IsolationForest with configuration 34/48
+Evaluating IsolationForest with configuration 35/48
+Evaluating IsolationForest with configuration 36/48
+Evaluating IsolationForest with configuration 37/48
+Evaluating IsolationForest with configuration 38/48
+Evaluating IsolationForest with configuration 39/48
+Evaluating IsolationForest with configuration 40/48
+Evaluating IsolationForest with configuration 41/48
+Evaluating IsolationForest with configuration 42/48
+Evaluating IsolationForest with configuration 43/48
+Evaluating IsolationForest with configuration 44/48
+Evaluating IsolationForest with configuration 45/48
+Evaluating IsolationForest with configuration 46/48
+Evaluating IsolationForest with configuration 47/48
+Evaluating IsolationForest with configuration 48/48
+
+Grid search results:
+         ACC         FNR          TNR       FPR       TPR      Prec        F1        F2                                                                                                                     Parameters
+1   0.192398           0   0.00288809  0.997112         1  0.190504  0.320039  0.540585    {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.05, 'max_samples': 64, 'n_estimators': 50, 'warm_start': False}
+0   0.191228           0   0.00144404  0.998556         1  0.190281  0.319725  0.540226    {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.05, 'max_samples': 32, 'n_estimators': 50, 'warm_start': False}
+26  0.191228           0   0.00144404  0.998556         1  0.190281  0.319725  0.540226   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.2, 'max_samples': 128, 'n_estimators': 100, 'warm_start': False}
+42  0.195906  0.00615385   0.00866426  0.991336  0.993846  0.190448  0.319644  0.539052   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.2, 'max_samples': 128, 'n_estimators': 150, 'warm_start': False}
+13  0.190643           0  0.000722022  0.999278         1   0.19017  0.319567  0.540047    {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.25, 'max_samples': 64, 'n_estimators': 50, 'warm_start': False}
+14  0.190643           0  0.000722022  0.999278         1   0.19017  0.319567  0.540047   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.25, 'max_samples': 128, 'n_estimators': 50, 'warm_start': False}
+21  0.190643           0  0.000722022  0.999278         1   0.19017  0.319567  0.540047    {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.1, 'max_samples': 64, 'n_estimators': 100, 'warm_start': False}
+41  0.190643           0  0.000722022  0.999278         1   0.19017  0.319567  0.540047    {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.2, 'max_samples': 64, 'n_estimators': 150, 'warm_start': False}
+4   0.190058           0            0         1         1  0.190058   0.31941  0.539867     {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.1, 'max_samples': 32, 'n_estimators': 50, 'warm_start': False}
+5   0.190058           0            0         1         1  0.190058   0.31941  0.539867     {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.1, 'max_samples': 64, 'n_estimators': 50, 'warm_start': False}
+8   0.190058           0            0         1         1  0.190058   0.31941  0.539867     {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.2, 'max_samples': 32, 'n_estimators': 50, 'warm_start': False}
+9   0.190058           0            0         1         1  0.190058   0.31941  0.539867     {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.2, 'max_samples': 64, 'n_estimators': 50, 'warm_start': False}
+12  0.190058           0            0         1         1  0.190058   0.31941  0.539867    {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.25, 'max_samples': 32, 'n_estimators': 50, 'warm_start': False}
+16  0.190058           0            0         1         1  0.190058   0.31941  0.539867   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.05, 'max_samples': 32, 'n_estimators': 100, 'warm_start': False}
+20  0.190058           0            0         1         1  0.190058   0.31941  0.539867    {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.1, 'max_samples': 32, 'n_estimators': 100, 'warm_start': False}
+24  0.190058           0            0         1         1  0.190058   0.31941  0.539867    {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.2, 'max_samples': 32, 'n_estimators': 100, 'warm_start': False}
+25  0.190058           0            0         1         1  0.190058   0.31941  0.539867    {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.2, 'max_samples': 64, 'n_estimators': 100, 'warm_start': False}
+28  0.190058           0            0         1         1  0.190058   0.31941  0.539867   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.25, 'max_samples': 32, 'n_estimators': 100, 'warm_start': False}
+32  0.190058           0            0         1         1  0.190058   0.31941  0.539867   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.05, 'max_samples': 32, 'n_estimators': 150, 'warm_start': False}
+36  0.190058           0            0         1         1  0.190058   0.31941  0.539867    {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.1, 'max_samples': 32, 'n_estimators': 150, 'warm_start': False}
+40  0.190058           0            0         1         1  0.190058   0.31941  0.539867    {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.2, 'max_samples': 32, 'n_estimators': 150, 'warm_start': False}
+37  0.191228  0.00307692   0.00216606  0.997834  0.996923  0.189918  0.319055  0.538922    {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.1, 'max_samples': 64, 'n_estimators': 150, 'warm_start': False}
+33  0.190058  0.00307692  0.000722022  0.999278  0.996923  0.189696  0.318741  0.538564   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.05, 'max_samples': 64, 'n_estimators': 150, 'warm_start': False}
+30  0.189474  0.00307692            0         1  0.996923  0.189585  0.318584  0.538385  {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.25, 'max_samples': 128, 'n_estimators': 100, 'warm_start': False}
+44  0.189474  0.00307692            0         1  0.996923  0.189585  0.318584  0.538385   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.25, 'max_samples': 32, 'n_estimators': 150, 'warm_start': False}
+46  0.189474  0.00307692            0         1  0.996923  0.189585  0.318584  0.538385  {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.25, 'max_samples': 128, 'n_estimators': 150, 'warm_start': False}
+11  0.198246   0.0153846    0.0137184  0.986282  0.984615  0.189798   0.31825  0.535834    {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.2, 'max_samples': 256, 'n_estimators': 50, 'warm_start': False}
+27  0.210526   0.0307692     0.032491  0.967509  0.969231  0.190332  0.318182  0.532995   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.2, 'max_samples': 256, 'n_estimators': 100, 'warm_start': False}
+10  0.195322   0.0123077   0.00938628  0.990614  0.987692  0.189604  0.318137  0.536251    {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.2, 'max_samples': 128, 'n_estimators': 50, 'warm_start': False}
+29  0.189474  0.00615385  0.000722022  0.999278  0.993846  0.189221  0.317913   0.53708   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.25, 'max_samples': 64, 'n_estimators': 100, 'warm_start': False}
+45  0.189474  0.00615385  0.000722022  0.999278  0.993846  0.189221  0.317913   0.53708   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.25, 'max_samples': 64, 'n_estimators': 150, 'warm_start': False}
+43  0.215205   0.0430769    0.0411552  0.958845  0.956923   0.18975  0.316701  0.529092   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.2, 'max_samples': 256, 'n_estimators': 150, 'warm_start': False}
+17  0.188889   0.0123077   0.00144404  0.998556  0.987692   0.18838  0.316412  0.534288   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.05, 'max_samples': 64, 'n_estimators': 100, 'warm_start': False}
+2   0.206433   0.0338462    0.0281588  0.971841  0.966154  0.189157  0.316373  0.530405   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.05, 'max_samples': 128, 'n_estimators': 50, 'warm_start': False}
+31   0.21462   0.0492308    0.0418773  0.958123  0.950769  0.188875  0.315145  0.526226  {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.25, 'max_samples': 256, 'n_estimators': 100, 'warm_start': False}
+15  0.202924        0.04    0.0252708  0.974729      0.96  0.187726  0.314041  0.526671   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.25, 'max_samples': 256, 'n_estimators': 50, 'warm_start': False}
+47  0.207018   0.0461538     0.031769  0.968231  0.953846  0.187765  0.313765  0.525246  {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.25, 'max_samples': 256, 'n_estimators': 150, 'warm_start': False}
+34  0.226316   0.0738462    0.0620939  0.937906  0.926154  0.188125  0.312727  0.518966  {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.05, 'max_samples': 128, 'n_estimators': 150, 'warm_start': False}
+38  0.202924   0.0492308    0.0274368  0.972563  0.950769  0.186594  0.311964  0.522666   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.1, 'max_samples': 128, 'n_estimators': 150, 'warm_start': False}
+18  0.198246   0.0523077    0.0223827  0.977617  0.947692  0.185319  0.310015  0.519919  {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.05, 'max_samples': 128, 'n_estimators': 100, 'warm_start': False}
+3   0.267251    0.138462     0.127798  0.872202  0.861538  0.188172   0.30888  0.502152   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.05, 'max_samples': 256, 'n_estimators': 50, 'warm_start': False}
+7        0.2   0.0769231    0.0303249  0.969675  0.923077  0.182593  0.304878  0.509684    {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.1, 'max_samples': 256, 'n_estimators': 50, 'warm_start': False}
+35  0.233918    0.126154    0.0837545  0.916245  0.873846  0.182872  0.302449  0.497722  {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.05, 'max_samples': 256, 'n_estimators': 150, 'warm_start': False}
+6   0.223977    0.123077    0.0707581  0.929242  0.876923  0.181298  0.300474   0.49617    {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.1, 'max_samples': 128, 'n_estimators': 50, 'warm_start': False}
+22  0.220468    0.156923    0.0743682  0.925632  0.843077  0.176093  0.291334  0.479692   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.1, 'max_samples': 128, 'n_estimators': 100, 'warm_start': False}
+39  0.259649    0.209231     0.135018  0.864982  0.790769  0.176632  0.288764  0.466425   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.1, 'max_samples': 256, 'n_estimators': 150, 'warm_start': False}
+23  0.246199         0.2     0.116245  0.883755       0.8  0.175202  0.287452  0.466954   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.1, 'max_samples': 256, 'n_estimators': 100, 'warm_start': False}
+19  0.284795    0.292308      0.18556   0.81444  0.707692  0.169367  0.273321  0.432656  {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.05, 'max_samples': 256, 'n_estimators': 100, 'warm_start': False}
+
+
+Best result in detail:
+1

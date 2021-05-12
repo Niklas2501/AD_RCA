@@ -1,0 +1,171 @@
+
+Dataset loaded:
+Shape of training set (example, time, channels): (20812, 500, 61)
+Shape of test set (example, time, channels): (3989, 500, 61)
+Shape of train validation set (example, time, channels): (2313, 500, 61)
+Shape of test validation set (example, time, channels): (1710, 500, 61)
+Num of classes in all: 25
+
+Adding feature wise convolutions with 32 filters per feature, 3 kernels and 1 strides ...
+Adding feature wise convolutions with 1 filters per feature, 3 kernels and 1 strides ...
+Adding feature based graph attention layer ...
+Adding time based graph attention layer ...
+Adding GRU layer with 256 units ...
+Adding GRU layer with 61 units ...
+Adding dense layer to forecasting model with 512 units and ReLu activation ...
+Adding dense layer to forecasting model with 256 units and ReLu activation ...
+Adding last dense layer to forecasting model with 61 units and sigmoid activation ...
+Adding VAE as reconstruction model with dimensions 3072 & 1536 and ...
+The RBM reconstructs the output of the gru layer.
+
+Evaluating model selected_2_mod_0 on the test dataset. 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Final Result for model selected_2_mod_0 :
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Metrics:
+TPR = True Positive Rate/Recall
+FPR = False Positive RateTNR = True Negative Rate/Specificity
+FNR = False Negative Rate/Miss rate
+Prec = Precision
+ACC = Accuracy
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Anomaly detection results (based on INTERMEDIATE predictions): *1
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+                 #Examples   TP   FP    TN   FN       ACC       FNR       TNR       FPR       TPR      Prec        F1        F2  AVG # affected
+Component                                                                                                                                      
+no_failure            3305    0  309  2996    0  0.906505       NaN  0.906505  0.093495       NaN  0.000000       NaN       NaN       44.873525
+txt15_i1                19   19    0     0    0  1.000000  0.000000       NaN       NaN  1.000000  1.000000  1.000000  1.000000      478.842105
+txt15_i3                 8    2    0     0    6  0.250000  0.750000       NaN       NaN  0.250000  1.000000  0.400000  0.294118       87.250000
+txt15_conveyor           8    8    0     0    0  1.000000  0.000000       NaN       NaN  1.000000  1.000000  1.000000  1.000000      344.500000
+txt15_m1               301  300    0     0    1  0.996678  0.003322       NaN       NaN  0.996678  1.000000  0.998336  0.997340      419.421927
+txt15_pl                24   18    0     0    6  0.750000  0.250000       NaN       NaN  0.750000  1.000000  0.857143  0.789474      295.041667
+txt16_i3                 5    0    0     0    5  0.000000  1.000000       NaN       NaN  0.000000       NaN       NaN       NaN       80.000000
+txt16_conveyor          39    7    0     0   32  0.179487  0.820513       NaN       NaN  0.179487  1.000000  0.304348  0.214724       73.615385
+txt16_m3               141  116    0     0   25  0.822695  0.177305       NaN       NaN  0.822695  1.000000  0.902724  0.852941      336.872340
+txt16_turntable         10    0    0     0   10  0.000000  1.000000       NaN       NaN  0.000000       NaN       NaN       NaN        0.700000
+txt17_i1                51   25    0     0   26  0.490196  0.509804       NaN       NaN  0.490196  1.000000  0.657895  0.545852      209.431373
+txt17_pl                19    0    0     0   19  0.000000  1.000000       NaN       NaN  0.000000       NaN       NaN       NaN        0.157895
+txt18_pl                48    3    0     0   45  0.062500  0.937500       NaN       NaN  0.062500  1.000000  0.117647  0.076923       29.020833
+txt19_i4                11    4    0     0    7  0.363636  0.636364       NaN       NaN  0.363636  1.000000  0.533333  0.416667      156.818182
+combined              3989  502  309  2996  182  0.876912  0.266082  0.906505  0.093495  0.733918  0.618989  0.671572  0.707640       89.938581
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Anomaly detection results (based on FINAL predictions): *1
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+                 #Examples   TP   FP    TN   FN       ACC       FNR       TNR       FPR       TPR      Prec        F1        F2  AVG # affected
+Component                                                                                                                                      
+no_failure            3305    0  198  3107    0  0.940091       NaN  0.940091  0.059909       NaN  0.000000       NaN       NaN       44.873525
+txt15_i1                19   19    0     0    0  1.000000  0.000000       NaN       NaN  1.000000  1.000000  1.000000  1.000000      478.842105
+txt15_i3                 8    0    0     0    8  0.000000  1.000000       NaN       NaN  0.000000       NaN       NaN       NaN       87.250000
+txt15_conveyor           8    8    0     0    0  1.000000  0.000000       NaN       NaN  1.000000  1.000000  1.000000  1.000000      344.500000
+txt15_m1               301  300    0     0    1  0.996678  0.003322       NaN       NaN  0.996678  1.000000  0.998336  0.997340      419.421927
+txt15_pl                24   18    0     0    6  0.750000  0.250000       NaN       NaN  0.750000  1.000000  0.857143  0.789474      295.041667
+txt16_i3                 5    0    0     0    5  0.000000  1.000000       NaN       NaN  0.000000       NaN       NaN       NaN       80.000000
+txt16_conveyor          39    4    0     0   35  0.102564  0.897436       NaN       NaN  0.102564  1.000000  0.186047  0.125000       73.615385
+txt16_m3               141  115    0     0   26  0.815603  0.184397       NaN       NaN  0.815603  1.000000  0.898438  0.846834      336.872340
+txt16_turntable         10    0    0     0   10  0.000000  1.000000       NaN       NaN  0.000000       NaN       NaN       NaN        0.700000
+txt17_i1                51   11    0     0   40  0.215686  0.784314       NaN       NaN  0.215686  1.000000  0.354839  0.255814      209.431373
+txt17_pl                19    0    0     0   19  0.000000  1.000000       NaN       NaN  0.000000       NaN       NaN       NaN        0.157895
+txt18_pl                48    1    0     0   47  0.020833  0.979167       NaN       NaN  0.020833  1.000000  0.040816  0.025907       29.020833
+txt19_i4                11    1    0     0   10  0.090909  0.909091       NaN       NaN  0.090909  1.000000  0.166667  0.111111      156.818182
+combined              3989  477  198  3107  207  0.898471  0.302632  0.940091  0.059909  0.697368  0.706667  0.701987  0.699208       89.938581
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+*1 Note that these tables do NOT have the semantics of a multi class confusion matrix. For each component a binary classification semantic 
+(is anomaly or not) is displayed. i.e. there won't be any TP/FN for no_failure and no FP/TN for the individual components.
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Symptom identification and tracing results per component: *2
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+                 #Examples  TP   FP    TN   FN        TPR       Prec         F1  AVG-HR@K  AVG-HR@100%  AVG-HR@150%
+Component                                                                                                          
+txt15_i1                19  19  402   263    0          1  0.0451306  0.0863636  1.000000     0.589474     0.610526
+txt15_i3                 8   0    0   676    8          0        NaN        NaN  0.375000     0.000000     0.125000
+txt15_conveyor           8   0   36   640    8          0          0        NaN  1.000000     0.270833     0.312500
+txt15_m1               301   0    0   383  301          0        NaN        NaN  0.132890     0.379402     0.382724
+txt15_pl                24   5    1   659   19   0.208333   0.833333   0.333333  0.958333     0.465278     0.472222
+txt16_i3                 5   1    5   674    4        0.2   0.166667   0.181818  1.000000     0.400000     0.480000
+txt16_conveyor          39   0    1   644   39          0          0        NaN  0.102564     0.243590     0.250000
+txt16_m3               141   0    0   543  141          0        NaN        NaN  0.000000     0.337893     0.413374
+txt16_turntable         10   2   33   641    8        0.2  0.0571429  0.0888889  0.200000     0.050000     0.350000
+txt17_i1                51   9    0   633   42   0.176471          1        0.3  0.235294     0.082353     0.180392
+txt17_pl                19   1   58   607   18  0.0526316  0.0169492   0.025641  1.000000     0.157895     0.157895
+txt18_pl                48  18    2   634   30      0.375        0.9   0.529412  0.937500     0.291667     0.487847
+txt19_i4                11   2   64   609    9   0.181818   0.030303  0.0519481  0.727273     0.309091     0.345455
+none                     0   0   25   659    0        NaN          0        NaN       NaN          NaN          NaN
+combined               684  57  627  8265  627  0.0833333   0.171225  0.0777913  0.274854     0.325989     0.372786
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Symptom tracing reduced to work station granularity: *2
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+           #Examples   TP   FP    TN   FN       TPR      Prec         F1
+Component                                                               
+none               0    0   25   659    0       NaN         0        NaN
+txt15            360  352  111   213    8  0.977778  0.760259   0.855407
+txt16            195   42    0   489  153  0.215385         1    0.35443
+txt17             70   29   39   575   41  0.414286  0.426471    0.42029
+txt18             48   18    2   634   30     0.375       0.9   0.529412
+txt19             11    2   64   609    9  0.181818  0.030303  0.0519481
+combined         684  443  241  3179  241  0.647661  0.792514   0.632257
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+*2 Note that the metrics in the combined row are calculated as weighted average of the scores of the individual classes
+based on the number of examples.
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Hyperparameter configuration used for this test:
+
+{
+    "time_series_length": 500,
+    "time_series_depth": 61,
+    "notes": "SI sort_only M_1,FPD",
+    "variants": [
+        "reconstruct_gru"
+    ],
+    "defined_variants": [
+        "zhao",
+        "reconstruct_gru",
+        "gru_fbm",
+        "gru_ae",
+        "reconstruction_error"
+    ],
+    "batch_size": 128,
+    "epochs": 5000,
+    "learning_rate": 0.0001,
+    "early_stopping_enabled": true,
+    "early_stopping_limit": 15,
+    "gradient_cap_enabled": true,
+    "gradient_cap": 10,
+    "gamma": 0.55,
+    "conv_filters": [
+        32,
+        1
+    ],
+    "conv_kernel_size": [
+        3,
+        3
+    ],
+    "conv_strides": [
+        1,
+        1
+    ],
+    "d1_gru_units": [
+        256,
+        61
+    ],
+    "d2_fc_units": [
+        512,
+        256,
+        61
+    ],
+    "d3_vae_latent_dim": 1536,
+    "d3_vae_inter_dim": 3072,
+    "sw_size_time_gat": 251,
+    "single_timestamp_anomaly_threshold": 0.3,
+    "affected_timestamps_threshold": 190,
+    "unaffected_component_threshold": 0.5,
+    "relevance_mapping": {
+        "h": 1.0,
+        "m": 0.0,
+        "l": 0.0,
+        "e": 0.0
+    },
+    "si_parameter": null,
+    "si_mode": "sort_only"
+}

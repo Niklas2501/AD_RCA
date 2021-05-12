@@ -1,0 +1,181 @@
+
+Dataset loaded:
+Shape of training set (example, time, channels): (23125, 500, 61)
+Shape of test set (example, time, channels): (3989, 500, 61)
+Shape of validation set (example, time, channels): (1710, 500, 61)
+Num of classes in all: 25
+
+Using the standard data as input
+
+(23125, 30500) (1710, 30500)
+Evaluating IsolationForest on the validation dataset with 81 parameter configurations.
+
+Evaluating IsolationForest with configuration 1/81
+Evaluating IsolationForest with configuration 2/81
+Evaluating IsolationForest with configuration 3/81
+Evaluating IsolationForest with configuration 4/81
+Evaluating IsolationForest with configuration 5/81
+Evaluating IsolationForest with configuration 6/81
+Evaluating IsolationForest with configuration 7/81
+Evaluating IsolationForest with configuration 8/81
+Evaluating IsolationForest with configuration 9/81
+Evaluating IsolationForest with configuration 10/81
+Evaluating IsolationForest with configuration 11/81
+Evaluating IsolationForest with configuration 12/81
+Evaluating IsolationForest with configuration 13/81
+Evaluating IsolationForest with configuration 14/81
+Evaluating IsolationForest with configuration 15/81
+Evaluating IsolationForest with configuration 16/81
+Evaluating IsolationForest with configuration 17/81
+Evaluating IsolationForest with configuration 18/81
+Evaluating IsolationForest with configuration 19/81
+Evaluating IsolationForest with configuration 20/81
+Evaluating IsolationForest with configuration 21/81
+Evaluating IsolationForest with configuration 22/81
+Evaluating IsolationForest with configuration 23/81
+Evaluating IsolationForest with configuration 24/81
+Evaluating IsolationForest with configuration 25/81
+Evaluating IsolationForest with configuration 26/81
+Evaluating IsolationForest with configuration 27/81
+Evaluating IsolationForest with configuration 28/81
+Evaluating IsolationForest with configuration 29/81
+Evaluating IsolationForest with configuration 30/81
+Evaluating IsolationForest with configuration 31/81
+Evaluating IsolationForest with configuration 32/81
+Evaluating IsolationForest with configuration 33/81
+Evaluating IsolationForest with configuration 34/81
+Evaluating IsolationForest with configuration 35/81
+Evaluating IsolationForest with configuration 36/81
+Evaluating IsolationForest with configuration 37/81
+Evaluating IsolationForest with configuration 38/81
+Evaluating IsolationForest with configuration 39/81
+Evaluating IsolationForest with configuration 40/81
+Evaluating IsolationForest with configuration 41/81
+Evaluating IsolationForest with configuration 42/81
+Evaluating IsolationForest with configuration 43/81
+Evaluating IsolationForest with configuration 44/81
+Evaluating IsolationForest with configuration 45/81
+Evaluating IsolationForest with configuration 46/81
+Evaluating IsolationForest with configuration 47/81
+Evaluating IsolationForest with configuration 48/81
+Evaluating IsolationForest with configuration 49/81
+Evaluating IsolationForest with configuration 50/81
+Evaluating IsolationForest with configuration 51/81
+Evaluating IsolationForest with configuration 52/81
+Evaluating IsolationForest with configuration 53/81
+Evaluating IsolationForest with configuration 54/81
+Evaluating IsolationForest with configuration 55/81
+Evaluating IsolationForest with configuration 56/81
+Evaluating IsolationForest with configuration 57/81
+Evaluating IsolationForest with configuration 58/81
+Evaluating IsolationForest with configuration 59/81
+Evaluating IsolationForest with configuration 60/81
+Evaluating IsolationForest with configuration 61/81
+Evaluating IsolationForest with configuration 62/81
+Evaluating IsolationForest with configuration 63/81
+Evaluating IsolationForest with configuration 64/81
+Evaluating IsolationForest with configuration 65/81
+Evaluating IsolationForest with configuration 66/81
+Evaluating IsolationForest with configuration 67/81
+Evaluating IsolationForest with configuration 68/81
+Evaluating IsolationForest with configuration 69/81
+Evaluating IsolationForest with configuration 70/81
+Evaluating IsolationForest with configuration 71/81
+Evaluating IsolationForest with configuration 72/81
+Evaluating IsolationForest with configuration 73/81
+Evaluating IsolationForest with configuration 74/81
+Evaluating IsolationForest with configuration 75/81
+Evaluating IsolationForest with configuration 76/81
+Evaluating IsolationForest with configuration 77/81
+Evaluating IsolationForest with configuration 78/81
+Evaluating IsolationForest with configuration 79/81
+Evaluating IsolationForest with configuration 80/81
+Evaluating IsolationForest with configuration 81/81
+
+Grid search results:
+         ACC         FNR        TNR       FPR       TPR       Prec        F1        F2                                                                                                                        Parameters
+0   0.190058           0          0         1         1   0.190058   0.31941  0.539867      {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.25, 'max_samples': 128, 'n_estimators': 50, 'warm_start': False}
+6   0.190058           0          0         1         1   0.190058   0.31941  0.539867      {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.25, 'max_samples': 512, 'n_estimators': 50, 'warm_start': False}
+9   0.190058           0          0         1         1   0.190058   0.31941  0.539867       {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.5, 'max_samples': 128, 'n_estimators': 50, 'warm_start': False}
+12  0.190058           0          0         1         1   0.190058   0.31941  0.539867       {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.5, 'max_samples': 256, 'n_estimators': 50, 'warm_start': False}
+15  0.190058           0          0         1         1   0.190058   0.31941  0.539867       {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.5, 'max_samples': 512, 'n_estimators': 50, 'warm_start': False}
+18  0.190058           0          0         1         1   0.190058   0.31941  0.539867      {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.75, 'max_samples': 128, 'n_estimators': 50, 'warm_start': False}
+21  0.190058           0          0         1         1   0.190058   0.31941  0.539867      {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.75, 'max_samples': 256, 'n_estimators': 50, 'warm_start': False}
+24  0.190058           0          0         1         1   0.190058   0.31941  0.539867      {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.75, 'max_samples': 512, 'n_estimators': 50, 'warm_start': False}
+27  0.190058           0          0         1         1   0.190058   0.31941  0.539867     {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.25, 'max_samples': 128, 'n_estimators': 100, 'warm_start': False}
+30  0.190058           0          0         1         1   0.190058   0.31941  0.539867     {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.25, 'max_samples': 256, 'n_estimators': 100, 'warm_start': False}
+33  0.190058           0          0         1         1   0.190058   0.31941  0.539867     {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.25, 'max_samples': 512, 'n_estimators': 100, 'warm_start': False}
+36  0.190058           0          0         1         1   0.190058   0.31941  0.539867      {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.5, 'max_samples': 128, 'n_estimators': 100, 'warm_start': False}
+39  0.190058           0          0         1         1   0.190058   0.31941  0.539867      {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.5, 'max_samples': 256, 'n_estimators': 100, 'warm_start': False}
+42  0.190058           0          0         1         1   0.190058   0.31941  0.539867      {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.5, 'max_samples': 512, 'n_estimators': 100, 'warm_start': False}
+45  0.190058           0          0         1         1   0.190058   0.31941  0.539867     {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.75, 'max_samples': 128, 'n_estimators': 100, 'warm_start': False}
+48  0.190058           0          0         1         1   0.190058   0.31941  0.539867     {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.75, 'max_samples': 256, 'n_estimators': 100, 'warm_start': False}
+51  0.190058           0          0         1         1   0.190058   0.31941  0.539867     {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.75, 'max_samples': 512, 'n_estimators': 100, 'warm_start': False}
+54  0.190058           0          0         1         1   0.190058   0.31941  0.539867     {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.25, 'max_samples': 128, 'n_estimators': 150, 'warm_start': False}
+57  0.190058           0          0         1         1   0.190058   0.31941  0.539867     {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.25, 'max_samples': 256, 'n_estimators': 150, 'warm_start': False}
+60  0.190058           0          0         1         1   0.190058   0.31941  0.539867     {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.25, 'max_samples': 512, 'n_estimators': 150, 'warm_start': False}
+63  0.190058           0          0         1         1   0.190058   0.31941  0.539867      {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.5, 'max_samples': 128, 'n_estimators': 150, 'warm_start': False}
+66  0.190058           0          0         1         1   0.190058   0.31941  0.539867      {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.5, 'max_samples': 256, 'n_estimators': 150, 'warm_start': False}
+69  0.190058           0          0         1         1   0.190058   0.31941  0.539867      {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.5, 'max_samples': 512, 'n_estimators': 150, 'warm_start': False}
+72  0.190058           0          0         1         1   0.190058   0.31941  0.539867     {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.75, 'max_samples': 128, 'n_estimators': 150, 'warm_start': False}
+75  0.190058           0          0         1         1   0.190058   0.31941  0.539867     {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.75, 'max_samples': 256, 'n_estimators': 150, 'warm_start': False}
+78  0.190058           0          0         1         1   0.190058   0.31941  0.539867     {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.75, 'max_samples': 512, 'n_estimators': 150, 'warm_start': False}
+3   0.189474  0.00307692          0         1  0.996923   0.189585  0.318584  0.538385      {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.25, 'max_samples': 256, 'n_estimators': 50, 'warm_start': False}
+64  0.211696        0.16  0.0642599   0.93574      0.84   0.173996  0.288279  0.475776     {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.5, 'max_samples': 128, 'n_estimators': 150, 'warm_start': False}
+70  0.202339    0.169231  0.0548736  0.945126  0.830769   0.170994  0.283613  0.468913     {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.5, 'max_samples': 512, 'n_estimators': 150, 'warm_start': False}
+71  0.203509    0.178462  0.0584838  0.941516  0.821538   0.169955  0.281646  0.464995   {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.5, 'max_samples': 512, 'n_estimators': 150, 'warm_start': False}
+43  0.200585    0.193846  0.0584838  0.941516  0.806154   0.167305  0.277102  0.457083     {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.5, 'max_samples': 512, 'n_estimators': 100, 'warm_start': False}
+49  0.195906    0.193846  0.0527076  0.947292  0.806154   0.166455  0.275935  0.455811    {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.75, 'max_samples': 256, 'n_estimators': 100, 'warm_start': False}
+80  0.191813    0.193846  0.0476534  0.952347  0.806154   0.165718  0.274921  0.454703  {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.75, 'max_samples': 512, 'n_estimators': 150, 'warm_start': False}
+16  0.192982    0.196923  0.0498195  0.950181  0.803077   0.165504  0.274448  0.453597      {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.5, 'max_samples': 512, 'n_estimators': 50, 'warm_start': False}
+52  0.192982    0.196923  0.0498195  0.950181  0.803077   0.165504  0.274448  0.453597    {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.75, 'max_samples': 512, 'n_estimators': 100, 'warm_start': False}
+37  0.204094    0.209231   0.066426  0.933574  0.790769   0.165806  0.274133  0.450877     {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.5, 'max_samples': 128, 'n_estimators': 100, 'warm_start': False}
+79  0.195322    0.203077  0.0541516  0.945848  0.796923   0.165073  0.273495  0.451377    {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.75, 'max_samples': 512, 'n_estimators': 150, 'warm_start': False}
+53  0.188889    0.196923  0.0447653  0.955235  0.803077   0.164773  0.273442  0.452497  {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.75, 'max_samples': 512, 'n_estimators': 100, 'warm_start': False}
+25  0.196491    0.206154  0.0563177  0.943682  0.793846   0.164856  0.273016  0.450262     {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.75, 'max_samples': 512, 'n_estimators': 50, 'warm_start': False}
+26  0.196491    0.206154  0.0563177  0.943682  0.793846   0.164856  0.273016  0.450262   {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.75, 'max_samples': 512, 'n_estimators': 50, 'warm_start': False}
+44  0.204678    0.218462  0.0693141  0.930686  0.781538   0.164614  0.271949  0.446711   {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.5, 'max_samples': 512, 'n_estimators': 100, 'warm_start': False}
+22  0.194737    0.209231  0.0548736  0.945126  0.790769   0.164112  0.271814   0.44836     {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.75, 'max_samples': 256, 'n_estimators': 50, 'warm_start': False}
+76  0.194152    0.212308  0.0548736  0.945126  0.787692   0.163578  0.270899  0.446771    {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.75, 'max_samples': 256, 'n_estimators': 150, 'warm_start': False}
+17       0.2    0.221538  0.0642599   0.93574  0.778462   0.163331  0.270011  0.444015    {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.5, 'max_samples': 512, 'n_estimators': 50, 'warm_start': False}
+62  0.192982    0.215385  0.0541516  0.945848  0.784615   0.162939  0.269841  0.445026  {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.25, 'max_samples': 512, 'n_estimators': 150, 'warm_start': False}
+61  0.192982    0.221538  0.0555957  0.944404  0.778462   0.162076  0.268293  0.442153    {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.25, 'max_samples': 512, 'n_estimators': 150, 'warm_start': False}
+8   0.191813    0.227692  0.0555957  0.944404  0.772308   0.161001  0.266454  0.438965   {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.25, 'max_samples': 512, 'n_estimators': 50, 'warm_start': False}
+34   0.18655        0.24  0.0519856  0.948014      0.76   0.158333  0.262069  0.431818    {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.25, 'max_samples': 512, 'n_estimators': 100, 'warm_start': False}
+10  0.191228    0.246154  0.0592058  0.940794  0.753846   0.158269  0.261612  0.430126      {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.5, 'max_samples': 128, 'n_estimators': 50, 'warm_start': False}
+1   0.194737    0.255385   0.065704  0.934296  0.744615   0.157552  0.260075  0.426657     {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.25, 'max_samples': 128, 'n_estimators': 50, 'warm_start': False}
+28  0.194737    0.255385   0.065704  0.934296  0.744615   0.157552  0.260075  0.426657    {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.25, 'max_samples': 128, 'n_estimators': 100, 'warm_start': False}
+46  0.187719    0.249231  0.0555957  0.944404  0.750769   0.157216  0.259989   0.42777    {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.75, 'max_samples': 128, 'n_estimators': 100, 'warm_start': False}
+7   0.188889    0.252308  0.0577617  0.942238  0.747692   0.156977  0.259477  0.426615     {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.25, 'max_samples': 512, 'n_estimators': 50, 'warm_start': False}
+35  0.183626    0.264615  0.0541516  0.945848  0.735385   0.154293  0.255069  0.419445  {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.25, 'max_samples': 512, 'n_estimators': 100, 'warm_start': False}
+55  0.187719    0.270769  0.0606498   0.93935  0.729231   0.154096  0.254428  0.417548    {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.25, 'max_samples': 128, 'n_estimators': 150, 'warm_start': False}
+73  0.181871    0.283077  0.0563177  0.943682  0.716923   0.151299  0.249866  0.410211    {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.75, 'max_samples': 128, 'n_estimators': 150, 'warm_start': False}
+65  0.219298    0.356923   0.119856  0.880144  0.643077   0.146359  0.238448  0.383065   {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.5, 'max_samples': 128, 'n_estimators': 150, 'warm_start': False}
+31  0.180117    0.332308   0.065704  0.934296  0.667692   0.143614  0.236383  0.385984    {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.25, 'max_samples': 256, 'n_estimators': 100, 'warm_start': False}
+4   0.177778    0.338462  0.0642599   0.93574  0.661538    0.14229  0.234205  0.382426     {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.25, 'max_samples': 256, 'n_estimators': 50, 'warm_start': False}
+77  0.195322    0.356923  0.0902527  0.909747  0.643077   0.142274  0.232999  0.377393  {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.75, 'max_samples': 256, 'n_estimators': 150, 'warm_start': False}
+50  0.191813    0.356923  0.0859206  0.914079  0.643077   0.141695  0.232222  0.376577  {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.75, 'max_samples': 256, 'n_estimators': 100, 'warm_start': False}
+67  0.178363    0.356923  0.0693141  0.930686  0.643077   0.139519  0.229292  0.373481     {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.5, 'max_samples': 256, 'n_estimators': 150, 'warm_start': False}
+58  0.175439    0.356923   0.065704  0.934296  0.643077   0.139055  0.228665  0.372815    {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.25, 'max_samples': 256, 'n_estimators': 150, 'warm_start': False}
+19  0.166082    0.366154  0.0563177  0.943682  0.633846   0.136153  0.224157  0.366157     {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.75, 'max_samples': 128, 'n_estimators': 50, 'warm_start': False}
+23  0.188304    0.384615  0.0880866  0.911913  0.615385   0.136705  0.223714  0.361925   {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.75, 'max_samples': 256, 'n_estimators': 50, 'warm_start': False}
+13  0.163743    0.406154  0.0628159  0.937184  0.593846   0.129443  0.212555  0.345754      {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.5, 'max_samples': 256, 'n_estimators': 50, 'warm_start': False}
+40  0.162573    0.427692   0.066426  0.933574  0.572308   0.125761  0.206208  0.334653     {'bootstrap': True, 'contamination': 0.05, 'max_features': 0.5, 'max_samples': 256, 'n_estimators': 100, 'warm_start': False}
+38       0.2    0.458462   0.119856  0.880144  0.541538   0.126165  0.204651  0.326531   {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.5, 'max_samples': 128, 'n_estimators': 100, 'warm_start': False}
+68   0.17076    0.449231  0.0815884  0.918412  0.550769   0.123363  0.201577  0.325336   {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.5, 'max_samples': 256, 'n_estimators': 150, 'warm_start': False}
+41  0.165497    0.464615  0.0787004    0.9213  0.535385       0.12  0.196056  0.316364   {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.5, 'max_samples': 256, 'n_estimators': 100, 'warm_start': False}
+59   0.17193    0.473846  0.0888087  0.911191  0.526154    0.11933  0.194539  0.312843  {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.25, 'max_samples': 256, 'n_estimators': 150, 'warm_start': False}
+14   0.15848    0.467692  0.0707581  0.929242  0.532308   0.118493  0.193838  0.313406    {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.5, 'max_samples': 256, 'n_estimators': 50, 'warm_start': False}
+11   0.19883    0.498462   0.127798  0.872202  0.501538   0.118891  0.192217  0.305129    {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.5, 'max_samples': 128, 'n_estimators': 50, 'warm_start': False}
+32  0.184795    0.492308   0.109025  0.890975  0.507692   0.117941  0.191415  0.305669  {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.25, 'max_samples': 256, 'n_estimators': 100, 'warm_start': False}
+2   0.208772    0.510769    0.14296   0.85704  0.489231   0.118128  0.190305  0.300454   {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.25, 'max_samples': 128, 'n_estimators': 50, 'warm_start': False}
+5   0.178947    0.516923   0.107581  0.892419  0.483077   0.112706  0.182771  0.291496   {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.25, 'max_samples': 256, 'n_estimators': 50, 'warm_start': False}
+56  0.194737    0.569231    0.13935   0.86065  0.430769   0.105105   0.16898  0.265957  {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.25, 'max_samples': 128, 'n_estimators': 150, 'warm_start': False}
+29  0.195906    0.590769   0.145848  0.854152  0.409231   0.101064  0.162096  0.254205  {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.25, 'max_samples': 128, 'n_estimators': 100, 'warm_start': False}
+47  0.206433    0.606154   0.162455  0.837545  0.393846  0.0993789   0.15871  0.247295  {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.75, 'max_samples': 128, 'n_estimators': 100, 'warm_start': False}
+20  0.187719    0.596923   0.137184  0.862816  0.403077  0.0987934  0.158692  0.249429   {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.75, 'max_samples': 128, 'n_estimators': 50, 'warm_start': False}
+74  0.194152    0.618462   0.150181  0.849819  0.381538  0.0953113  0.152522   0.23837  {'bootstrap': True, 'contamination': 'auto', 'max_features': 0.75, 'max_samples': 128, 'n_estimators': 150, 'warm_start': False}
+
+
+Best result in detail:
+0

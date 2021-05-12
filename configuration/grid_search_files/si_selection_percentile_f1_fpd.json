@@ -1,0 +1,41 @@
+{
+  "notes": "",
+  "ad_metrics": [
+    "F1",
+    "F2",
+    "TPR",
+    "Prec",
+    "ACC",
+    "TNR",
+    "FPR"
+  ],
+  "si_st_metrics": [
+    "AVG-HR@100%",
+    "AVG-HR@150%",
+    "AVG-HR@K",
+    "F1",
+    "TPR",
+    "Prec"
+  ],
+  "sorted_by": [
+    7,
+    8
+  ],
+  "unaffected_component_threshold": [
+    0.5
+  ],
+  "relevance_mapping": [
+    {
+      "h": 1.0,
+      "m": 0.0,
+      "l": 0.0,
+      "e": 0.0
+    }
+  ],
+  "si_parameter": "generate",
+  "si_mode": [
+    "jenks_percentile",
+    "train_percentile",
+    "example_percentile"
+  ]
+}

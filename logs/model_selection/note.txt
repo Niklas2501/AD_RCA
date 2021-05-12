@@ -1,0 +1,3 @@
+Note that the values of the SI / ST metrics in some of these logs do not correspond to calculation method used in the final evaluation.
+If this is the case, the detailed output of SI/ST for the best run at the end was removed, the columns in the overview are still contained though.
+However, this does not influence the results since no selection was based on these values.

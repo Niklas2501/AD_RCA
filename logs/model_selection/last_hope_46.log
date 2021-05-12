@@ -1,0 +1,1748 @@
+
+Dataset loaded:
+Shape of training set (example, time, channels): (20812, 500, 61)
+Shape of test set (example, time, channels): (3989, 500, 61)
+Shape of train validation set (example, time, channels): (2313, 500, 61)
+Shape of test validation set (example, time, channels): (1710, 500, 61)
+Num of classes in all: 25
+
+Creating model based on ../configuration/hyperparameter_combinations/last_hope_46.json hyperparameter file 
+
+Adding feature wise convolutions with 32 filters per feature, 3 kernels and 1 strides ...
+Adding feature wise convolutions with 1 filters per feature, 3 kernels and 1 strides ...
+Adding feature based graph attention layer ...
+Adding time based graph attention layer ...
+Adding GRU layer with 256 units ...
+Adding GRU layer with 61 units ...
+Adding VAE as reconstruction model dimensions 3072 & 1536 and ...
+Adding dense layer to forecasting model with 512 units and ReLu activation ...
+Adding dense layer to forecasting model with 512 units and ReLu activation ...
+Adding last dense layer to forecasting model with 61 units and sigmoid activation ...
+VAE reconstructs the output of the gru layer.
+
+Epoch 0
+	Step 0: mean loss = 1.3111
+	Step 50: mean loss = 0.5084
+	Step 100: mean loss = 0.3467
+	Step 150: mean loss = 0.2735
+
+	Loss on validation set after epoch 0: 0.1150
+
+Epoch 1
+	Step 0: mean loss = 0.1152
+	Step 50: mean loss = 0.1095
+	Step 100: mean loss = 0.1055
+	Step 150: mean loss = 0.1020
+
+	Loss on validation set after epoch 1: 0.0913
+
+Epoch 2
+	Step 0: mean loss = 0.0934
+	Step 50: mean loss = 0.0892
+	Step 100: mean loss = 0.0878
+	Step 150: mean loss = 0.0863
+
+	Loss on validation set after epoch 2: 0.0817
+
+Epoch 3
+	Step 0: mean loss = 0.0797
+	Step 50: mean loss = 0.0805
+	Step 100: mean loss = 0.0796
+	Step 150: mean loss = 0.0789
+
+	Loss on validation set after epoch 3: 0.0756
+
+Epoch 4
+	Step 0: mean loss = 0.0728
+	Step 50: mean loss = 0.0737
+	Step 100: mean loss = 0.0729
+	Step 150: mean loss = 0.0722
+
+	Loss on validation set after epoch 4: 0.0696
+
+Epoch 5
+	Step 0: mean loss = 0.0687
+	Step 50: mean loss = 0.0691
+	Step 100: mean loss = 0.0683
+	Step 150: mean loss = 0.0678
+
+	Loss on validation set after epoch 5: 0.0650
+
+Epoch 6
+	Step 0: mean loss = 0.0677
+	Step 50: mean loss = 0.0644
+	Step 100: mean loss = 0.0638
+	Step 150: mean loss = 0.0633
+
+	Loss on validation set after epoch 6: 0.0612
+
+Epoch 7
+	Step 0: mean loss = 0.0610
+	Step 50: mean loss = 0.0609
+	Step 100: mean loss = 0.0604
+	Step 150: mean loss = 0.0601
+
+	Loss on validation set after epoch 7: 0.0577
+
+Epoch 8
+	Step 0: mean loss = 0.0581
+	Step 50: mean loss = 0.0576
+	Step 100: mean loss = 0.0571
+	Step 150: mean loss = 0.0565
+
+	Loss on validation set after epoch 8: 0.0588
+
+Epoch 9
+	Step 0: mean loss = 0.0566
+	Step 50: mean loss = 0.0530
+	Step 100: mean loss = 0.0516
+	Step 150: mean loss = 0.0502
+
+	Loss on validation set after epoch 9: 0.0454
+
+Epoch 10
+	Step 0: mean loss = 0.0485
+	Step 50: mean loss = 0.0441
+	Step 100: mean loss = 0.0434
+	Step 150: mean loss = 0.0427
+
+	Loss on validation set after epoch 10: 0.0399
+
+Epoch 11
+	Step 0: mean loss = 0.0406
+	Step 50: mean loss = 0.0394
+	Step 100: mean loss = 0.0389
+	Step 150: mean loss = 0.0384
+
+	Loss on validation set after epoch 11: 0.0359
+
+Epoch 12
+	Step 0: mean loss = 0.0345
+	Step 50: mean loss = 0.0355
+	Step 100: mean loss = 0.0352
+	Step 150: mean loss = 0.0349
+
+	Loss on validation set after epoch 12: 0.0331
+
+Epoch 13
+	Step 0: mean loss = 0.0312
+	Step 50: mean loss = 0.0329
+	Step 100: mean loss = 0.0328
+	Step 150: mean loss = 0.0325
+
+	Loss on validation set after epoch 13: 0.0331
+
+Epoch 14
+	Step 0: mean loss = 0.0368
+	Step 50: mean loss = 0.0315
+	Step 100: mean loss = 0.0310
+	Step 150: mean loss = 0.0307
+
+	Loss on validation set after epoch 14: 0.0292
+
+Epoch 15
+	Step 0: mean loss = 0.0318
+	Step 50: mean loss = 0.0291
+	Step 100: mean loss = 0.0288
+	Step 150: mean loss = 0.0286
+
+	Loss on validation set after epoch 15: 0.0287
+
+Epoch 16
+	Step 0: mean loss = 0.0286
+	Step 50: mean loss = 0.0277
+	Step 100: mean loss = 0.0277
+	Step 150: mean loss = 0.0274
+
+	Loss on validation set after epoch 16: 0.0278
+
+Epoch 17
+	Step 0: mean loss = 0.0305
+	Step 50: mean loss = 0.0270
+	Step 100: mean loss = 0.0267
+	Step 150: mean loss = 0.0266
+
+	Loss on validation set after epoch 17: 0.0256
+
+Epoch 18
+	Step 0: mean loss = 0.0229
+	Step 50: mean loss = 0.0258
+	Step 100: mean loss = 0.0258
+	Step 150: mean loss = 0.0257
+
+	Loss on validation set after epoch 18: 0.0259
+
+Epoch 19
+	Step 0: mean loss = 0.0253
+	Step 50: mean loss = 0.0252
+	Step 100: mean loss = 0.0250
+	Step 150: mean loss = 0.0250
+
+	Loss on validation set after epoch 19: 0.0245
+
+Epoch 20
+	Step 0: mean loss = 0.0266
+	Step 50: mean loss = 0.0245
+	Step 100: mean loss = 0.0245
+	Step 150: mean loss = 0.0243
+
+	Loss on validation set after epoch 20: 0.0240
+
+Epoch 21
+	Step 0: mean loss = 0.0252
+	Step 50: mean loss = 0.0235
+	Step 100: mean loss = 0.0234
+	Step 150: mean loss = 0.0233
+
+	Loss on validation set after epoch 21: 0.0232
+
+Epoch 22
+	Step 0: mean loss = 0.0233
+	Step 50: mean loss = 0.0230
+	Step 100: mean loss = 0.0229
+	Step 150: mean loss = 0.0229
+
+	Loss on validation set after epoch 22: 0.0227
+
+Epoch 23
+	Step 0: mean loss = 0.0247
+	Step 50: mean loss = 0.0224
+	Step 100: mean loss = 0.0223
+	Step 150: mean loss = 0.0222
+
+	Loss on validation set after epoch 23: 0.0215
+
+Epoch 24
+	Step 0: mean loss = 0.0207
+	Step 50: mean loss = 0.0220
+	Step 100: mean loss = 0.0220
+	Step 150: mean loss = 0.0219
+
+	Loss on validation set after epoch 24: 0.0215
+
+Epoch 25
+	Step 0: mean loss = 0.0225
+	Step 50: mean loss = 0.0215
+	Step 100: mean loss = 0.0215
+	Step 150: mean loss = 0.0214
+
+	Loss on validation set after epoch 25: 0.0211
+
+Epoch 26
+	Step 0: mean loss = 0.0187
+	Step 50: mean loss = 0.0208
+	Step 100: mean loss = 0.0208
+	Step 150: mean loss = 0.0211
+
+	Loss on validation set after epoch 26: 0.0207
+
+Epoch 27
+	Step 0: mean loss = 0.0220
+	Step 50: mean loss = 0.0203
+	Step 100: mean loss = 0.0205
+	Step 150: mean loss = 0.0205
+
+	Loss on validation set after epoch 27: 0.0207
+
+Epoch 28
+	Step 0: mean loss = 0.0235
+	Step 50: mean loss = 0.0202
+	Step 100: mean loss = 0.0202
+	Step 150: mean loss = 0.0202
+
+	Loss on validation set after epoch 28: 0.0208
+
+Epoch 29
+	Step 0: mean loss = 0.0218
+	Step 50: mean loss = 0.0198
+	Step 100: mean loss = 0.0198
+	Step 150: mean loss = 0.0197
+
+	Loss on validation set after epoch 29: 0.0200
+
+Epoch 30
+	Step 0: mean loss = 0.0175
+	Step 50: mean loss = 0.0195
+	Step 100: mean loss = 0.0195
+	Step 150: mean loss = 0.0195
+
+	Loss on validation set after epoch 30: 0.0199
+
+Epoch 31
+	Step 0: mean loss = 0.0165
+	Step 50: mean loss = 0.0194
+	Step 100: mean loss = 0.0194
+	Step 150: mean loss = 0.0194
+
+	Loss on validation set after epoch 31: 0.0198
+
+Epoch 32
+	Step 0: mean loss = 0.0173
+	Step 50: mean loss = 0.0190
+	Step 100: mean loss = 0.0189
+	Step 150: mean loss = 0.0190
+
+	Loss on validation set after epoch 32: 0.0187
+
+Epoch 33
+	Step 0: mean loss = 0.0166
+	Step 50: mean loss = 0.0188
+	Step 100: mean loss = 0.0187
+	Step 150: mean loss = 0.0187
+
+	Loss on validation set after epoch 33: 0.0185
+
+Epoch 34
+	Step 0: mean loss = 0.0204
+	Step 50: mean loss = 0.0186
+	Step 100: mean loss = 0.0185
+	Step 150: mean loss = 0.0185
+
+	Loss on validation set after epoch 34: 0.0182
+
+Epoch 35
+	Step 0: mean loss = 0.0196
+	Step 50: mean loss = 0.0184
+	Step 100: mean loss = 0.0183
+	Step 150: mean loss = 0.0183
+
+	Loss on validation set after epoch 35: 0.0184
+
+Epoch 36
+	Step 0: mean loss = 0.0203
+	Step 50: mean loss = 0.0181
+	Step 100: mean loss = 0.0181
+	Step 150: mean loss = 0.0181
+
+	Loss on validation set after epoch 36: 0.0179
+
+Epoch 37
+	Step 0: mean loss = 0.0179
+	Step 50: mean loss = 0.0181
+	Step 100: mean loss = 0.0178
+	Step 150: mean loss = 0.0178
+
+	Loss on validation set after epoch 37: 0.0178
+
+Epoch 38
+	Step 0: mean loss = 0.0165
+	Step 50: mean loss = 0.0175
+	Step 100: mean loss = 0.0177
+	Step 150: mean loss = 0.0176
+
+	Loss on validation set after epoch 38: 0.0177
+
+Epoch 39
+	Step 0: mean loss = 0.0164
+	Step 50: mean loss = 0.0173
+	Step 100: mean loss = 0.0173
+	Step 150: mean loss = 0.0174
+
+	Loss on validation set after epoch 39: 0.0174
+
+Epoch 40
+	Step 0: mean loss = 0.0200
+	Step 50: mean loss = 0.0171
+	Step 100: mean loss = 0.0172
+	Step 150: mean loss = 0.0172
+
+	Loss on validation set after epoch 40: 0.0169
+
+Epoch 41
+	Step 0: mean loss = 0.0192
+	Step 50: mean loss = 0.0170
+	Step 100: mean loss = 0.0171
+	Step 150: mean loss = 0.0171
+
+	Loss on validation set after epoch 41: 0.0174
+
+Epoch 42
+	Step 0: mean loss = 0.0149
+	Step 50: mean loss = 0.0170
+	Step 100: mean loss = 0.0171
+	Step 150: mean loss = 0.0169
+
+	Loss on validation set after epoch 42: 0.0177
+
+Epoch 43
+	Step 0: mean loss = 0.0175
+	Step 50: mean loss = 0.0167
+	Step 100: mean loss = 0.0166
+	Step 150: mean loss = 0.0166
+
+	Loss on validation set after epoch 43: 0.0168
+
+Epoch 44
+	Step 0: mean loss = 0.0177
+	Step 50: mean loss = 0.0165
+	Step 100: mean loss = 0.0165
+	Step 150: mean loss = 0.0165
+
+	Loss on validation set after epoch 44: 0.0159
+
+Epoch 45
+	Step 0: mean loss = 0.0142
+	Step 50: mean loss = 0.0162
+	Step 100: mean loss = 0.0165
+	Step 150: mean loss = 0.0164
+
+	Loss on validation set after epoch 45: 0.0163
+
+Epoch 46
+	Step 0: mean loss = 0.0128
+	Step 50: mean loss = 0.0164
+	Step 100: mean loss = 0.0162
+	Step 150: mean loss = 0.0162
+
+	Loss on validation set after epoch 46: 0.0162
+
+Epoch 47
+	Step 0: mean loss = 0.0146
+	Step 50: mean loss = 0.0159
+	Step 100: mean loss = 0.0160
+	Step 150: mean loss = 0.0160
+
+	Loss on validation set after epoch 47: 0.0171
+
+Epoch 48
+	Step 0: mean loss = 0.0169
+	Step 50: mean loss = 0.0157
+	Step 100: mean loss = 0.0159
+	Step 150: mean loss = 0.0158
+
+	Loss on validation set after epoch 48: 0.0158
+
+Epoch 49
+	Step 0: mean loss = 0.0172
+	Step 50: mean loss = 0.0156
+	Step 100: mean loss = 0.0156
+	Step 150: mean loss = 0.0156
+
+	Loss on validation set after epoch 49: 0.0153
+
+Epoch 50
+	Step 0: mean loss = 0.0149
+	Step 50: mean loss = 0.0153
+	Step 100: mean loss = 0.0154
+	Step 150: mean loss = 0.0154
+
+	Loss on validation set after epoch 50: 0.0157
+
+Epoch 51
+	Step 0: mean loss = 0.0180
+	Step 50: mean loss = 0.0153
+	Step 100: mean loss = 0.0153
+	Step 150: mean loss = 0.0153
+
+	Loss on validation set after epoch 51: 0.0156
+
+Epoch 52
+	Step 0: mean loss = 0.0180
+	Step 50: mean loss = 0.0153
+	Step 100: mean loss = 0.0153
+	Step 150: mean loss = 0.0153
+
+	Loss on validation set after epoch 52: 0.0155
+
+Epoch 53
+	Step 0: mean loss = 0.0149
+	Step 50: mean loss = 0.0153
+	Step 100: mean loss = 0.0153
+	Step 150: mean loss = 0.0154
+
+	Loss on validation set after epoch 53: 0.0152
+
+Epoch 54
+	Step 0: mean loss = 0.0148
+	Step 50: mean loss = 0.0149
+	Step 100: mean loss = 0.0150
+	Step 150: mean loss = 0.0150
+
+	Loss on validation set after epoch 54: 0.0154
+
+Epoch 55
+	Step 0: mean loss = 0.0143
+	Step 50: mean loss = 0.0148
+	Step 100: mean loss = 0.0148
+	Step 150: mean loss = 0.0150
+
+	Loss on validation set after epoch 55: 0.0149
+
+Epoch 56
+	Step 0: mean loss = 0.0142
+	Step 50: mean loss = 0.0147
+	Step 100: mean loss = 0.0150
+	Step 150: mean loss = 0.0150
+
+	Loss on validation set after epoch 56: 0.0159
+
+Epoch 57
+	Step 0: mean loss = 0.0149
+	Step 50: mean loss = 0.0148
+	Step 100: mean loss = 0.0147
+	Step 150: mean loss = 0.0148
+
+	Loss on validation set after epoch 57: 0.0151
+
+Epoch 58
+	Step 0: mean loss = 0.0149
+	Step 50: mean loss = 0.0149
+	Step 100: mean loss = 0.0146
+	Step 150: mean loss = 0.0146
+
+	Loss on validation set after epoch 58: 0.0148
+
+Epoch 59
+	Step 0: mean loss = 0.0128
+	Step 50: mean loss = 0.0146
+	Step 100: mean loss = 0.0146
+	Step 150: mean loss = 0.0146
+
+	Loss on validation set after epoch 59: 0.0146
+
+Epoch 60
+	Step 0: mean loss = 0.0123
+	Step 50: mean loss = 0.0143
+	Step 100: mean loss = 0.0145
+	Step 150: mean loss = 0.0145
+
+	Loss on validation set after epoch 60: 0.0146
+
+Epoch 61
+	Step 0: mean loss = 0.0174
+	Step 50: mean loss = 0.0143
+	Step 100: mean loss = 0.0145
+	Step 150: mean loss = 0.0145
+
+	Loss on validation set after epoch 61: 0.0149
+
+Epoch 62
+	Step 0: mean loss = 0.0134
+	Step 50: mean loss = 0.0142
+	Step 100: mean loss = 0.0143
+	Step 150: mean loss = 0.0143
+
+	Loss on validation set after epoch 62: 0.0146
+
+Epoch 63
+	Step 0: mean loss = 0.0144
+	Step 50: mean loss = 0.0142
+	Step 100: mean loss = 0.0142
+	Step 150: mean loss = 0.0142
+
+	Loss on validation set after epoch 63: 0.0145
+
+Epoch 64
+	Step 0: mean loss = 0.0138
+	Step 50: mean loss = 0.0141
+	Step 100: mean loss = 0.0142
+	Step 150: mean loss = 0.0143
+
+	Loss on validation set after epoch 64: 0.0142
+
+Epoch 65
+	Step 0: mean loss = 0.0128
+	Step 50: mean loss = 0.0140
+	Step 100: mean loss = 0.0140
+	Step 150: mean loss = 0.0140
+
+	Loss on validation set after epoch 65: 0.0141
+
+Epoch 66
+	Step 0: mean loss = 0.0130
+	Step 50: mean loss = 0.0138
+	Step 100: mean loss = 0.0140
+	Step 150: mean loss = 0.0141
+
+	Loss on validation set after epoch 66: 0.0139
+
+Epoch 67
+	Step 0: mean loss = 0.0162
+	Step 50: mean loss = 0.0138
+	Step 100: mean loss = 0.0139
+	Step 150: mean loss = 0.0140
+
+	Loss on validation set after epoch 67: 0.0138
+
+Epoch 68
+	Step 0: mean loss = 0.0119
+	Step 50: mean loss = 0.0138
+	Step 100: mean loss = 0.0137
+	Step 150: mean loss = 0.0138
+
+	Loss on validation set after epoch 68: 0.0138
+
+Epoch 69
+	Step 0: mean loss = 0.0149
+	Step 50: mean loss = 0.0139
+	Step 100: mean loss = 0.0139
+	Step 150: mean loss = 0.0138
+
+	Loss on validation set after epoch 69: 0.0141
+
+Epoch 70
+	Step 0: mean loss = 0.0128
+	Step 50: mean loss = 0.0135
+	Step 100: mean loss = 0.0136
+	Step 150: mean loss = 0.0136
+
+	Loss on validation set after epoch 70: 0.0136
+
+Epoch 71
+	Step 0: mean loss = 0.0149
+	Step 50: mean loss = 0.0135
+	Step 100: mean loss = 0.0135
+	Step 150: mean loss = 0.0135
+
+	Loss on validation set after epoch 71: 0.0137
+
+Epoch 72
+	Step 0: mean loss = 0.0130
+	Step 50: mean loss = 0.0133
+	Step 100: mean loss = 0.0135
+	Step 150: mean loss = 0.0135
+
+	Loss on validation set after epoch 72: 0.0137
+
+Epoch 73
+	Step 0: mean loss = 0.0118
+	Step 50: mean loss = 0.0137
+	Step 100: mean loss = 0.0135
+	Step 150: mean loss = 0.0135
+
+	Loss on validation set after epoch 73: 0.0146
+
+Epoch 74
+	Step 0: mean loss = 0.0153
+	Step 50: mean loss = 0.0134
+	Step 100: mean loss = 0.0135
+	Step 150: mean loss = 0.0135
+
+	Loss on validation set after epoch 74: 0.0136
+
+Epoch 75
+	Step 0: mean loss = 0.0144
+	Step 50: mean loss = 0.0132
+	Step 100: mean loss = 0.0133
+	Step 150: mean loss = 0.0134
+
+	Loss on validation set after epoch 75: 0.0134
+
+Epoch 76
+	Step 0: mean loss = 0.0112
+	Step 50: mean loss = 0.0131
+	Step 100: mean loss = 0.0132
+	Step 150: mean loss = 0.0133
+
+	Loss on validation set after epoch 76: 0.0134
+
+Epoch 77
+	Step 0: mean loss = 0.0112
+	Step 50: mean loss = 0.0130
+	Step 100: mean loss = 0.0132
+	Step 150: mean loss = 0.0132
+
+	Loss on validation set after epoch 77: 0.0130
+
+Epoch 78
+	Step 0: mean loss = 0.0136
+	Step 50: mean loss = 0.0131
+	Step 100: mean loss = 0.0131
+	Step 150: mean loss = 0.0131
+
+	Loss on validation set after epoch 78: 0.0136
+
+Epoch 79
+	Step 0: mean loss = 0.0143
+	Step 50: mean loss = 0.0131
+	Step 100: mean loss = 0.0131
+	Step 150: mean loss = 0.0131
+
+	Loss on validation set after epoch 79: 0.0135
+
+Epoch 80
+	Step 0: mean loss = 0.0130
+	Step 50: mean loss = 0.0129
+	Step 100: mean loss = 0.0129
+	Step 150: mean loss = 0.0130
+
+	Loss on validation set after epoch 80: 0.0137
+
+Epoch 81
+	Step 0: mean loss = 0.0123
+	Step 50: mean loss = 0.0132
+	Step 100: mean loss = 0.0132
+	Step 150: mean loss = 0.0131
+
+	Loss on validation set after epoch 81: 0.0133
+
+Epoch 82
+	Step 0: mean loss = 0.0108
+	Step 50: mean loss = 0.0130
+	Step 100: mean loss = 0.0130
+	Step 150: mean loss = 0.0130
+
+	Loss on validation set after epoch 82: 0.0131
+
+Epoch 83
+	Step 0: mean loss = 0.0134
+	Step 50: mean loss = 0.0128
+	Step 100: mean loss = 0.0128
+	Step 150: mean loss = 0.0129
+
+	Loss on validation set after epoch 83: 0.0139
+
+Epoch 84
+	Step 0: mean loss = 0.0144
+	Step 50: mean loss = 0.0127
+	Step 100: mean loss = 0.0128
+	Step 150: mean loss = 0.0128
+
+	Loss on validation set after epoch 84: 0.0131
+
+Epoch 85
+	Step 0: mean loss = 0.0152
+	Step 50: mean loss = 0.0126
+	Step 100: mean loss = 0.0126
+	Step 150: mean loss = 0.0128
+
+	Loss on validation set after epoch 85: 0.0126
+
+Epoch 86
+	Step 0: mean loss = 0.0134
+	Step 50: mean loss = 0.0126
+	Step 100: mean loss = 0.0126
+	Step 150: mean loss = 0.0127
+
+	Loss on validation set after epoch 86: 0.0134
+
+Epoch 87
+	Step 0: mean loss = 0.0126
+	Step 50: mean loss = 0.0126
+	Step 100: mean loss = 0.0127
+	Step 150: mean loss = 0.0127
+
+	Loss on validation set after epoch 87: 0.0129
+
+Epoch 88
+	Step 0: mean loss = 0.0112
+	Step 50: mean loss = 0.0125
+	Step 100: mean loss = 0.0125
+	Step 150: mean loss = 0.0125
+
+	Loss on validation set after epoch 88: 0.0134
+
+Epoch 89
+	Step 0: mean loss = 0.0103
+	Step 50: mean loss = 0.0126
+	Step 100: mean loss = 0.0125
+	Step 150: mean loss = 0.0125
+
+	Loss on validation set after epoch 89: 0.0127
+
+Epoch 90
+	Step 0: mean loss = 0.0109
+	Step 50: mean loss = 0.0122
+	Step 100: mean loss = 0.0124
+	Step 150: mean loss = 0.0124
+
+	Loss on validation set after epoch 90: 0.0124
+
+Epoch 91
+	Step 0: mean loss = 0.0139
+	Step 50: mean loss = 0.0123
+	Step 100: mean loss = 0.0124
+	Step 150: mean loss = 0.0123
+
+	Loss on validation set after epoch 91: 0.0123
+
+Epoch 92
+	Step 0: mean loss = 0.0117
+	Step 50: mean loss = 0.0122
+	Step 100: mean loss = 0.0123
+	Step 150: mean loss = 0.0123
+
+	Loss on validation set after epoch 92: 0.0122
+
+Epoch 93
+	Step 0: mean loss = 0.0125
+	Step 50: mean loss = 0.0121
+	Step 100: mean loss = 0.0123
+	Step 150: mean loss = 0.0122
+
+	Loss on validation set after epoch 93: 0.0131
+
+Epoch 94
+	Step 0: mean loss = 0.0114
+	Step 50: mean loss = 0.0122
+	Step 100: mean loss = 0.0122
+	Step 150: mean loss = 0.0122
+
+	Loss on validation set after epoch 94: 0.0123
+
+Epoch 95
+	Step 0: mean loss = 0.0141
+	Step 50: mean loss = 0.0120
+	Step 100: mean loss = 0.0122
+	Step 150: mean loss = 0.0121
+
+	Loss on validation set after epoch 95: 0.0122
+
+Epoch 96
+	Step 0: mean loss = 0.0099
+	Step 50: mean loss = 0.0120
+	Step 100: mean loss = 0.0120
+	Step 150: mean loss = 0.0120
+
+	Loss on validation set after epoch 96: 0.0127
+
+Epoch 97
+	Step 0: mean loss = 0.0113
+	Step 50: mean loss = 0.0119
+	Step 100: mean loss = 0.0120
+	Step 150: mean loss = 0.0120
+
+	Loss on validation set after epoch 97: 0.0119
+
+Epoch 98
+	Step 0: mean loss = 0.0111
+	Step 50: mean loss = 0.0115
+	Step 100: mean loss = 0.0118
+	Step 150: mean loss = 0.0118
+
+	Loss on validation set after epoch 98: 0.0123
+
+Epoch 99
+	Step 0: mean loss = 0.0121
+	Step 50: mean loss = 0.0116
+	Step 100: mean loss = 0.0116
+	Step 150: mean loss = 0.0117
+
+	Loss on validation set after epoch 99: 0.0116
+
+Epoch 100
+	Step 0: mean loss = 0.0112
+	Step 50: mean loss = 0.0116
+	Step 100: mean loss = 0.0116
+	Step 150: mean loss = 0.0117
+
+	Loss on validation set after epoch 100: 0.0118
+
+Epoch 101
+	Step 0: mean loss = 0.0117
+	Step 50: mean loss = 0.0114
+	Step 100: mean loss = 0.0115
+	Step 150: mean loss = 0.0115
+
+	Loss on validation set after epoch 101: 0.0115
+
+Epoch 102
+	Step 0: mean loss = 0.0112
+	Step 50: mean loss = 0.0113
+	Step 100: mean loss = 0.0113
+	Step 150: mean loss = 0.0114
+
+	Loss on validation set after epoch 102: 0.0112
+
+Epoch 103
+	Step 0: mean loss = 0.0117
+	Step 50: mean loss = 0.0111
+	Step 100: mean loss = 0.0112
+	Step 150: mean loss = 0.0112
+
+	Loss on validation set after epoch 103: 0.0109
+
+Epoch 104
+	Step 0: mean loss = 0.0107
+	Step 50: mean loss = 0.0110
+	Step 100: mean loss = 0.0110
+	Step 150: mean loss = 0.0110
+
+	Loss on validation set after epoch 104: 0.0109
+
+Epoch 105
+	Step 0: mean loss = 0.0105
+	Step 50: mean loss = 0.0106
+	Step 100: mean loss = 0.0108
+	Step 150: mean loss = 0.0107
+
+	Loss on validation set after epoch 105: 0.0105
+
+Epoch 106
+	Step 0: mean loss = 0.0103
+	Step 50: mean loss = 0.0104
+	Step 100: mean loss = 0.0105
+	Step 150: mean loss = 0.0106
+
+	Loss on validation set after epoch 106: 0.0106
+
+Epoch 107
+	Step 0: mean loss = 0.0094
+	Step 50: mean loss = 0.0103
+	Step 100: mean loss = 0.0104
+	Step 150: mean loss = 0.0105
+
+	Loss on validation set after epoch 107: 0.0107
+
+Epoch 108
+	Step 0: mean loss = 0.0098
+	Step 50: mean loss = 0.0103
+	Step 100: mean loss = 0.0103
+	Step 150: mean loss = 0.0104
+
+	Loss on validation set after epoch 108: 0.0106
+
+Epoch 109
+	Step 0: mean loss = 0.0116
+	Step 50: mean loss = 0.0102
+	Step 100: mean loss = 0.0103
+	Step 150: mean loss = 0.0103
+
+	Loss on validation set after epoch 109: 0.0103
+
+Epoch 110
+	Step 0: mean loss = 0.0117
+	Step 50: mean loss = 0.0100
+	Step 100: mean loss = 0.0101
+	Step 150: mean loss = 0.0102
+
+	Loss on validation set after epoch 110: 0.0102
+
+Epoch 111
+	Step 0: mean loss = 0.0111
+	Step 50: mean loss = 0.0100
+	Step 100: mean loss = 0.0101
+	Step 150: mean loss = 0.0101
+
+	Loss on validation set after epoch 111: 0.0102
+
+Epoch 112
+	Step 0: mean loss = 0.0083
+	Step 50: mean loss = 0.0098
+	Step 100: mean loss = 0.0100
+	Step 150: mean loss = 0.0100
+
+	Loss on validation set after epoch 112: 0.0100
+
+Epoch 113
+	Step 0: mean loss = 0.0113
+	Step 50: mean loss = 0.0100
+	Step 100: mean loss = 0.0101
+	Step 150: mean loss = 0.0101
+
+	Loss on validation set after epoch 113: 0.0098
+
+Epoch 114
+	Step 0: mean loss = 0.0089
+	Step 50: mean loss = 0.0098
+	Step 100: mean loss = 0.0098
+	Step 150: mean loss = 0.0100
+
+	Loss on validation set after epoch 114: 0.0098
+
+Epoch 115
+	Step 0: mean loss = 0.0096
+	Step 50: mean loss = 0.0098
+	Step 100: mean loss = 0.0099
+	Step 150: mean loss = 0.0099
+
+	Loss on validation set after epoch 115: 0.0105
+
+Epoch 116
+	Step 0: mean loss = 0.0130
+	Step 50: mean loss = 0.0097
+	Step 100: mean loss = 0.0097
+	Step 150: mean loss = 0.0098
+
+	Loss on validation set after epoch 116: 0.0102
+
+Epoch 117
+	Step 0: mean loss = 0.0094
+	Step 50: mean loss = 0.0097
+	Step 100: mean loss = 0.0097
+	Step 150: mean loss = 0.0097
+
+	Loss on validation set after epoch 117: 0.0096
+
+Epoch 118
+	Step 0: mean loss = 0.0082
+	Step 50: mean loss = 0.0096
+	Step 100: mean loss = 0.0097
+	Step 150: mean loss = 0.0097
+
+	Loss on validation set after epoch 118: 0.0096
+
+Epoch 119
+	Step 0: mean loss = 0.0102
+	Step 50: mean loss = 0.0094
+	Step 100: mean loss = 0.0096
+	Step 150: mean loss = 0.0096
+
+	Loss on validation set after epoch 119: 0.0103
+
+Epoch 120
+	Step 0: mean loss = 0.0087
+	Step 50: mean loss = 0.0094
+	Step 100: mean loss = 0.0094
+	Step 150: mean loss = 0.0095
+
+	Loss on validation set after epoch 120: 0.0092
+
+Epoch 121
+	Step 0: mean loss = 0.0093
+	Step 50: mean loss = 0.0092
+	Step 100: mean loss = 0.0094
+	Step 150: mean loss = 0.0094
+
+	Loss on validation set after epoch 121: 0.0097
+
+Epoch 122
+	Step 0: mean loss = 0.0087
+	Step 50: mean loss = 0.0092
+	Step 100: mean loss = 0.0093
+	Step 150: mean loss = 0.0093
+
+	Loss on validation set after epoch 122: 0.0093
+
+Epoch 123
+	Step 0: mean loss = 0.0089
+	Step 50: mean loss = 0.0092
+	Step 100: mean loss = 0.0093
+	Step 150: mean loss = 0.0093
+
+	Loss on validation set after epoch 123: 0.0095
+
+Epoch 124
+	Step 0: mean loss = 0.0066
+	Step 50: mean loss = 0.0091
+	Step 100: mean loss = 0.0093
+	Step 150: mean loss = 0.0093
+
+	Loss on validation set after epoch 124: 0.0095
+
+Epoch 125
+	Step 0: mean loss = 0.0095
+	Step 50: mean loss = 0.0091
+	Step 100: mean loss = 0.0091
+	Step 150: mean loss = 0.0092
+
+	Loss on validation set after epoch 125: 0.0092
+
+Epoch 126
+	Step 0: mean loss = 0.0115
+	Step 50: mean loss = 0.0090
+	Step 100: mean loss = 0.0092
+	Step 150: mean loss = 0.0092
+
+	Loss on validation set after epoch 126: 0.0093
+
+Epoch 127
+	Step 0: mean loss = 0.0093
+	Step 50: mean loss = 0.0089
+	Step 100: mean loss = 0.0090
+	Step 150: mean loss = 0.0091
+
+	Loss on validation set after epoch 127: 0.0093
+
+Epoch 128
+	Step 0: mean loss = 0.0087
+	Step 50: mean loss = 0.0089
+	Step 100: mean loss = 0.0089
+	Step 150: mean loss = 0.0090
+
+	Loss on validation set after epoch 128: 0.0091
+
+Epoch 129
+	Step 0: mean loss = 0.0107
+	Step 50: mean loss = 0.0087
+	Step 100: mean loss = 0.0089
+	Step 150: mean loss = 0.0089
+
+	Loss on validation set after epoch 129: 0.0091
+
+Epoch 130
+	Step 0: mean loss = 0.0094
+	Step 50: mean loss = 0.0087
+	Step 100: mean loss = 0.0088
+	Step 150: mean loss = 0.0088
+
+	Loss on validation set after epoch 130: 0.0089
+
+Epoch 131
+	Step 0: mean loss = 0.0101
+	Step 50: mean loss = 0.0087
+	Step 100: mean loss = 0.0087
+	Step 150: mean loss = 0.0087
+
+	Loss on validation set after epoch 131: 0.0089
+
+Epoch 132
+	Step 0: mean loss = 0.0098
+	Step 50: mean loss = 0.0085
+	Step 100: mean loss = 0.0086
+	Step 150: mean loss = 0.0086
+
+	Loss on validation set after epoch 132: 0.0087
+
+Epoch 133
+	Step 0: mean loss = 0.0101
+	Step 50: mean loss = 0.0085
+	Step 100: mean loss = 0.0086
+	Step 150: mean loss = 0.0086
+
+	Loss on validation set after epoch 133: 0.0087
+
+Epoch 134
+	Step 0: mean loss = 0.0077
+	Step 50: mean loss = 0.0085
+	Step 100: mean loss = 0.0086
+	Step 150: mean loss = 0.0087
+
+	Loss on validation set after epoch 134: 0.0087
+
+Epoch 135
+	Step 0: mean loss = 0.0076
+	Step 50: mean loss = 0.0086
+	Step 100: mean loss = 0.0086
+	Step 150: mean loss = 0.0086
+
+	Loss on validation set after epoch 135: 0.0086
+
+Epoch 136
+	Step 0: mean loss = 0.0067
+	Step 50: mean loss = 0.0085
+	Step 100: mean loss = 0.0085
+	Step 150: mean loss = 0.0086
+
+	Loss on validation set after epoch 136: 0.0089
+
+Epoch 137
+	Step 0: mean loss = 0.0076
+	Step 50: mean loss = 0.0086
+	Step 100: mean loss = 0.0086
+	Step 150: mean loss = 0.0086
+
+	Loss on validation set after epoch 137: 0.0085
+
+Epoch 138
+	Step 0: mean loss = 0.0075
+	Step 50: mean loss = 0.0084
+	Step 100: mean loss = 0.0084
+	Step 150: mean loss = 0.0085
+
+	Loss on validation set after epoch 138: 0.0086
+
+Epoch 139
+	Step 0: mean loss = 0.0069
+	Step 50: mean loss = 0.0084
+	Step 100: mean loss = 0.0085
+	Step 150: mean loss = 0.0085
+
+	Loss on validation set after epoch 139: 0.0085
+
+Epoch 140
+	Step 0: mean loss = 0.0096
+	Step 50: mean loss = 0.0082
+	Step 100: mean loss = 0.0083
+	Step 150: mean loss = 0.0083
+
+	Loss on validation set after epoch 140: 0.0082
+
+Epoch 141
+	Step 0: mean loss = 0.0081
+	Step 50: mean loss = 0.0082
+	Step 100: mean loss = 0.0082
+	Step 150: mean loss = 0.0083
+
+	Loss on validation set after epoch 141: 0.0085
+
+Epoch 142
+	Step 0: mean loss = 0.0078
+	Step 50: mean loss = 0.0083
+	Step 100: mean loss = 0.0082
+	Step 150: mean loss = 0.0083
+
+	Loss on validation set after epoch 142: 0.0082
+
+Epoch 143
+	Step 0: mean loss = 0.0086
+	Step 50: mean loss = 0.0081
+	Step 100: mean loss = 0.0082
+	Step 150: mean loss = 0.0082
+
+	Loss on validation set after epoch 143: 0.0081
+
+Epoch 144
+	Step 0: mean loss = 0.0072
+	Step 50: mean loss = 0.0082
+	Step 100: mean loss = 0.0082
+	Step 150: mean loss = 0.0082
+
+	Loss on validation set after epoch 144: 0.0084
+
+Epoch 145
+	Step 0: mean loss = 0.0100
+	Step 50: mean loss = 0.0082
+	Step 100: mean loss = 0.0082
+	Step 150: mean loss = 0.0081
+
+	Loss on validation set after epoch 145: 0.0087
+
+Epoch 146
+	Step 0: mean loss = 0.0090
+	Step 50: mean loss = 0.0081
+	Step 100: mean loss = 0.0082
+	Step 150: mean loss = 0.0081
+
+	Loss on validation set after epoch 146: 0.0080
+
+Epoch 147
+	Step 0: mean loss = 0.0079
+	Step 50: mean loss = 0.0081
+	Step 100: mean loss = 0.0081
+	Step 150: mean loss = 0.0081
+
+	Loss on validation set after epoch 147: 0.0086
+
+Epoch 148
+	Step 0: mean loss = 0.0082
+	Step 50: mean loss = 0.0080
+	Step 100: mean loss = 0.0080
+	Step 150: mean loss = 0.0081
+
+	Loss on validation set after epoch 148: 0.0086
+
+Epoch 149
+	Step 0: mean loss = 0.0081
+	Step 50: mean loss = 0.0079
+	Step 100: mean loss = 0.0080
+	Step 150: mean loss = 0.0080
+
+	Loss on validation set after epoch 149: 0.0084
+
+Epoch 150
+	Step 0: mean loss = 0.0069
+	Step 50: mean loss = 0.0079
+	Step 100: mean loss = 0.0080
+	Step 150: mean loss = 0.0080
+
+	Loss on validation set after epoch 150: 0.0079
+
+Epoch 151
+	Step 0: mean loss = 0.0080
+	Step 50: mean loss = 0.0078
+	Step 100: mean loss = 0.0079
+	Step 150: mean loss = 0.0079
+
+	Loss on validation set after epoch 151: 0.0078
+
+Epoch 152
+	Step 0: mean loss = 0.0070
+	Step 50: mean loss = 0.0079
+	Step 100: mean loss = 0.0080
+	Step 150: mean loss = 0.0080
+
+	Loss on validation set after epoch 152: 0.0084
+
+Epoch 153
+	Step 0: mean loss = 0.0087
+	Step 50: mean loss = 0.0079
+	Step 100: mean loss = 0.0080
+	Step 150: mean loss = 0.0080
+
+	Loss on validation set after epoch 153: 0.0077
+
+Epoch 154
+	Step 0: mean loss = 0.0074
+	Step 50: mean loss = 0.0078
+	Step 100: mean loss = 0.0078
+	Step 150: mean loss = 0.0079
+
+	Loss on validation set after epoch 154: 0.0086
+
+Epoch 155
+	Step 0: mean loss = 0.0089
+	Step 50: mean loss = 0.0078
+	Step 100: mean loss = 0.0079
+	Step 150: mean loss = 0.0079
+
+	Loss on validation set after epoch 155: 0.0078
+
+Epoch 156
+	Step 0: mean loss = 0.0092
+	Step 50: mean loss = 0.0077
+	Step 100: mean loss = 0.0078
+	Step 150: mean loss = 0.0078
+
+	Loss on validation set after epoch 156: 0.0083
+
+Epoch 157
+	Step 0: mean loss = 0.0086
+	Step 50: mean loss = 0.0077
+	Step 100: mean loss = 0.0078
+	Step 150: mean loss = 0.0078
+
+	Loss on validation set after epoch 157: 0.0078
+
+Epoch 158
+	Step 0: mean loss = 0.0074
+	Step 50: mean loss = 0.0077
+	Step 100: mean loss = 0.0078
+	Step 150: mean loss = 0.0078
+
+	Loss on validation set after epoch 158: 0.0079
+
+Epoch 159
+	Step 0: mean loss = 0.0088
+	Step 50: mean loss = 0.0078
+	Step 100: mean loss = 0.0078
+	Step 150: mean loss = 0.0078
+
+	Loss on validation set after epoch 159: 0.0081
+
+Epoch 160
+	Step 0: mean loss = 0.0088
+	Step 50: mean loss = 0.0077
+	Step 100: mean loss = 0.0078
+	Step 150: mean loss = 0.0078
+
+	Loss on validation set after epoch 160: 0.0079
+
+Epoch 161
+	Step 0: mean loss = 0.0075
+	Step 50: mean loss = 0.0075
+	Step 100: mean loss = 0.0077
+	Step 150: mean loss = 0.0077
+
+	Loss on validation set after epoch 161: 0.0078
+
+Epoch 162
+	Step 0: mean loss = 0.0082
+	Step 50: mean loss = 0.0076
+	Step 100: mean loss = 0.0077
+	Step 150: mean loss = 0.0077
+
+	Loss on validation set after epoch 162: 0.0079
+
+Epoch 163
+	Step 0: mean loss = 0.0070
+	Step 50: mean loss = 0.0077
+	Step 100: mean loss = 0.0077
+	Step 150: mean loss = 0.0077
+
+	Loss on validation set after epoch 163: 0.0079
+
+Model from epoch 153 was selected by early stopping.
+Training process will be stopped now.
+Deleted temporary files in ../data/trained_models/temp_01-02-15-31-43/
+Location of saved model: ../data/trained_models/last_hope_46_01-02-15-31-43/ 
+
+Adding feature wise convolutions with 32 filters per feature, 3 kernels and 1 strides ...
+Adding feature wise convolutions with 1 filters per feature, 3 kernels and 1 strides ...
+Adding feature based graph attention layer ...
+Adding time based graph attention layer ...
+Adding GRU layer with 256 units ...
+Adding GRU layer with 61 units ...
+Adding VAE as reconstruction model dimensions 3072 & 1536 and ...
+Adding dense layer to forecasting model with 512 units and ReLu activation ...
+Adding dense layer to forecasting model with 512 units and ReLu activation ...
+Adding last dense layer to forecasting model with 61 units and sigmoid activation ...
+VAE reconstructs the output of the gru layer.
+
+Grid search running in anomaly detection model selection mode.
+The following hyperparameters will not be evaluated:
+relevance_mapping
+unaffected_component_threshold
+si_mode
+si_parameter
+
+Testing 294 combinations via grid search 
+for model last_hope_46_01-02-15-31-43/ on the validation dataset. 
+
+Currently testing combination 0/293 (0.3, 0.2, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 1/293 (0.3, 0.2, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 2/293 (0.3, 0.2, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 3/293 (0.3, 0.2, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 4/293 (0.3, 0.2, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 5/293 (0.3, 0.2, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 6/293 (0.3, 0.2, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 7/293 (0.3, 0.225, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 8/293 (0.3, 0.225, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 9/293 (0.3, 0.225, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 10/293 (0.3, 0.225, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 11/293 (0.3, 0.225, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 12/293 (0.3, 0.225, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 13/293 (0.3, 0.225, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 14/293 (0.3, 0.25, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 15/293 (0.3, 0.25, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 16/293 (0.3, 0.25, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 17/293 (0.3, 0.25, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 18/293 (0.3, 0.25, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 19/293 (0.3, 0.25, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 20/293 (0.3, 0.25, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 21/293 (0.3, 0.275, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 22/293 (0.3, 0.275, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 23/293 (0.3, 0.275, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 24/293 (0.3, 0.275, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 25/293 (0.3, 0.275, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 26/293 (0.3, 0.275, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 27/293 (0.3, 0.275, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 28/293 (0.3, 0.3, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 29/293 (0.3, 0.3, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 30/293 (0.3, 0.3, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 31/293 (0.3, 0.3, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 32/293 (0.3, 0.3, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 33/293 (0.3, 0.3, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 34/293 (0.3, 0.3, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 35/293 (0.3, 0.325, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 36/293 (0.3, 0.325, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 37/293 (0.3, 0.325, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 38/293 (0.3, 0.325, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 39/293 (0.3, 0.325, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 40/293 (0.3, 0.325, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 41/293 (0.3, 0.325, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 42/293 (0.3, 0.35, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 43/293 (0.3, 0.35, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 44/293 (0.3, 0.35, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 45/293 (0.3, 0.35, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 46/293 (0.3, 0.35, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 47/293 (0.3, 0.35, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 48/293 (0.3, 0.35, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 49/293 (0.4, 0.2, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 50/293 (0.4, 0.2, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 51/293 (0.4, 0.2, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 52/293 (0.4, 0.2, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 53/293 (0.4, 0.2, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 54/293 (0.4, 0.2, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 55/293 (0.4, 0.2, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 56/293 (0.4, 0.225, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 57/293 (0.4, 0.225, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 58/293 (0.4, 0.225, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 59/293 (0.4, 0.225, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 60/293 (0.4, 0.225, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 61/293 (0.4, 0.225, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 62/293 (0.4, 0.225, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 63/293 (0.4, 0.25, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 64/293 (0.4, 0.25, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 65/293 (0.4, 0.25, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 66/293 (0.4, 0.25, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 67/293 (0.4, 0.25, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 68/293 (0.4, 0.25, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 69/293 (0.4, 0.25, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 70/293 (0.4, 0.275, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 71/293 (0.4, 0.275, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 72/293 (0.4, 0.275, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 73/293 (0.4, 0.275, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 74/293 (0.4, 0.275, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 75/293 (0.4, 0.275, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 76/293 (0.4, 0.275, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 77/293 (0.4, 0.3, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 78/293 (0.4, 0.3, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 79/293 (0.4, 0.3, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 80/293 (0.4, 0.3, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 81/293 (0.4, 0.3, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 82/293 (0.4, 0.3, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 83/293 (0.4, 0.3, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 84/293 (0.4, 0.325, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 85/293 (0.4, 0.325, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 86/293 (0.4, 0.325, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 87/293 (0.4, 0.325, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 88/293 (0.4, 0.325, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 89/293 (0.4, 0.325, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 90/293 (0.4, 0.325, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 91/293 (0.4, 0.35, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 92/293 (0.4, 0.35, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 93/293 (0.4, 0.35, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 94/293 (0.4, 0.35, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 95/293 (0.4, 0.35, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 96/293 (0.4, 0.35, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 97/293 (0.4, 0.35, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 98/293 (0.5, 0.2, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 99/293 (0.5, 0.2, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 100/293 (0.5, 0.2, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 101/293 (0.5, 0.2, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 102/293 (0.5, 0.2, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 103/293 (0.5, 0.2, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 104/293 (0.5, 0.2, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 105/293 (0.5, 0.225, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 106/293 (0.5, 0.225, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 107/293 (0.5, 0.225, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 108/293 (0.5, 0.225, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 109/293 (0.5, 0.225, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 110/293 (0.5, 0.225, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 111/293 (0.5, 0.225, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 112/293 (0.5, 0.25, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 113/293 (0.5, 0.25, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 114/293 (0.5, 0.25, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 115/293 (0.5, 0.25, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 116/293 (0.5, 0.25, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 117/293 (0.5, 0.25, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 118/293 (0.5, 0.25, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 119/293 (0.5, 0.275, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 120/293 (0.5, 0.275, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 121/293 (0.5, 0.275, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 122/293 (0.5, 0.275, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 123/293 (0.5, 0.275, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 124/293 (0.5, 0.275, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 125/293 (0.5, 0.275, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 126/293 (0.5, 0.3, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 127/293 (0.5, 0.3, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 128/293 (0.5, 0.3, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 129/293 (0.5, 0.3, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 130/293 (0.5, 0.3, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 131/293 (0.5, 0.3, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 132/293 (0.5, 0.3, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 133/293 (0.5, 0.325, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 134/293 (0.5, 0.325, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 135/293 (0.5, 0.325, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 136/293 (0.5, 0.325, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 137/293 (0.5, 0.325, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 138/293 (0.5, 0.325, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 139/293 (0.5, 0.325, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 140/293 (0.5, 0.35, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 141/293 (0.5, 0.35, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 142/293 (0.5, 0.35, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 143/293 (0.5, 0.35, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 144/293 (0.5, 0.35, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 145/293 (0.5, 0.35, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 146/293 (0.5, 0.35, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 147/293 (0.6, 0.2, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 148/293 (0.6, 0.2, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 149/293 (0.6, 0.2, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 150/293 (0.6, 0.2, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 151/293 (0.6, 0.2, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 152/293 (0.6, 0.2, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 153/293 (0.6, 0.2, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 154/293 (0.6, 0.225, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 155/293 (0.6, 0.225, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 156/293 (0.6, 0.225, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 157/293 (0.6, 0.225, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 158/293 (0.6, 0.225, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 159/293 (0.6, 0.225, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 160/293 (0.6, 0.225, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 161/293 (0.6, 0.25, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 162/293 (0.6, 0.25, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 163/293 (0.6, 0.25, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 164/293 (0.6, 0.25, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 165/293 (0.6, 0.25, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 166/293 (0.6, 0.25, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 167/293 (0.6, 0.25, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 168/293 (0.6, 0.275, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 169/293 (0.6, 0.275, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 170/293 (0.6, 0.275, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 171/293 (0.6, 0.275, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 172/293 (0.6, 0.275, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 173/293 (0.6, 0.275, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 174/293 (0.6, 0.275, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 175/293 (0.6, 0.3, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 176/293 (0.6, 0.3, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 177/293 (0.6, 0.3, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 178/293 (0.6, 0.3, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 179/293 (0.6, 0.3, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 180/293 (0.6, 0.3, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 181/293 (0.6, 0.3, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 182/293 (0.6, 0.325, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 183/293 (0.6, 0.325, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 184/293 (0.6, 0.325, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 185/293 (0.6, 0.325, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 186/293 (0.6, 0.325, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 187/293 (0.6, 0.325, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 188/293 (0.6, 0.325, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 189/293 (0.6, 0.35, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 190/293 (0.6, 0.35, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 191/293 (0.6, 0.35, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 192/293 (0.6, 0.35, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 193/293 (0.6, 0.35, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 194/293 (0.6, 0.35, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 195/293 (0.6, 0.35, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 196/293 (0.7, 0.2, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 197/293 (0.7, 0.2, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 198/293 (0.7, 0.2, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 199/293 (0.7, 0.2, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 200/293 (0.7, 0.2, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 201/293 (0.7, 0.2, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 202/293 (0.7, 0.2, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 203/293 (0.7, 0.225, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 204/293 (0.7, 0.225, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 205/293 (0.7, 0.225, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 206/293 (0.7, 0.225, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 207/293 (0.7, 0.225, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 208/293 (0.7, 0.225, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 209/293 (0.7, 0.225, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 210/293 (0.7, 0.25, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 211/293 (0.7, 0.25, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 212/293 (0.7, 0.25, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 213/293 (0.7, 0.25, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 214/293 (0.7, 0.25, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 215/293 (0.7, 0.25, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 216/293 (0.7, 0.25, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 217/293 (0.7, 0.275, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 218/293 (0.7, 0.275, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 219/293 (0.7, 0.275, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 220/293 (0.7, 0.275, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 221/293 (0.7, 0.275, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 222/293 (0.7, 0.275, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 223/293 (0.7, 0.275, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 224/293 (0.7, 0.3, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 225/293 (0.7, 0.3, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 226/293 (0.7, 0.3, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 227/293 (0.7, 0.3, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 228/293 (0.7, 0.3, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 229/293 (0.7, 0.3, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 230/293 (0.7, 0.3, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 231/293 (0.7, 0.325, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 232/293 (0.7, 0.325, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 233/293 (0.7, 0.325, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 234/293 (0.7, 0.325, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 235/293 (0.7, 0.325, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 236/293 (0.7, 0.325, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 237/293 (0.7, 0.325, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 238/293 (0.7, 0.35, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 239/293 (0.7, 0.35, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 240/293 (0.7, 0.35, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 241/293 (0.7, 0.35, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 242/293 (0.7, 0.35, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 243/293 (0.7, 0.35, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 244/293 (0.7, 0.35, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 245/293 (0.8, 0.2, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 246/293 (0.8, 0.2, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 247/293 (0.8, 0.2, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 248/293 (0.8, 0.2, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 249/293 (0.8, 0.2, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 250/293 (0.8, 0.2, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 251/293 (0.8, 0.2, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 252/293 (0.8, 0.225, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 253/293 (0.8, 0.225, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 254/293 (0.8, 0.225, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 255/293 (0.8, 0.225, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 256/293 (0.8, 0.225, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 257/293 (0.8, 0.225, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 258/293 (0.8, 0.225, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 259/293 (0.8, 0.25, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 260/293 (0.8, 0.25, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 261/293 (0.8, 0.25, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 262/293 (0.8, 0.25, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 263/293 (0.8, 0.25, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 264/293 (0.8, 0.25, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 265/293 (0.8, 0.25, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 266/293 (0.8, 0.275, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 267/293 (0.8, 0.275, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 268/293 (0.8, 0.275, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 269/293 (0.8, 0.275, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 270/293 (0.8, 0.275, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 271/293 (0.8, 0.275, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 272/293 (0.8, 0.275, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 273/293 (0.8, 0.3, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 274/293 (0.8, 0.3, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 275/293 (0.8, 0.3, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 276/293 (0.8, 0.3, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 277/293 (0.8, 0.3, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 278/293 (0.8, 0.3, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 279/293 (0.8, 0.3, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 280/293 (0.8, 0.325, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 281/293 (0.8, 0.325, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 282/293 (0.8, 0.325, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 283/293 (0.8, 0.325, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 284/293 (0.8, 0.325, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 285/293 (0.8, 0.325, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 286/293 (0.8, 0.325, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 287/293 (0.8, 0.35, 100, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 288/293 (0.8, 0.35, 110, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 289/293 (0.8, 0.35, 120, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 290/293 (0.8, 0.35, 130, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 291/293 (0.8, 0.35, 140, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 292/293 (0.8, 0.35, 150, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+Currently testing combination 293/293 (0.8, 0.35, 160, None, 'sort_only', {'h': 1.0, 'm': 0.3, 'l': 0.0, 'u': 0.0, 'e': 0.0}) ...
+
+Top 50 combinations tested:
+      gamma  single_timestamp_a.. affected_timestamp..     AD F1     AD F2    AD TPR   AD Prec    AD ACC    AD TNR    AD FPR  SI/ST AVG-HR@100%  SI/ST AVG-HR@150%  SI/ST AVG-HR@K  SI/ST F1  SI/ST TPR  SI/ST ACC
+Comb                                                                                                                                                                                                              
+223     0.7                 0.275                  160  0.368159  0.572977  0.910769  0.230709  0.405848  0.287365  0.712635           0.399937           0.480522        0.166154  0.092308   0.092308   0.860355
+221     0.7                 0.275                  140  0.365631  0.573394  0.923077  0.227964  0.391228  0.266426  0.733574           0.399937           0.480522        0.166154  0.092308   0.092308   0.860355
+222     0.7                 0.275                  150  0.364084  0.569012  0.910769  0.227517  0.395322  0.274368  0.725632           0.399937           0.480522        0.166154  0.092308   0.092308   0.860355
+220     0.7                 0.275                  130  0.362763  0.571970  0.929231  0.225373  0.379532  0.250542  0.749458           0.399937           0.480522        0.166154  0.092308   0.092308   0.860355
+219     0.7                 0.275                  120  0.362663  0.573956  0.938462  0.224761  0.373099  0.240433  0.759567           0.399937           0.480522        0.166154  0.092308   0.092308   0.860355
+218     0.7                 0.275                  110  0.360329  0.572975  0.944615  0.222625  0.362573  0.225993  0.774007           0.399937           0.480522        0.166154  0.092308   0.092308   0.860355
+116     0.5                 0.250                  140  0.359975  0.557722  0.880000  0.226266  0.405263  0.293863  0.706137           0.405557           0.489642        0.175385  0.092308   0.092308   0.860355
+117     0.5                 0.250                  150  0.359007  0.553810  0.867692  0.226324  0.411111  0.303971  0.696029           0.405557           0.489642        0.175385  0.092308   0.092308   0.860355
+217     0.7                 0.275                  100  0.358765  0.572065  0.947692  0.221264  0.356140  0.217329  0.782671           0.399937           0.480522        0.166154  0.092308   0.092308   0.860355
+167     0.6                 0.250                  160  0.358059  0.579841  0.987692  0.218665  0.326901  0.171841  0.828159           0.401090           0.482188        0.178462  0.089231   0.089231   0.859882
+115     0.5                 0.250                  130  0.357855  0.556417  0.883077  0.224394  0.397661  0.283755  0.716245           0.405557           0.489642        0.175385  0.092308   0.092308   0.860355
+6       0.3                 0.200                  160  0.357225  0.571165  0.950769  0.219929  0.349708  0.208664  0.791336           0.411798           0.488964        0.190769  0.101538   0.101538   0.861775
+114     0.5                 0.250                  120  0.357143  0.557907  0.892308  0.223249  0.389474  0.271480  0.728520           0.405557           0.489642        0.175385  0.092308   0.092308   0.860355
+5       0.3                 0.200                  150  0.356937  0.571534  0.953846  0.219547  0.346784  0.204332  0.795668           0.411798           0.488964        0.190769  0.101538   0.101538   0.861775
+118     0.5                 0.250                  160  0.356868  0.548756  0.855385  0.225466  0.414035  0.310469  0.689531           0.405557           0.489642        0.175385  0.092308   0.092308   0.860355
+113     0.5                 0.250                  110  0.356098  0.558317  0.898462  0.222053  0.382456  0.261372  0.738628           0.405557           0.489642        0.175385  0.092308   0.092308   0.860355
+166     0.6                 0.250                  150  0.356073  0.577754  0.987692  0.217185  0.321053  0.164621  0.835379           0.401090           0.482188        0.178462  0.089231   0.089231   0.859882
+4       0.3                 0.200                  140  0.355961  0.571848  0.960000  0.218487  0.339766  0.194224  0.805776           0.411798           0.488964        0.190769  0.101538   0.101538   0.861775
+62      0.4                 0.225                  160  0.355713  0.564908  0.929231  0.219956  0.360234  0.226715  0.773285           0.409690           0.490387        0.193846  0.095385   0.095385   0.860828
+61      0.4                 0.225                  150  0.355425  0.565299  0.932308  0.219565  0.357310  0.222383  0.777617           0.409690           0.490387        0.193846  0.095385   0.095385   0.860828
+272     0.8                 0.275                  160  0.355358  0.576369  0.984615  0.216802  0.321053  0.165343  0.834657           0.392889           0.471392        0.175385  0.086154   0.086154   0.859408
+3       0.3                 0.200                  130  0.354674  0.571168  0.963077  0.217361  0.333918  0.186282  0.813718           0.411798           0.488964        0.190769  0.101538   0.101538   0.861775
+60      0.4                 0.225                  140  0.354106  0.564636  0.935385  0.218391  0.351462  0.214440  0.785560           0.409690           0.490387        0.193846  0.095385   0.095385   0.860828
+59      0.4                 0.225                  130  0.354095  0.566630  0.944615  0.217885  0.345029  0.204332  0.795668           0.409690           0.490387        0.193846  0.095385   0.095385   0.860828
+165     0.6                 0.250                  140  0.353914  0.575475  0.987692  0.215581  0.314620  0.156679  0.843321           0.401090           0.482188        0.178462  0.089231   0.089231   0.859882
+2       0.3                 0.200                  120  0.353405  0.570494  0.966154  0.216253  0.328070  0.178339  0.821661           0.411798           0.488964        0.190769  0.101538   0.101538   0.861775
+271     0.8                 0.275                  150  0.353330  0.574857  0.987692  0.215147  0.312865  0.154513  0.845487           0.392889           0.471392        0.175385  0.086154   0.086154   0.859408
+112     0.5                 0.250                  100  0.353225  0.556188  0.901538  0.219640  0.372515  0.248375  0.751625           0.405557           0.489642        0.175385  0.092308   0.092308   0.860355
+57      0.4                 0.225                  110  0.352874  0.567350  0.953846  0.216480  0.335088  0.189892  0.810108           0.409690           0.490387        0.193846  0.095385   0.095385   0.860828
+1       0.3                 0.200                  110  0.352611  0.569666  0.966154  0.215659  0.325731  0.175451  0.824549           0.411798           0.488964        0.190769  0.101538   0.101538   0.861775
+0       0.3                 0.200                  100  0.352152  0.569826  0.969231  0.215164  0.322222  0.170397  0.829603           0.411798           0.488964        0.190769  0.101538   0.101538   0.861775
+273     0.8                 0.300                  100  0.352092  0.516730  0.750769  0.229972  0.474854  0.410108  0.589892           0.396596           0.472512        0.156923  0.089231   0.089231   0.859882
+56      0.4                 0.225                  100  0.352073  0.566520  0.953846  0.215877  0.332749  0.187004  0.812996           0.409690           0.490387        0.193846  0.095385   0.095385   0.860828
+58      0.4                 0.225                  120  0.351862  0.564338  0.944615  0.216197  0.338596  0.196390  0.803610           0.409690           0.490387        0.193846  0.095385   0.095385   0.860828
+164     0.6                 0.250                  130  0.351588  0.573010  0.987692  0.213857  0.307602  0.148014  0.851986           0.401090           0.482188        0.178462  0.089231   0.089231   0.859882
+270     0.8                 0.275                  140  0.351528  0.573566  0.990769  0.213670  0.305263  0.144404  0.855596           0.392889           0.471392        0.175385  0.086154   0.086154   0.859408
+163     0.6                 0.250                  120  0.348534  0.569755  0.987692  0.211602  0.298246  0.136462  0.863538           0.401090           0.482188        0.178462  0.089231   0.089231   0.859882
+269     0.8                 0.275                  130  0.348108  0.569912  0.990769  0.211148  0.294737  0.131408  0.868592           0.392889           0.471392        0.175385  0.086154   0.086154   0.859408
+162     0.6                 0.250                  110  0.347403  0.568544  0.987692  0.210768  0.294737  0.132130  0.867870           0.401090           0.482188        0.178462  0.089231   0.089231   0.859882
+268     0.8                 0.275                  120  0.346753  0.569063  0.993846  0.210013  0.288304  0.122744  0.877256           0.392889           0.471392        0.175385  0.086154   0.086154   0.859408
+161     0.6                 0.250                  100  0.346609  0.568302  0.990769  0.210046  0.290058  0.125632  0.874368           0.401090           0.482188        0.178462  0.089231   0.089231   0.859882
+267     0.8                 0.275                  110  0.344864  0.567624  0.996923  0.208494  0.280117  0.111913  0.888087           0.392889           0.471392        0.175385  0.086154   0.086154   0.859408
+168     0.6                 0.275                  100  0.344484  0.508403  0.744615  0.224074  0.461404  0.394946  0.605054           0.402655           0.485995        0.166154  0.092308   0.092308   0.860355
+274     0.8                 0.300                  110  0.343819  0.501708  0.723077  0.225528  0.475439  0.417329  0.582671           0.396596           0.472512        0.156923  0.089231   0.089231   0.859882
+266     0.8                 0.275                  100  0.341232  0.563674  0.996923  0.205845  0.268421  0.097473  0.902527           0.392889           0.471392        0.175385  0.086154   0.086154   0.859408
+169     0.6                 0.275                  110  0.340087  0.498515  0.723077  0.222327  0.466667  0.406498  0.593502           0.402655           0.485995        0.166154  0.092308   0.092308   0.860355
+275     0.8                 0.300                  120  0.339059  0.490493  0.698462  0.223866  0.482456  0.431769  0.568231           0.396596           0.472512        0.156923  0.089231   0.089231   0.859882
+111     0.5                 0.225                  160  0.337689  0.559211  0.993846  0.203401  0.259064  0.086643  0.913357           0.402696           0.485265        0.181538  0.095385   0.095385   0.860828
+7       0.3                 0.225                  100  0.337607  0.498108  0.729231  0.219648  0.456140  0.392058  0.607942           0.408213           0.493501        0.190769  0.086154   0.086154   0.859408
+110     0.5                 0.225                  150  0.337161  0.558630  0.993846  0.203017  0.257310  0.084477  0.915523           0.402696           0.485265        0.181538  0.095385   0.095385   0.860828
+
+Full result output for the best combination:
+                 #Examples   TP   FP   TN  FN       ACC       FNR       TNR       FPR       TPR      Prec        F1        F2  AVG # affected
+Component                                                                                                                                    
+no_failure            1385    0  987  398   0  0.287365       NaN  0.287365  0.712635       NaN  0.000000       NaN       NaN      311.054152
+txt15_i1                 5    5    0    0   0  1.000000  0.000000       NaN       NaN  1.000000  1.000000  1.000000  1.000000      497.000000
+txt15_i3                 5    5    0    0   0  1.000000  0.000000       NaN       NaN  1.000000  1.000000  1.000000  1.000000      486.400000
+txt15_conveyor           3    3    0    0   0  1.000000  0.000000       NaN       NaN  1.000000  1.000000  1.000000  1.000000      490.333333
+txt15_m1               160  151    0    0   9  0.943750  0.056250       NaN       NaN  0.943750  1.000000  0.971061  0.954488      418.143750
+txt15_pl                 9    7    0    0   2  0.777778  0.222222       NaN       NaN  0.777778  1.000000  0.875000  0.813953      273.555556
+txt16_i3                 4    4    0    0   0  1.000000  0.000000       NaN       NaN  1.000000  1.000000  1.000000  1.000000      454.500000
+txt16_conveyor           8    5    0    0   3  0.625000  0.375000       NaN       NaN  0.625000  1.000000  0.769231  0.675676      236.000000
+txt16_m3                65   64    0    0   1  0.984615  0.015385       NaN       NaN  0.984615  1.000000  0.992248  0.987654      439.523077
+txt16_turntable          2    2    0    0   0  1.000000  0.000000       NaN       NaN  1.000000  1.000000  1.000000  1.000000      489.000000
+txt17_i1                16   15    0    0   1  0.937500  0.062500       NaN       NaN  0.937500  1.000000  0.967742  0.949367      424.937500
+txt17_pl                14   11    0    0   3  0.785714  0.214286       NaN       NaN  0.785714  1.000000  0.880000  0.820896      321.071429
+txt18_pl                28   19    0    0   9  0.678571  0.321429       NaN       NaN  0.678571  1.000000  0.808511  0.725191      305.928571
+txt19_i4                 6    5    0    0   1  0.833333  0.166667       NaN       NaN  0.833333  1.000000  0.909091  0.862069      401.000000
+combined              1710  296  987  398  29  0.405848  0.089231  0.287365  0.712635  0.910769  0.230709  0.368159  0.572977      328.702924
+
+                 #Examples   TP   FP   TN  FN       ACC       FNR       TNR       FPR       TPR      Prec        F1        F2  AVG # affected
+Component                                                                                                                                    
+no_failure            1385    0  987  398   0  0.287365       NaN  0.287365  0.712635       NaN  0.000000       NaN       NaN      311.054152
+txt15_i1                 5    5    0    0   0  1.000000  0.000000       NaN       NaN  1.000000  1.000000  1.000000  1.000000      497.000000
+txt15_i3                 5    5    0    0   0  1.000000  0.000000       NaN       NaN  1.000000  1.000000  1.000000  1.000000      486.400000
+txt15_conveyor           3    3    0    0   0  1.000000  0.000000       NaN       NaN  1.000000  1.000000  1.000000  1.000000      490.333333
+txt15_m1               160  151    0    0   9  0.943750  0.056250       NaN       NaN  0.943750  1.000000  0.971061  0.954488      418.143750
+txt15_pl                 9    7    0    0   2  0.777778  0.222222       NaN       NaN  0.777778  1.000000  0.875000  0.813953      273.555556
+txt16_i3                 4    4    0    0   0  1.000000  0.000000       NaN       NaN  1.000000  1.000000  1.000000  1.000000      454.500000
+txt16_conveyor           8    5    0    0   3  0.625000  0.375000       NaN       NaN  0.625000  1.000000  0.769231  0.675676      236.000000
+txt16_m3                65   64    0    0   1  0.984615  0.015385       NaN       NaN  0.984615  1.000000  0.992248  0.987654      439.523077
+txt16_turntable          2    2    0    0   0  1.000000  0.000000       NaN       NaN  1.000000  1.000000  1.000000  1.000000      489.000000
+txt17_i1                16   15    0    0   1  0.937500  0.062500       NaN       NaN  0.937500  1.000000  0.967742  0.949367      424.937500
+txt17_pl                14   11    0    0   3  0.785714  0.214286       NaN       NaN  0.785714  1.000000  0.880000  0.820896      321.071429
+txt18_pl                28   19    0    0   9  0.678571  0.321429       NaN       NaN  0.678571  1.000000  0.808511  0.725191      305.928571
+txt19_i4                 6    5    0    0   1  0.833333  0.166667       NaN       NaN  0.833333  1.000000  0.909091  0.862069      401.000000
+combined              1710  296  987  398  29  0.405848  0.089231  0.287365  0.712635  0.910769  0.230709  0.368159  0.572977      328.702924
+
+Execution time: 6086.078327442985

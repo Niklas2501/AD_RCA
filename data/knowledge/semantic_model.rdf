@@ -1,0 +1,1226 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://iot.uni-trier.de/ADOnto"
+         xmlns="http://iot.uni-trier.de/ADOnto#">
+
+<owl:Ontology rdf:about="http://iot.uni-trier.de/ADOnto"/>
+
+<owl:ObjectProperty rdf:about="#of_component">
+  <rdfs:domain rdf:resource="#RelevanceScore"/>
+  <rdfs:range rdf:resource="#Component"/>
+  <owl:inverseOf rdf:resource="#comp_has_rs"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#comp_has_rs">
+  <rdfs:domain rdf:resource="#Component"/>
+  <rdfs:range rdf:resource="#RelevanceScore"/>
+  <owl:inverseOf rdf:resource="#of_component"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#feature_has_rs">
+  <rdfs:domain rdf:resource="#Feature"/>
+  <rdfs:range rdf:resource="#RelevanceScore"/>
+  <owl:inverseOf rdf:resource="#of_feature"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#of_feature">
+  <rdfs:domain rdf:resource="#RelevanceScore"/>
+  <rdfs:range rdf:resource="#Feature"/>
+  <owl:inverseOf rdf:resource="#feature_has_rs"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#records">
+  <rdfs:domain rdf:resource="#Sensor"/>
+  <rdfs:range rdf:resource="#Feature"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#recorded_by">
+  <rdfs:domain rdf:resource="#Feature"/>
+  <rdfs:range rdf:resource="#Sensor"/>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="#has_index_in_data">
+  <rdfs:domain rdf:resource="#Feature"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#has_score">
+  <rdfs:domain rdf:resource="#RelevanceScore"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:Class rdf:about="#Feature">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#RelevanceScore">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Component">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Sensor">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<Component rdf:about="#txt15_i1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Feature"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</has_index_in_data>
+</Component>
+
+<Component rdf:about="#txt15_i3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Feature"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</has_index_in_data>
+</Component>
+
+<Component rdf:about="#txt15_conveyor">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Component>
+
+<Component rdf:about="#txt15_m1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Component>
+
+<Component rdf:about="#txt15_pl">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Component>
+
+<Component rdf:about="#txt16_i3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Feature"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</has_index_in_data>
+</Component>
+
+<Component rdf:about="#txt16_conveyor">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Component>
+
+<Component rdf:about="#txt16_m3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Component>
+
+<Component rdf:about="#txt16_turntable">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Component>
+
+<Component rdf:about="#txt17_i1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Feature"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</has_index_in_data>
+</Component>
+
+<Component rdf:about="#txt17_pl">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Component>
+
+<Component rdf:about="#txt18_pl">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Component>
+
+<Component rdf:about="#txt19_i4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Feature"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</has_index_in_data>
+</Component>
+
+<Feature rdf:about="#a_15_1_x">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#a_15_1_y">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#a_15_1_z">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#a_16_3_x">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#a_16_3_y">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#a_16_3_z">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#hPa_15">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#hPa_17">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#hPa_18">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt15_i2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt15_i6">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt15_i7">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt15_i8">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt15_m1.finished">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt15_o5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt15_o6">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt15_o7">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt15_o8">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt16_i1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt16_i2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt16_i4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt16_i5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt16_m1.finished">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt16_m2.finished">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt16_m3.finished">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt16_o7">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt16_o8">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt17_i2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt17_i3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt17_i5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt17_m1.finished">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt17_m2.finished">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt17_o5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt17_o6">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt17_o7">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt17_o8">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt18_i1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt18_i2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt18_i3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt18_m1.finished">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt18_m2.finished">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt18_m3.finished">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt18_o7">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt18_o8">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt18_vsg_x">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt18_vsg_y">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt18_vsg_z">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt19_i1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt19_i5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt19_i6">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt19_i7">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt19_i8">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt19_m1.finished">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt19_m2.finished">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt19_m3.finished">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</has_index_in_data>
+</Feature>
+
+<Feature rdf:about="#txt19_m4.finished">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_index_in_data rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</has_index_in_data>
+</Feature>
+
+<RelevanceScore rdf:about="#txt15_i1_txt15_i1_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_i1"/>
+  <of_feature rdf:resource="#txt15_i1"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_i1_txt15_m1.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_i1"/>
+  <of_feature rdf:resource="#txt15_m1.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_i1_txt15_o8_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_i1"/>
+  <of_feature rdf:resource="#txt15_o8"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_i1_txt17_i2_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_i1"/>
+  <of_feature rdf:resource="#txt17_i2"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_i1_a_15_1_x_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_i1"/>
+  <of_feature rdf:resource="#a_15_1_x"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_i1_a_15_1_y_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_i1"/>
+  <of_feature rdf:resource="#a_15_1_y"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_i1_a_15_1_z_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_i1"/>
+  <of_feature rdf:resource="#a_15_1_z"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_i1_hPa_15_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_i1"/>
+  <of_feature rdf:resource="#hPa_15"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_i1_txt15_i7_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_i1"/>
+  <of_feature rdf:resource="#txt15_i7"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_i1_txt15_i8_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_i1"/>
+  <of_feature rdf:resource="#txt15_i8"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_i3_txt15_i3_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_i3"/>
+  <of_feature rdf:resource="#txt15_i3"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_i3_txt17_i2_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_i3"/>
+  <of_feature rdf:resource="#txt17_i2"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_i3_txt15_i7_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_i3"/>
+  <of_feature rdf:resource="#txt15_i7"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_i3_txt15_i8_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_i3"/>
+  <of_feature rdf:resource="#txt15_i8"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_conveyor_a_15_1_x_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_conveyor"/>
+  <of_feature rdf:resource="#a_15_1_x"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_conveyor_a_15_1_y_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_conveyor"/>
+  <of_feature rdf:resource="#a_15_1_y"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_conveyor_a_15_1_z_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_conveyor"/>
+  <of_feature rdf:resource="#a_15_1_z"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_conveyor_hPa_15_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_conveyor"/>
+  <of_feature rdf:resource="#hPa_15"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_conveyor_txt15_m1.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_conveyor"/>
+  <of_feature rdf:resource="#txt15_m1.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_conveyor_txt15_o8_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_conveyor"/>
+  <of_feature rdf:resource="#txt15_o8"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_conveyor_a_16_3_x_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_conveyor"/>
+  <of_feature rdf:resource="#a_16_3_x"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_conveyor_a_16_3_y_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_conveyor"/>
+  <of_feature rdf:resource="#a_16_3_y"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_conveyor_a_16_3_z_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_conveyor"/>
+  <of_feature rdf:resource="#a_16_3_z"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_conveyor_txt15_i7_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_conveyor"/>
+  <of_feature rdf:resource="#txt15_i7"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_conveyor_txt16_m1.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_conveyor"/>
+  <of_feature rdf:resource="#txt16_m1.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_conveyor_txt19_m3.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_conveyor"/>
+  <of_feature rdf:resource="#txt19_m3.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_conveyor_txt15_i8_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_conveyor"/>
+  <of_feature rdf:resource="#txt15_i8"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">l</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_m1_a_15_1_x_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_m1"/>
+  <of_feature rdf:resource="#a_15_1_x"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_m1_a_15_1_y_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_m1"/>
+  <of_feature rdf:resource="#a_15_1_y"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_m1_a_15_1_z_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_m1"/>
+  <of_feature rdf:resource="#a_15_1_z"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_m1_txt15_m1.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_m1"/>
+  <of_feature rdf:resource="#txt15_m1.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_m1_txt15_o8_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_m1"/>
+  <of_feature rdf:resource="#txt15_o8"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_m1_a_16_3_x_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_m1"/>
+  <of_feature rdf:resource="#a_16_3_x"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_m1_a_16_3_y_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_m1"/>
+  <of_feature rdf:resource="#a_16_3_y"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_m1_a_16_3_z_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_m1"/>
+  <of_feature rdf:resource="#a_16_3_z"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_m1_hPa_15_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_m1"/>
+  <of_feature rdf:resource="#hPa_15"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_m1_txt16_m3.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_m1"/>
+  <of_feature rdf:resource="#txt16_m3.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_m1_txt19_i4_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_m1"/>
+  <of_feature rdf:resource="#txt19_i4"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">l</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_m1_txt19_m3.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_m1"/>
+  <of_feature rdf:resource="#txt19_m3.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">l</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_pl_a_15_1_x_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_pl"/>
+  <of_feature rdf:resource="#a_15_1_x"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_pl_a_15_1_y_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_pl"/>
+  <of_feature rdf:resource="#a_15_1_y"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_pl_a_15_1_z_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_pl"/>
+  <of_feature rdf:resource="#a_15_1_z"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_pl_txt15_m1.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_pl"/>
+  <of_feature rdf:resource="#txt15_m1.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_pl_txt15_o8_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_pl"/>
+  <of_feature rdf:resource="#txt15_o8"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_pl_txt16_m3.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_pl"/>
+  <of_feature rdf:resource="#txt16_m3.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_pl_hPa_15_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_pl"/>
+  <of_feature rdf:resource="#hPa_15"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">l</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_pl_txt15_i7_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_pl"/>
+  <of_feature rdf:resource="#txt15_i7"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">l</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt15_pl_txt15_i8_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt15_pl"/>
+  <of_feature rdf:resource="#txt15_i8"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">l</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_i3_txt16_i3_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_i3"/>
+  <of_feature rdf:resource="#txt16_i3"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_i3_txt17_i2_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_i3"/>
+  <of_feature rdf:resource="#txt17_i2"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_i3_txt19_i6_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_i3"/>
+  <of_feature rdf:resource="#txt19_i6"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_i3_txt19_m3.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_i3"/>
+  <of_feature rdf:resource="#txt19_m3.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_i3_txt19_m2.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_i3"/>
+  <of_feature rdf:resource="#txt19_m2.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_i3_txt15_i6_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_i3"/>
+  <of_feature rdf:resource="#txt15_i6"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">l</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_i3_txt15_i7_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_i3"/>
+  <of_feature rdf:resource="#txt15_i7"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">l</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_i3_txt15_i8_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_i3"/>
+  <of_feature rdf:resource="#txt15_i8"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">l</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_conveyor_a_16_3_x_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_conveyor"/>
+  <of_feature rdf:resource="#a_16_3_x"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_conveyor_a_16_3_y_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_conveyor"/>
+  <of_feature rdf:resource="#a_16_3_y"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_conveyor_a_16_3_z_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_conveyor"/>
+  <of_feature rdf:resource="#a_16_3_z"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_conveyor_txt16_m3.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_conveyor"/>
+  <of_feature rdf:resource="#txt16_m3.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_conveyor_txt15_i8_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_conveyor"/>
+  <of_feature rdf:resource="#txt15_i8"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">l</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_m3_a_15_1_x_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_m3"/>
+  <of_feature rdf:resource="#a_15_1_x"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_m3_a_15_1_y_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_m3"/>
+  <of_feature rdf:resource="#a_15_1_y"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_m3_a_15_1_z_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_m3"/>
+  <of_feature rdf:resource="#a_15_1_z"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_m3_a_16_3_x_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_m3"/>
+  <of_feature rdf:resource="#a_16_3_x"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_m3_a_16_3_y_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_m3"/>
+  <of_feature rdf:resource="#a_16_3_y"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_m3_a_16_3_z_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_m3"/>
+  <of_feature rdf:resource="#a_16_3_z"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_m3_hPa_15_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_m3"/>
+  <of_feature rdf:resource="#hPa_15"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_m3_txt15_m1.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_m3"/>
+  <of_feature rdf:resource="#txt15_m1.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_m3_txt15_o8_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_m3"/>
+  <of_feature rdf:resource="#txt15_o8"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_m3_txt16_m3.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_m3"/>
+  <of_feature rdf:resource="#txt16_m3.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_m3_txt16_i1_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_m3"/>
+  <of_feature rdf:resource="#txt16_i1"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_m3_txt16_m1.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_m3"/>
+  <of_feature rdf:resource="#txt16_m1.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_m3_txt19_i6_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_m3"/>
+  <of_feature rdf:resource="#txt19_i6"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_m3_txt19_m3.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_m3"/>
+  <of_feature rdf:resource="#txt19_m3.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_turntable_txt16_m1.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_turntable"/>
+  <of_feature rdf:resource="#txt16_m1.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_turntable_txt16_i1_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_turntable"/>
+  <of_feature rdf:resource="#txt16_i1"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_turntable_txt19_i6_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_turntable"/>
+  <of_feature rdf:resource="#txt19_i6"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt16_turntable_txt19_m3.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt16_turntable"/>
+  <of_feature rdf:resource="#txt19_m3.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt17_i1_txt15_i6_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt17_i1"/>
+  <of_feature rdf:resource="#txt15_i6"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt17_i1_txt17_i1_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt17_i1"/>
+  <of_feature rdf:resource="#txt17_i1"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt17_i1_txt17_i2_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt17_i1"/>
+  <of_feature rdf:resource="#txt17_i2"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt17_i1_txt15_i8_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt17_i1"/>
+  <of_feature rdf:resource="#txt15_i8"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt17_i1_txt18_m2.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt17_i1"/>
+  <of_feature rdf:resource="#txt18_m2.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt17_i1_hPa_18_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt17_i1"/>
+  <of_feature rdf:resource="#hPa_18"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">l</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt17_i1_txt18_m3.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt17_i1"/>
+  <of_feature rdf:resource="#txt18_m3.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">l</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt17_i1_txt19_i4_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt17_i1"/>
+  <of_feature rdf:resource="#txt19_i4"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">l</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt17_i1_txt19_i6_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt17_i1"/>
+  <of_feature rdf:resource="#txt19_i6"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">l</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt17_pl_txt16_o8_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt17_pl"/>
+  <of_feature rdf:resource="#txt16_o8"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt17_pl_txt17_m2.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt17_pl"/>
+  <of_feature rdf:resource="#txt17_m2.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt17_pl_txt17_o5_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt17_pl"/>
+  <of_feature rdf:resource="#txt17_o5"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt17_pl_txt19_i6_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt17_pl"/>
+  <of_feature rdf:resource="#txt19_i6"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt17_pl_txt15_i6_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt17_pl"/>
+  <of_feature rdf:resource="#txt15_i6"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt17_pl_txt15_i7_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt17_pl"/>
+  <of_feature rdf:resource="#txt15_i7"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt17_pl_txt19_m3.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt17_pl"/>
+  <of_feature rdf:resource="#txt19_m3.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt18_pl_txt18_m1.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt18_pl"/>
+  <of_feature rdf:resource="#txt18_m1.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt18_pl_txt18_m2.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt18_pl"/>
+  <of_feature rdf:resource="#txt18_m2.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt18_pl_txt18_m3.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt18_pl"/>
+  <of_feature rdf:resource="#txt18_m3.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt18_pl_txt18_o7_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt18_pl"/>
+  <of_feature rdf:resource="#txt18_o7"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt18_pl_txt18_o8_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt18_pl"/>
+  <of_feature rdf:resource="#txt18_o8"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt18_pl_hPa_18_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt18_pl"/>
+  <of_feature rdf:resource="#hPa_18"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt18_pl_txt15_i6_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt18_pl"/>
+  <of_feature rdf:resource="#txt15_i6"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt18_pl_txt15_i7_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt18_pl"/>
+  <of_feature rdf:resource="#txt15_i7"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt18_pl_txt15_i8_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt18_pl"/>
+  <of_feature rdf:resource="#txt15_i8"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt18_pl_txt18_i2_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt18_pl"/>
+  <of_feature rdf:resource="#txt18_i2"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt18_pl_txt18_vsg_y_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt18_pl"/>
+  <of_feature rdf:resource="#txt18_vsg_y"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt18_pl_txt18_vsg_z_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt18_pl"/>
+  <of_feature rdf:resource="#txt18_vsg_z"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt18_pl_txt18_i3_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt18_pl"/>
+  <of_feature rdf:resource="#txt18_i3"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">l</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt18_pl_txt19_i6_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt18_pl"/>
+  <of_feature rdf:resource="#txt19_i6"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">l</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt19_i4_txt17_i2_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt19_i4"/>
+  <of_feature rdf:resource="#txt17_i2"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt19_i4_txt19_i4_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt19_i4"/>
+  <of_feature rdf:resource="#txt19_i4"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt19_i4_txt19_i6_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt19_i4"/>
+  <of_feature rdf:resource="#txt19_i6"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt19_i4_txt19_m3.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt19_i4"/>
+  <of_feature rdf:resource="#txt19_m3.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt19_i4_txt19_m2.finished_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt19_i4"/>
+  <of_feature rdf:resource="#txt19_m2.finished"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt19_i4_txt15_i6_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt19_i4"/>
+  <of_feature rdf:resource="#txt15_i6"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">l</has_score>
+</RelevanceScore>
+
+<RelevanceScore rdf:about="#txt19_i4_txt15_i8_score">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <of_component rdf:resource="#txt19_i4"/>
+  <of_feature rdf:resource="#txt15_i8"/>
+  <has_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">l</has_score>
+</RelevanceScore>
+
+
+</rdf:RDF>

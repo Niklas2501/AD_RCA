@@ -1,0 +1,83 @@
+..
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 2166
+obj = 1584118.738255, rho = 1395.427351
+nSV = 2323, nBSV = 2303
+...
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 3858
+obj = 6543903.821468, rho = 2909.930198
+nSV = 4634, nBSV = 4615
+....
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 4752
+obj = 15109934.431317, rho = 4516.065425
+nSV = 6941, nBSV = 6934
+.....
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 5614
+obj = 27510423.798372, rho = 6223.028734
+nSV = 9253, nBSV = 9246
+......
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 6059
+obj = 43972089.705856, rho = 8026.238815
+nSV = 11566, nBSV = 11558
+.....
+Warning: using -h 0 may be faster
+*.*
+optimization finished, #iter = 6000
+obj = 64709357.240250, rho = 9932.195695
+nSV = 13878, nBSV = 13873
+.....
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 5074
+obj = 89958322.119479, rho = 11915.611963
+nSV = 16188, nBSV = 16187
+....
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 4368
+obj = 120058844.440887, rho = 14185.453456
+nSV = 18500, nBSV = 18499
+
+Dataset loaded:
+Shape of training set (example, time, channels): (23125, 500, 61)
+Shape of test set (example, time, channels): (3989, 500, 61)
+Shape of validation set (example, time, channels): (1710, 500, 61)
+Num of classes in all: 25
+
+Using the Rocket representation of the data as input
+
+(23125, 10000) (1710, 10000)
+Evaluating OneClassSVM on the validation dataset with 8 parameter configurations.
+
+Evaluating OneClassSVM with configuration 1/8
+[LibSVM]Evaluating OneClassSVM with configuration 2/8
+[LibSVM]Evaluating OneClassSVM with configuration 3/8
+[LibSVM]Evaluating OneClassSVM with configuration 4/8
+[LibSVM]Evaluating OneClassSVM with configuration 5/8
+[LibSVM]Evaluating OneClassSVM with configuration 6/8
+[LibSVM]Evaluating OneClassSVM with configuration 7/8
+[LibSVM]Evaluating OneClassSVM with configuration 8/8
+[LibSVM]
+Grid search results:
+        ACC       FNR       TNR       FPR        TPR       Prec         F1         F2                                                                                                                                                      Parameters
+0  0.233918  0.224615  0.106859  0.893141   0.775385   0.169241   0.277839   0.451775                  {'cache_size': 8000, 'coef0': 0.0, 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'nu': 0.1, 'shrinking': True, 'tol': 0.001}
+1  0.276023  0.421538  0.205054  0.794946   0.578462   0.145849   0.232962   0.363075                  {'cache_size': 8000, 'coef0': 0.0, 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'nu': 0.2, 'shrinking': True, 'tol': 0.001}
+2  0.334503  0.603077  0.319856  0.680144   0.396923   0.120448   0.184814   0.272037  {'cache_size': 8000, 'coef0': 0.0, 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'nu': 0.30000000000000004, 'shrinking': True, 'tol': 0.001}
+3  0.391813  0.750769  0.425271  0.574729   0.249231  0.0923603   0.134775   0.186036                  {'cache_size': 8000, 'coef0': 0.0, 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'nu': 0.4, 'shrinking': True, 'tol': 0.001}
+4  0.447368  0.867692    0.5213    0.4787   0.132308  0.0609065  0.0834142   0.107178                  {'cache_size': 8000, 'coef0': 0.0, 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'nu': 0.5, 'shrinking': True, 'tol': 0.001}
+5  0.507018  0.929231  0.609386  0.390614  0.0707692  0.0407801  0.0517435  0.0616953                  {'cache_size': 8000, 'coef0': 0.0, 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'nu': 0.6, 'shrinking': True, 'tol': 0.001}
+6  0.577193  0.947692  0.700361  0.299639  0.0523077  0.0393519  0.0449141  0.0490762   {'cache_size': 8000, 'coef0': 0.0, 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'nu': 0.7000000000000001, 'shrinking': True, 'tol': 0.001}
+7  0.663743         1  0.819495  0.180505          0          0        NaN        NaN                  {'cache_size': 8000, 'coef0': 0.0, 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'nu': 0.8, 'shrinking': True, 'tol': 0.001}
+
+
+Best result in detail:
+0

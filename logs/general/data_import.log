@@ -1,0 +1,574 @@
+-------------------------------
+Importing dataset 0
+-------------------------------
+Importing TXT controller data
+
+Importing pressure sensors
+
+Import acceleration sensors
+Importing ../data/datasets/txt15_m1_t1_p1/raw_data/TXT15_m1_acc.txt
+Importing ../data/datasets/txt15_m1_t1_p1/raw_data/TXT15_o8Compressor_acc.txt
+Importing ../data/datasets/txt15_m1_t1_p1/raw_data/TXT16_m3_acc.txt
+Importing ../data/datasets/txt15_m1_t1_p1/raw_data/TXT18_m1_acc.txt
+
+Import bmx sensors
+Importing ../data/datasets/txt15_m1_t1_p1/raw_data/bmx055-HRS-gyr.txt
+Importing ../data/datasets/txt15_m1_t1_p1/raw_data/bmx055-HRS-mag.txt
+Importing ../data/datasets/txt15_m1_t1_p1/raw_data/bmx055-VSG-acc.txt
+Importing ../data/datasets/txt15_m1_t1_p1/raw_data/bmx055-VSG-gyr.txt
+Importing ../data/datasets/txt15_m1_t1_p1/raw_data/bmx055-VSG-mag.txt
+
+Combine all dataframes...
+Step 1/4
+Step 2/4
+Step 3/4
+Step 4/4
+
+Garbage collection executed
+
+Delete unnecessary streams
+Number of streams before: (12838433, 126)
+Number of streams after: (12838433, 61)
+
+Sort streams by name to ensure same order like live data
+Final shape: (12838433, 61)
+
+Saving datafrane as pickle file in ../data/datasets/txt15_m1_t1_p1/
+Saving finished
+
+Importing of datset 0 finished
+-------------------------------
+
+-------------------------------
+Importing dataset 1
+-------------------------------
+Importing TXT controller data
+
+Importing pressure sensors
+
+Import acceleration sensors
+Importing ../data/datasets/txt15_m1_t1_p2/raw_data/TXT15_m1_acc.txt
+Importing ../data/datasets/txt15_m1_t1_p2/raw_data/TXT15_o8Compressor_acc.txt
+Importing ../data/datasets/txt15_m1_t1_p2/raw_data/TXT16_m3_acc.txt
+Importing ../data/datasets/txt15_m1_t1_p2/raw_data/TXT18_m1_acc.txt
+
+Import bmx sensors
+Importing ../data/datasets/txt15_m1_t1_p2/raw_data/bmx055-HRS-gyr.txt
+Importing ../data/datasets/txt15_m1_t1_p2/raw_data/bmx055-HRS-mag.txt
+Importing ../data/datasets/txt15_m1_t1_p2/raw_data/bmx055-VSG-acc.txt
+Importing ../data/datasets/txt15_m1_t1_p2/raw_data/bmx055-VSG-gyr.txt
+Importing ../data/datasets/txt15_m1_t1_p2/raw_data/bmx055-VSG-mag.txt
+
+Combine all dataframes...
+Step 1/4
+Step 2/4
+Step 3/4
+Step 4/4
+
+Garbage collection executed
+
+Delete unnecessary streams
+Number of streams before: (21877488, 133)
+Number of streams after: (21877488, 61)
+
+Sort streams by name to ensure same order like live data
+Final shape: (21877488, 61)
+
+Saving datafrane as pickle file in ../data/datasets/txt15_m1_t1_p2/
+Saving finished
+
+Importing of datset 1 finished
+-------------------------------
+
+-------------------------------
+Importing dataset 2
+-------------------------------
+Importing TXT controller data
+
+Importing pressure sensors
+
+Import acceleration sensors
+Importing ../data/datasets/txt15_m1_t2_p1/raw_data/TXT15_m1_acc.txt
+Importing ../data/datasets/txt15_m1_t2_p1/raw_data/TXT15_o8Compressor_acc.txt
+Importing ../data/datasets/txt15_m1_t2_p1/raw_data/TXT16_m3_acc.txt
+Importing ../data/datasets/txt15_m1_t2_p1/raw_data/TXT18_m1_acc.txt
+
+Import bmx sensors
+Importing ../data/datasets/txt15_m1_t2_p1/raw_data/bmx055-HRS-gyr.txt
+Importing ../data/datasets/txt15_m1_t2_p1/raw_data/bmx055-HRS-mag.txt
+Importing ../data/datasets/txt15_m1_t2_p1/raw_data/bmx055-VSG-acc.txt
+Importing ../data/datasets/txt15_m1_t2_p1/raw_data/bmx055-VSG-gyr.txt
+Importing ../data/datasets/txt15_m1_t2_p1/raw_data/bmx055-VSG-mag.txt
+
+Combine all dataframes...
+Step 1/4
+Step 2/4
+Step 3/4
+Step 4/4
+
+Garbage collection executed
+
+Delete unnecessary streams
+Number of streams before: (10305165, 131)
+Number of streams after: (10305165, 61)
+
+Sort streams by name to ensure same order like live data
+Final shape: (10305165, 61)
+
+Saving datafrane as pickle file in ../data/datasets/txt15_m1_t2_p1/
+Saving finished
+
+Importing of datset 2 finished
+-------------------------------
+
+-------------------------------
+Importing dataset 3
+-------------------------------
+Importing TXT controller data
+
+Importing pressure sensors
+
+Import acceleration sensors
+Importing ../data/datasets/txt15_m1_t2_p2/raw_data/TXT15_m1_acc.txt
+Importing ../data/datasets/txt15_m1_t2_p2/raw_data/TXT15_o8Compressor_acc.txt
+Importing ../data/datasets/txt15_m1_t2_p2/raw_data/TXT16_m3_acc.txt
+Importing ../data/datasets/txt15_m1_t2_p2/raw_data/TXT18_m1_acc.txt
+
+Import bmx sensors
+Importing ../data/datasets/txt15_m1_t2_p2/raw_data/bmx055-HRS-gyr.txt
+Importing ../data/datasets/txt15_m1_t2_p2/raw_data/bmx055-HRS-mag.txt
+Importing ../data/datasets/txt15_m1_t2_p2/raw_data/bmx055-VSG-acc.txt
+Importing ../data/datasets/txt15_m1_t2_p2/raw_data/bmx055-VSG-gyr.txt
+Importing ../data/datasets/txt15_m1_t2_p2/raw_data/bmx055-VSG-mag.txt
+
+Combine all dataframes...
+Step 1/4
+Step 2/4
+Step 3/4
+Step 4/4
+
+Garbage collection executed
+
+Delete unnecessary streams
+Number of streams before: (18667403, 133)
+Number of streams after: (18667403, 61)
+
+Sort streams by name to ensure same order like live data
+Final shape: (18667403, 61)
+
+Saving datafrane as pickle file in ../data/datasets/txt15_m1_t2_p2/
+Saving finished
+
+Importing of datset 3 finished
+-------------------------------
+
+-------------------------------
+Importing dataset 4
+-------------------------------
+Importing TXT controller data
+
+Importing pressure sensors
+
+Import acceleration sensors
+Importing ../data/datasets/txt16_m3_t1_p1/raw_data/TXT15_m1_acc.txt
+Importing ../data/datasets/txt16_m3_t1_p1/raw_data/TXT15_o8Compressor_acc.txt
+Importing ../data/datasets/txt16_m3_t1_p1/raw_data/TXT16_m3_acc.txt
+Importing ../data/datasets/txt16_m3_t1_p1/raw_data/TXT18_m1_acc.txt
+
+Import bmx sensors
+Importing ../data/datasets/txt16_m3_t1_p1/raw_data/bmx055-HRS-gyr.txt
+Importing ../data/datasets/txt16_m3_t1_p1/raw_data/bmx055-HRS-mag.txt
+Importing ../data/datasets/txt16_m3_t1_p1/raw_data/bmx055-VSG-acc.txt
+Importing ../data/datasets/txt16_m3_t1_p1/raw_data/bmx055-VSG-gyr.txt
+Importing ../data/datasets/txt16_m3_t1_p1/raw_data/bmx055-VSG-mag.txt
+
+Combine all dataframes...
+Step 1/4
+Step 2/4
+Step 3/4
+Step 4/4
+
+Garbage collection executed
+
+Delete unnecessary streams
+Number of streams before: (6320160, 126)
+Number of streams after: (6320160, 61)
+
+Sort streams by name to ensure same order like live data
+Final shape: (6320160, 61)
+
+Saving datafrane as pickle file in ../data/datasets/txt16_m3_t1_p1/
+Saving finished
+
+Importing of datset 4 finished
+-------------------------------
+
+-------------------------------
+Importing dataset 5
+-------------------------------
+Importing TXT controller data
+
+Importing pressure sensors
+
+Import acceleration sensors
+Importing ../data/datasets/txt16_m3_t1_p6/raw_data/TXT15_m1_acc.txt
+Importing ../data/datasets/txt16_m3_t1_p6/raw_data/TXT15_o8Compressor_acc.txt
+Importing ../data/datasets/txt16_m3_t1_p6/raw_data/TXT16_m3_acc.txt
+Importing ../data/datasets/txt16_m3_t1_p6/raw_data/TXT18_m1_acc.txt
+
+Import bmx sensors
+Importing ../data/datasets/txt16_m3_t1_p6/raw_data/bmx055-HRS-gyr.txt
+Importing ../data/datasets/txt16_m3_t1_p6/raw_data/bmx055-HRS-mag.txt
+Importing ../data/datasets/txt16_m3_t1_p6/raw_data/bmx055-VSG-acc.txt
+Importing ../data/datasets/txt16_m3_t1_p6/raw_data/bmx055-VSG-gyr.txt
+Importing ../data/datasets/txt16_m3_t1_p6/raw_data/bmx055-VSG-mag.txt
+
+Combine all dataframes...
+Step 1/4
+Step 2/4
+Step 3/4
+Step 4/4
+
+Garbage collection executed
+
+Delete unnecessary streams
+Number of streams before: (5026023, 133)
+Number of streams after: (5026023, 61)
+
+Sort streams by name to ensure same order like live data
+Final shape: (5026023, 61)
+
+Saving datafrane as pickle file in ../data/datasets/txt16_m3_t1_p6/
+Saving finished
+
+Importing of datset 5 finished
+-------------------------------
+
+-------------------------------
+Importing dataset 6
+-------------------------------
+Importing TXT controller data
+
+Importing pressure sensors
+
+Import acceleration sensors
+Importing ../data/datasets/txt16_m3_t2_p1/raw_data/TXT15_m1_acc.txt
+Importing ../data/datasets/txt16_m3_t2_p1/raw_data/TXT15_o8Compressor_acc.txt
+Importing ../data/datasets/txt16_m3_t2_p1/raw_data/TXT16_m3_acc.txt
+Importing ../data/datasets/txt16_m3_t2_p1/raw_data/TXT18_m1_acc.txt
+
+Import bmx sensors
+Importing ../data/datasets/txt16_m3_t2_p1/raw_data/bmx055-HRS-gyr.txt
+Importing ../data/datasets/txt16_m3_t2_p1/raw_data/bmx055-HRS-mag.txt
+Importing ../data/datasets/txt16_m3_t2_p1/raw_data/bmx055-VSG-acc.txt
+Importing ../data/datasets/txt16_m3_t2_p1/raw_data/bmx055-VSG-gyr.txt
+Importing ../data/datasets/txt16_m3_t2_p1/raw_data/bmx055-VSG-mag.txt
+
+Combine all dataframes...
+Step 1/4
+Step 2/4
+Step 3/4
+Step 4/4
+
+Garbage collection executed
+
+Delete unnecessary streams
+Number of streams before: (16395708, 131)
+Number of streams after: (16395708, 61)
+
+Sort streams by name to ensure same order like live data
+Final shape: (16395708, 61)
+
+Saving datafrane as pickle file in ../data/datasets/txt16_m3_t2_p1/
+Saving finished
+
+Importing of datset 6 finished
+-------------------------------
+
+-------------------------------
+Importing dataset 7
+-------------------------------
+Importing TXT controller data
+
+Importing pressure sensors
+
+Import acceleration sensors
+Importing ../data/datasets/txt16_m3_t2_p2/raw_data/TXT15_m1_acc.txt
+Importing ../data/datasets/txt16_m3_t2_p2/raw_data/TXT15_o8Compressor_acc.txt
+Importing ../data/datasets/txt16_m3_t2_p2/raw_data/TXT16_m3_acc.txt
+Importing ../data/datasets/txt16_m3_t2_p2/raw_data/TXT18_m1_acc.txt
+
+Import bmx sensors
+Importing ../data/datasets/txt16_m3_t2_p2/raw_data/bmx055-HRS-gyr.txt
+Importing ../data/datasets/txt16_m3_t2_p2/raw_data/bmx055-HRS-mag.txt
+Importing ../data/datasets/txt16_m3_t2_p2/raw_data/bmx055-VSG-acc.txt
+Importing ../data/datasets/txt16_m3_t2_p2/raw_data/bmx055-VSG-gyr.txt
+Importing ../data/datasets/txt16_m3_t2_p2/raw_data/bmx055-VSG-mag.txt
+
+Combine all dataframes...
+Step 1/4
+Step 2/4
+Step 3/4
+Step 4/4
+
+Garbage collection executed
+
+Delete unnecessary streams
+Number of streams before: (16139606, 133)
+Number of streams after: (16139606, 61)
+
+Sort streams by name to ensure same order like live data
+Final shape: (16139606, 61)
+
+Saving datafrane as pickle file in ../data/datasets/txt16_m3_t2_p2/
+Saving finished
+
+Importing of datset 7 finished
+-------------------------------
+
+-------------------------------
+Importing dataset 8
+-------------------------------
+Importing TXT controller data
+
+Importing pressure sensors
+
+Import acceleration sensors
+Importing ../data/datasets/no_failure_and_leakage/raw_data/TXT15_m1_acc.txt
+Importing ../data/datasets/no_failure_and_leakage/raw_data/TXT15_o8Compressor_acc.txt
+Importing ../data/datasets/no_failure_and_leakage/raw_data/TXT16_m3_acc.txt
+Importing ../data/datasets/no_failure_and_leakage/raw_data/TXT18_m1_acc.txt
+
+Import bmx sensors
+Importing ../data/datasets/no_failure_and_leakage/raw_data/bmx055-HRS-gyr.txt
+Importing ../data/datasets/no_failure_and_leakage/raw_data/bmx055-HRS-mag.txt
+Importing ../data/datasets/no_failure_and_leakage/raw_data/bmx055-VSG-acc.txt
+Importing ../data/datasets/no_failure_and_leakage/raw_data/bmx055-VSG-gyr.txt
+Importing ../data/datasets/no_failure_and_leakage/raw_data/bmx055-VSG-mag.txt
+
+Combine all dataframes...
+Step 1/4
+Step 2/4
+Step 3/4
+Step 4/4
+
+Garbage collection executed
+
+Delete unnecessary streams
+Number of streams before: (28795171, 127)
+Number of streams after: (28795171, 61)
+
+Sort streams by name to ensure same order like live data
+Final shape: (28795171, 61)
+
+Saving datafrane as pickle file in ../data/datasets/no_failure_and_leakage/
+Saving finished
+
+Importing of datset 8 finished
+-------------------------------
+
+-------------------------------
+Importing dataset 9
+-------------------------------
+Importing TXT controller data
+
+Importing pressure sensors
+
+Import acceleration sensors
+Importing ../data/datasets/light_barrier_txt16_i4/raw_data/TXT15_m1_acc.txt
+Importing ../data/datasets/light_barrier_txt16_i4/raw_data/TXT15_o8Compressor_acc.txt
+Importing ../data/datasets/light_barrier_txt16_i4/raw_data/TXT16_m3_acc.txt
+Importing ../data/datasets/light_barrier_txt16_i4/raw_data/TXT18_m1_acc.txt
+
+Import bmx sensors
+Importing ../data/datasets/light_barrier_txt16_i4/raw_data/bmx055-HRS-gyr.txt
+Importing ../data/datasets/light_barrier_txt16_i4/raw_data/bmx055-HRS-mag.txt
+Importing ../data/datasets/light_barrier_txt16_i4/raw_data/bmx055-VSG-acc.txt
+Importing ../data/datasets/light_barrier_txt16_i4/raw_data/bmx055-VSG-gyr.txt
+Importing ../data/datasets/light_barrier_txt16_i4/raw_data/bmx055-VSG-mag.txt
+
+Combine all dataframes...
+Step 1/4
+Step 2/4
+Step 3/4
+Step 4/4
+
+Garbage collection executed
+
+Delete unnecessary streams
+Number of streams before: (12314448, 127)
+Number of streams after: (12314448, 61)
+
+Sort streams by name to ensure same order like live data
+Final shape: (12314448, 61)
+
+Saving datafrane as pickle file in ../data/datasets/light_barrier_txt16_i4/
+Saving finished
+
+Importing of datset 9 finished
+-------------------------------
+
+-------------------------------
+Importing dataset 10
+-------------------------------
+Importing TXT controller data
+
+Importing pressure sensors
+
+Import acceleration sensors
+Importing ../data/datasets/leakage_p1/raw_data/TXT15_m1_acc.txt
+Importing ../data/datasets/leakage_p1/raw_data/TXT15_o8Compressor_acc.txt
+Importing ../data/datasets/leakage_p1/raw_data/TXT16_m3_acc.txt
+Importing ../data/datasets/leakage_p1/raw_data/TXT18_m1_acc.txt
+
+Import bmx sensors
+Importing ../data/datasets/leakage_p1/raw_data/bmx055-HRS-gyr.txt
+Importing ../data/datasets/leakage_p1/raw_data/bmx055-HRS-mag.txt
+Importing ../data/datasets/leakage_p1/raw_data/bmx055-VSG-acc.txt
+Importing ../data/datasets/leakage_p1/raw_data/bmx055-VSG-gyr.txt
+Importing ../data/datasets/leakage_p1/raw_data/bmx055-VSG-mag.txt
+
+Combine all dataframes...
+Step 1/4
+Step 2/4
+Step 3/4
+Step 4/4
+
+Garbage collection executed
+
+Delete unnecessary streams
+Number of streams before: (11600746, 133)
+Number of streams after: (11600746, 61)
+
+Sort streams by name to ensure same order like live data
+Final shape: (11600746, 61)
+
+Saving datafrane as pickle file in ../data/datasets/leakage_p1/
+Saving finished
+
+Importing of datset 10 finished
+-------------------------------
+
+-------------------------------
+Importing dataset 11
+-------------------------------
+Importing TXT controller data
+
+Importing pressure sensors
+
+Import acceleration sensors
+Importing ../data/datasets/position_switch_mix/raw_data/TXT15_m1_acc.txt
+Importing ../data/datasets/position_switch_mix/raw_data/TXT15_o8Compressor_acc.txt
+Importing ../data/datasets/position_switch_mix/raw_data/TXT16_m3_acc.txt
+Importing ../data/datasets/position_switch_mix/raw_data/TXT18_m1_acc.txt
+
+Import bmx sensors
+Importing ../data/datasets/position_switch_mix/raw_data/bmx055-HRS-gyr.txt
+Importing ../data/datasets/position_switch_mix/raw_data/bmx055-HRS-mag.txt
+Importing ../data/datasets/position_switch_mix/raw_data/bmx055-VSG-acc.txt
+Importing ../data/datasets/position_switch_mix/raw_data/bmx055-VSG-gyr.txt
+Importing ../data/datasets/position_switch_mix/raw_data/bmx055-VSG-mag.txt
+
+Combine all dataframes...
+Step 1/4
+Step 2/4
+Step 3/4
+Step 4/4
+
+Garbage collection executed
+
+Delete unnecessary streams
+Number of streams before: (17796390, 127)
+Number of streams after: (17796390, 61)
+
+Sort streams by name to ensure same order like live data
+Final shape: (17796390, 61)
+
+Saving datafrane as pickle file in ../data/datasets/position_switch_mix/
+Saving finished
+
+Importing of datset 11 finished
+-------------------------------
+
+-------------------------------
+Importing dataset 12
+-------------------------------
+Importing TXT controller data
+
+Importing pressure sensors
+
+Import acceleration sensors
+Importing ../data/datasets/light_barrier_mix/raw_data/TXT15_m1_acc.txt
+Importing ../data/datasets/light_barrier_mix/raw_data/TXT15_o8Compressor_acc.txt
+Importing ../data/datasets/light_barrier_mix/raw_data/TXT16_m3_acc.txt
+Importing ../data/datasets/light_barrier_mix/raw_data/TXT18_m1_acc.txt
+
+Import bmx sensors
+Importing ../data/datasets/light_barrier_mix/raw_data/bmx055-HRS-gyr.txt
+Importing ../data/datasets/light_barrier_mix/raw_data/bmx055-HRS-mag.txt
+Importing ../data/datasets/light_barrier_mix/raw_data/bmx055-VSG-acc.txt
+Importing ../data/datasets/light_barrier_mix/raw_data/bmx055-VSG-gyr.txt
+Importing ../data/datasets/light_barrier_mix/raw_data/bmx055-VSG-mag.txt
+
+Combine all dataframes...
+Step 1/4
+Step 2/4
+Step 3/4
+Step 4/4
+
+Garbage collection executed
+
+Delete unnecessary streams
+Number of streams before: (15771669, 127)
+Number of streams after: (15771669, 61)
+
+Sort streams by name to ensure same order like live data
+Final shape: (15771669, 61)
+
+Saving datafrane as pickle file in ../data/datasets/light_barrier_mix/
+Saving finished
+
+Importing of datset 12 finished
+-------------------------------
+
+-------------------------------
+Importing dataset 13
+-------------------------------
+Importing TXT controller data
+
+Importing pressure sensors
+
+Import acceleration sensors
+Importing ../data/datasets/failure_mix/raw_data/TXT15_m1_acc.txt
+Importing ../data/datasets/failure_mix/raw_data/TXT15_o8Compressor_acc.txt
+Importing ../data/datasets/failure_mix/raw_data/TXT16_m3_acc.txt
+Importing ../data/datasets/failure_mix/raw_data/TXT18_m1_acc.txt
+
+Import bmx sensors
+Importing ../data/datasets/failure_mix/raw_data/bmx055-HRS-gyr.txt
+Importing ../data/datasets/failure_mix/raw_data/bmx055-HRS-mag.txt
+Importing ../data/datasets/failure_mix/raw_data/bmx055-VSG-acc.txt
+Importing ../data/datasets/failure_mix/raw_data/bmx055-VSG-gyr.txt
+Importing ../data/datasets/failure_mix/raw_data/bmx055-VSG-mag.txt
+
+Combine all dataframes...
+Step 1/4
+Step 2/4
+Step 3/4
+Step 4/4
+
+Garbage collection executed
+
+Delete unnecessary streams
+Number of streams before: (15594586, 127)
+Number of streams after: (15594586, 61)
+
+Sort streams by name to ensure same order like live data
+Final shape: (15594586, 61)
+
+Saving datafrane as pickle file in ../data/datasets/failure_mix/
+Saving finished
+
+Importing of datset 13 finished
+-------------------------------
+

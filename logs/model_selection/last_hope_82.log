@@ -1,0 +1,2294 @@
+
+Dataset loaded:
+Shape of training set (example, time, channels): (20812, 500, 61)
+Shape of test set (example, time, channels): (3989, 500, 61)
+Shape of train validation set (example, time, channels): (2313, 500, 61)
+Shape of test validation set (example, time, channels): (1710, 500, 61)
+Num of classes in all: 25
+
+Creating model based on ../configuration/hyperparameter_combinations/last_hope_82.json hyperparameter file 
+
+Adding feature wise convolutions with 32 filters per feature, 3 kernels and 1 strides ...
+Adding feature wise convolutions with 1 filters per feature, 3 kernels and 1 strides ...
+Adding feature based graph attention layer ...
+Adding time based graph attention layer ...
+Adding GRU layer with 256 units ...
+Adding GRU layer with 61 units ...
+Adding VAE as reconstruction model dimensions 3072 & 1024 and ...
+Adding dense layer to forecasting model with 512 units and ReLu activation ...
+Adding dense layer to forecasting model with 256 units and ReLu activation ...
+Adding last dense layer to forecasting model with 61 units and sigmoid activation ...
+VAE reconstructs the output of the gru layer.
+
+Epoch 0
+	Step 0: mean loss = 1.2888
+	Step 50: mean loss = 0.5262
+	Step 100: mean loss = 0.3607
+	Step 150: mean loss = 0.2804
+
+	Loss on validation set after epoch 0: 0.1080
+
+Epoch 1
+	Step 0: mean loss = 0.1059
+	Step 50: mean loss = 0.1030
+	Step 100: mean loss = 0.0995
+	Step 150: mean loss = 0.0966
+
+	Loss on validation set after epoch 1: 0.0871
+
+Epoch 2
+	Step 0: mean loss = 0.0858
+	Step 50: mean loss = 0.0854
+	Step 100: mean loss = 0.0841
+	Step 150: mean loss = 0.0829
+
+	Loss on validation set after epoch 2: 0.0791
+
+Epoch 3
+	Step 0: mean loss = 0.0799
+	Step 50: mean loss = 0.0775
+	Step 100: mean loss = 0.0764
+	Step 150: mean loss = 0.0755
+
+	Loss on validation set after epoch 3: 0.0719
+
+Epoch 4
+	Step 0: mean loss = 0.0720
+	Step 50: mean loss = 0.0711
+	Step 100: mean loss = 0.0705
+	Step 150: mean loss = 0.0696
+
+	Loss on validation set after epoch 4: 0.0655
+
+Epoch 5
+	Step 0: mean loss = 0.0670
+	Step 50: mean loss = 0.0643
+	Step 100: mean loss = 0.0635
+	Step 150: mean loss = 0.0628
+
+	Loss on validation set after epoch 5: 0.0611
+
+Epoch 6
+	Step 0: mean loss = 0.0640
+	Step 50: mean loss = 0.0598
+	Step 100: mean loss = 0.0596
+	Step 150: mean loss = 0.0593
+
+	Loss on validation set after epoch 6: 0.0574
+
+Epoch 7
+	Step 0: mean loss = 0.0572
+	Step 50: mean loss = 0.0577
+	Step 100: mean loss = 0.0577
+	Step 150: mean loss = 0.0575
+
+	Loss on validation set after epoch 7: 0.0557
+
+Epoch 8
+	Step 0: mean loss = 0.0534
+	Step 50: mean loss = 0.0560
+	Step 100: mean loss = 0.0562
+	Step 150: mean loss = 0.0558
+
+	Loss on validation set after epoch 8: 0.0544
+
+Epoch 9
+	Step 0: mean loss = 0.0524
+	Step 50: mean loss = 0.0533
+	Step 100: mean loss = 0.0530
+	Step 150: mean loss = 0.0521
+
+	Loss on validation set after epoch 9: 0.0483
+
+Epoch 10
+	Step 0: mean loss = 0.0465
+	Step 50: mean loss = 0.0473
+	Step 100: mean loss = 0.0469
+	Step 150: mean loss = 0.0466
+
+	Loss on validation set after epoch 10: 0.0444
+
+Epoch 11
+	Step 0: mean loss = 0.0465
+	Step 50: mean loss = 0.0442
+	Step 100: mean loss = 0.0437
+	Step 150: mean loss = 0.0432
+
+	Loss on validation set after epoch 11: 0.0411
+
+Epoch 12
+	Step 0: mean loss = 0.0382
+	Step 50: mean loss = 0.0409
+	Step 100: mean loss = 0.0408
+	Step 150: mean loss = 0.0407
+
+	Loss on validation set after epoch 12: 0.0389
+
+Epoch 13
+	Step 0: mean loss = 0.0365
+	Step 50: mean loss = 0.0393
+	Step 100: mean loss = 0.0391
+	Step 150: mean loss = 0.0389
+
+	Loss on validation set after epoch 13: 0.0376
+
+Epoch 14
+	Step 0: mean loss = 0.0389
+	Step 50: mean loss = 0.0431
+	Step 100: mean loss = 0.0404
+	Step 150: mean loss = 0.0393
+
+	Loss on validation set after epoch 14: 0.0360
+
+Epoch 15
+	Step 0: mean loss = 0.0378
+	Step 50: mean loss = 0.0355
+	Step 100: mean loss = 0.0355
+	Step 150: mean loss = 0.0354
+
+	Loss on validation set after epoch 15: 0.0339
+
+Epoch 16
+	Step 0: mean loss = 0.0336
+	Step 50: mean loss = 0.0343
+	Step 100: mean loss = 0.0344
+	Step 150: mean loss = 0.0345
+
+	Loss on validation set after epoch 16: 0.0330
+
+Epoch 17
+	Step 0: mean loss = 0.0346
+	Step 50: mean loss = 0.0330
+	Step 100: mean loss = 0.0331
+	Step 150: mean loss = 0.0328
+
+	Loss on validation set after epoch 17: 0.0315
+
+Epoch 18
+	Step 0: mean loss = 0.0328
+	Step 50: mean loss = 0.0315
+	Step 100: mean loss = 0.0315
+	Step 150: mean loss = 0.0314
+
+	Loss on validation set after epoch 18: 0.0309
+
+Epoch 19
+	Step 0: mean loss = 0.0308
+	Step 50: mean loss = 0.0309
+	Step 100: mean loss = 0.0311
+	Step 150: mean loss = 0.0311
+
+	Loss on validation set after epoch 19: 0.0308
+
+Epoch 20
+	Step 0: mean loss = 0.0267
+	Step 50: mean loss = 0.0300
+	Step 100: mean loss = 0.0303
+	Step 150: mean loss = 0.0304
+
+	Loss on validation set after epoch 20: 0.0305
+
+Epoch 21
+	Step 0: mean loss = 0.0322
+	Step 50: mean loss = 0.0294
+	Step 100: mean loss = 0.0295
+	Step 150: mean loss = 0.0297
+
+	Loss on validation set after epoch 21: 0.0289
+
+Epoch 22
+	Step 0: mean loss = 0.0300
+	Step 50: mean loss = 0.0293
+	Step 100: mean loss = 0.0293
+	Step 150: mean loss = 0.0293
+
+	Loss on validation set after epoch 22: 0.0286
+
+Epoch 23
+	Step 0: mean loss = 0.0289
+	Step 50: mean loss = 0.0288
+	Step 100: mean loss = 0.0296
+	Step 150: mean loss = 0.0294
+
+	Loss on validation set after epoch 23: 0.0280
+
+Epoch 24
+	Step 0: mean loss = 0.0290
+	Step 50: mean loss = 0.0282
+	Step 100: mean loss = 0.0282
+	Step 150: mean loss = 0.0282
+
+	Loss on validation set after epoch 24: 0.0273
+
+Epoch 25
+	Step 0: mean loss = 0.0299
+	Step 50: mean loss = 0.0275
+	Step 100: mean loss = 0.0276
+	Step 150: mean loss = 0.0277
+
+	Loss on validation set after epoch 25: 0.0274
+
+Epoch 26
+	Step 0: mean loss = 0.0280
+	Step 50: mean loss = 0.0271
+	Step 100: mean loss = 0.0274
+	Step 150: mean loss = 0.0273
+
+	Loss on validation set after epoch 26: 0.0297
+
+Epoch 27
+	Step 0: mean loss = 0.0293
+	Step 50: mean loss = 0.0277
+	Step 100: mean loss = 0.0275
+	Step 150: mean loss = 0.0273
+
+	Loss on validation set after epoch 27: 0.0267
+
+Epoch 28
+	Step 0: mean loss = 0.0283
+	Step 50: mean loss = 0.0267
+	Step 100: mean loss = 0.0267
+	Step 150: mean loss = 0.0266
+
+	Loss on validation set after epoch 28: 0.0261
+
+Epoch 29
+	Step 0: mean loss = 0.0245
+	Step 50: mean loss = 0.0263
+	Step 100: mean loss = 0.0263
+	Step 150: mean loss = 0.0262
+
+	Loss on validation set after epoch 29: 0.0253
+
+Epoch 30
+	Step 0: mean loss = 0.0242
+	Step 50: mean loss = 0.0257
+	Step 100: mean loss = 0.0258
+	Step 150: mean loss = 0.0258
+
+	Loss on validation set after epoch 30: 0.0262
+
+Epoch 31
+	Step 0: mean loss = 0.0208
+	Step 50: mean loss = 0.0255
+	Step 100: mean loss = 0.0256
+	Step 150: mean loss = 0.0256
+
+	Loss on validation set after epoch 31: 0.0263
+
+Epoch 32
+	Step 0: mean loss = 0.0250
+	Step 50: mean loss = 0.0255
+	Step 100: mean loss = 0.0254
+	Step 150: mean loss = 0.0254
+
+	Loss on validation set after epoch 32: 0.0249
+
+Epoch 33
+	Step 0: mean loss = 0.0247
+	Step 50: mean loss = 0.0250
+	Step 100: mean loss = 0.0250
+	Step 150: mean loss = 0.0251
+
+	Loss on validation set after epoch 33: 0.0244
+
+Epoch 34
+	Step 0: mean loss = 0.0242
+	Step 50: mean loss = 0.0249
+	Step 100: mean loss = 0.0249
+	Step 150: mean loss = 0.0250
+
+	Loss on validation set after epoch 34: 0.0241
+
+Epoch 35
+	Step 0: mean loss = 0.0273
+	Step 50: mean loss = 0.0247
+	Step 100: mean loss = 0.0248
+	Step 150: mean loss = 0.0247
+
+	Loss on validation set after epoch 35: 0.0244
+
+Epoch 36
+	Step 0: mean loss = 0.0251
+	Step 50: mean loss = 0.0244
+	Step 100: mean loss = 0.0245
+	Step 150: mean loss = 0.0246
+
+	Loss on validation set after epoch 36: 0.0252
+
+Epoch 37
+	Step 0: mean loss = 0.0234
+	Step 50: mean loss = 0.0250
+	Step 100: mean loss = 0.0248
+	Step 150: mean loss = 0.0247
+
+	Loss on validation set after epoch 37: 0.0237
+
+Epoch 38
+	Step 0: mean loss = 0.0260
+	Step 50: mean loss = 0.0243
+	Step 100: mean loss = 0.0245
+	Step 150: mean loss = 0.0245
+
+	Loss on validation set after epoch 38: 0.0247
+
+Epoch 39
+	Step 0: mean loss = 0.0261
+	Step 50: mean loss = 0.0241
+	Step 100: mean loss = 0.0242
+	Step 150: mean loss = 0.0243
+
+	Loss on validation set after epoch 39: 0.0250
+
+Epoch 40
+	Step 0: mean loss = 0.0253
+	Step 50: mean loss = 0.0240
+	Step 100: mean loss = 0.0240
+	Step 150: mean loss = 0.0240
+
+	Loss on validation set after epoch 40: 0.0240
+
+Epoch 41
+	Step 0: mean loss = 0.0239
+	Step 50: mean loss = 0.0238
+	Step 100: mean loss = 0.0240
+	Step 150: mean loss = 0.0241
+
+	Loss on validation set after epoch 41: 0.0235
+
+Epoch 42
+	Step 0: mean loss = 0.0266
+	Step 50: mean loss = 0.0238
+	Step 100: mean loss = 0.0240
+	Step 150: mean loss = 0.0242
+
+	Loss on validation set after epoch 42: 0.0247
+
+Epoch 43
+	Step 0: mean loss = 0.0226
+	Step 50: mean loss = 0.0235
+	Step 100: mean loss = 0.0236
+	Step 150: mean loss = 0.0237
+
+	Loss on validation set after epoch 43: 0.0239
+
+Epoch 44
+	Step 0: mean loss = 0.0230
+	Step 50: mean loss = 0.0234
+	Step 100: mean loss = 0.0238
+	Step 150: mean loss = 0.0237
+
+	Loss on validation set after epoch 44: 0.0235
+
+Epoch 45
+	Step 0: mean loss = 0.0230
+	Step 50: mean loss = 0.0233
+	Step 100: mean loss = 0.0234
+	Step 150: mean loss = 0.0234
+
+	Loss on validation set after epoch 45: 0.0236
+
+Epoch 46
+	Step 0: mean loss = 0.0245
+	Step 50: mean loss = 0.0231
+	Step 100: mean loss = 0.0233
+	Step 150: mean loss = 0.0233
+
+	Loss on validation set after epoch 46: 0.0225
+
+Epoch 47
+	Step 0: mean loss = 0.0198
+	Step 50: mean loss = 0.0230
+	Step 100: mean loss = 0.0231
+	Step 150: mean loss = 0.0230
+
+	Loss on validation set after epoch 47: 0.0234
+
+Epoch 48
+	Step 0: mean loss = 0.0223
+	Step 50: mean loss = 0.0229
+	Step 100: mean loss = 0.0231
+	Step 150: mean loss = 0.0231
+
+	Loss on validation set after epoch 48: 0.0233
+
+Epoch 49
+	Step 0: mean loss = 0.0254
+	Step 50: mean loss = 0.0230
+	Step 100: mean loss = 0.0231
+	Step 150: mean loss = 0.0231
+
+	Loss on validation set after epoch 49: 0.0222
+
+Epoch 50
+	Step 0: mean loss = 0.0249
+	Step 50: mean loss = 0.0228
+	Step 100: mean loss = 0.0229
+	Step 150: mean loss = 0.0229
+
+	Loss on validation set after epoch 50: 0.0232
+
+Epoch 51
+	Step 0: mean loss = 0.0214
+	Step 50: mean loss = 0.0229
+	Step 100: mean loss = 0.0230
+	Step 150: mean loss = 0.0229
+
+	Loss on validation set after epoch 51: 0.0222
+
+Epoch 52
+	Step 0: mean loss = 0.0205
+	Step 50: mean loss = 0.0225
+	Step 100: mean loss = 0.0226
+	Step 150: mean loss = 0.0227
+
+	Loss on validation set after epoch 52: 0.0233
+
+Epoch 53
+	Step 0: mean loss = 0.0229
+	Step 50: mean loss = 0.0226
+	Step 100: mean loss = 0.0226
+	Step 150: mean loss = 0.0226
+
+	Loss on validation set after epoch 53: 0.0229
+
+Epoch 54
+	Step 0: mean loss = 0.0242
+	Step 50: mean loss = 0.0226
+	Step 100: mean loss = 0.0226
+	Step 150: mean loss = 0.0226
+
+	Loss on validation set after epoch 54: 0.0231
+
+Epoch 55
+	Step 0: mean loss = 0.0221
+	Step 50: mean loss = 0.0223
+	Step 100: mean loss = 0.0223
+	Step 150: mean loss = 0.0226
+
+	Loss on validation set after epoch 55: 0.0229
+
+Epoch 56
+	Step 0: mean loss = 0.0202
+	Step 50: mean loss = 0.0224
+	Step 100: mean loss = 0.0223
+	Step 150: mean loss = 0.0224
+
+	Loss on validation set after epoch 56: 0.0219
+
+Epoch 57
+	Step 0: mean loss = 0.0252
+	Step 50: mean loss = 0.0222
+	Step 100: mean loss = 0.0223
+	Step 150: mean loss = 0.0223
+
+	Loss on validation set after epoch 57: 0.0229
+
+Epoch 58
+	Step 0: mean loss = 0.0254
+	Step 50: mean loss = 0.0227
+	Step 100: mean loss = 0.0225
+	Step 150: mean loss = 0.0224
+
+	Loss on validation set after epoch 58: 0.0220
+
+Epoch 59
+	Step 0: mean loss = 0.0224
+	Step 50: mean loss = 0.0220
+	Step 100: mean loss = 0.0221
+	Step 150: mean loss = 0.0221
+
+	Loss on validation set after epoch 59: 0.0214
+
+Epoch 60
+	Step 0: mean loss = 0.0240
+	Step 50: mean loss = 0.0218
+	Step 100: mean loss = 0.0220
+	Step 150: mean loss = 0.0221
+
+	Loss on validation set after epoch 60: 0.0216
+
+Epoch 61
+	Step 0: mean loss = 0.0225
+	Step 50: mean loss = 0.0222
+	Step 100: mean loss = 0.0222
+	Step 150: mean loss = 0.0221
+
+	Loss on validation set after epoch 61: 0.0220
+
+Epoch 62
+	Step 0: mean loss = 0.0226
+	Step 50: mean loss = 0.0217
+	Step 100: mean loss = 0.0219
+	Step 150: mean loss = 0.0220
+
+	Loss on validation set after epoch 62: 0.0217
+
+Epoch 63
+	Step 0: mean loss = 0.0228
+	Step 50: mean loss = 0.0218
+	Step 100: mean loss = 0.0219
+	Step 150: mean loss = 0.0218
+
+	Loss on validation set after epoch 63: 0.0223
+
+Epoch 64
+	Step 0: mean loss = 0.0253
+	Step 50: mean loss = 0.0217
+	Step 100: mean loss = 0.0218
+	Step 150: mean loss = 0.0219
+
+	Loss on validation set after epoch 64: 0.0213
+
+Epoch 65
+	Step 0: mean loss = 0.0243
+	Step 50: mean loss = 0.0218
+	Step 100: mean loss = 0.0218
+	Step 150: mean loss = 0.0219
+
+	Loss on validation set after epoch 65: 0.0216
+
+Epoch 66
+	Step 0: mean loss = 0.0199
+	Step 50: mean loss = 0.0216
+	Step 100: mean loss = 0.0215
+	Step 150: mean loss = 0.0217
+
+	Loss on validation set after epoch 66: 0.0214
+
+Epoch 67
+	Step 0: mean loss = 0.0238
+	Step 50: mean loss = 0.0213
+	Step 100: mean loss = 0.0215
+	Step 150: mean loss = 0.0216
+
+	Loss on validation set after epoch 67: 0.0221
+
+Epoch 68
+	Step 0: mean loss = 0.0202
+	Step 50: mean loss = 0.0217
+	Step 100: mean loss = 0.0218
+	Step 150: mean loss = 0.0216
+
+	Loss on validation set after epoch 68: 0.0210
+
+Epoch 69
+	Step 0: mean loss = 0.0221
+	Step 50: mean loss = 0.0212
+	Step 100: mean loss = 0.0213
+	Step 150: mean loss = 0.0214
+
+	Loss on validation set after epoch 69: 0.0214
+
+Epoch 70
+	Step 0: mean loss = 0.0226
+	Step 50: mean loss = 0.0214
+	Step 100: mean loss = 0.0213
+	Step 150: mean loss = 0.0213
+
+	Loss on validation set after epoch 70: 0.0208
+
+Epoch 71
+	Step 0: mean loss = 0.0182
+	Step 50: mean loss = 0.0215
+	Step 100: mean loss = 0.0213
+	Step 150: mean loss = 0.0213
+
+	Loss on validation set after epoch 71: 0.0207
+
+Epoch 72
+	Step 0: mean loss = 0.0216
+	Step 50: mean loss = 0.0209
+	Step 100: mean loss = 0.0211
+	Step 150: mean loss = 0.0212
+
+	Loss on validation set after epoch 72: 0.0232
+
+Epoch 73
+	Step 0: mean loss = 0.0272
+	Step 50: mean loss = 0.0210
+	Step 100: mean loss = 0.0209
+	Step 150: mean loss = 0.0209
+
+	Loss on validation set after epoch 73: 0.0207
+
+Epoch 74
+	Step 0: mean loss = 0.0176
+	Step 50: mean loss = 0.0207
+	Step 100: mean loss = 0.0208
+	Step 150: mean loss = 0.0208
+
+	Loss on validation set after epoch 74: 0.0200
+
+Epoch 75
+	Step 0: mean loss = 0.0242
+	Step 50: mean loss = 0.0205
+	Step 100: mean loss = 0.0205
+	Step 150: mean loss = 0.0207
+
+	Loss on validation set after epoch 75: 0.0197
+
+Epoch 76
+	Step 0: mean loss = 0.0237
+	Step 50: mean loss = 0.0205
+	Step 100: mean loss = 0.0206
+	Step 150: mean loss = 0.0207
+
+	Loss on validation set after epoch 76: 0.0202
+
+Epoch 77
+	Step 0: mean loss = 0.0225
+	Step 50: mean loss = 0.0203
+	Step 100: mean loss = 0.0203
+	Step 150: mean loss = 0.0204
+
+	Loss on validation set after epoch 77: 0.0194
+
+Epoch 78
+	Step 0: mean loss = 0.0230
+	Step 50: mean loss = 0.0199
+	Step 100: mean loss = 0.0201
+	Step 150: mean loss = 0.0200
+
+	Loss on validation set after epoch 78: 0.0193
+
+Epoch 79
+	Step 0: mean loss = 0.0185
+	Step 50: mean loss = 0.0195
+	Step 100: mean loss = 0.0197
+	Step 150: mean loss = 0.0198
+
+	Loss on validation set after epoch 79: 0.0199
+
+Epoch 80
+	Step 0: mean loss = 0.0208
+	Step 50: mean loss = 0.0195
+	Step 100: mean loss = 0.0195
+	Step 150: mean loss = 0.0196
+
+	Loss on validation set after epoch 80: 0.0191
+
+Epoch 81
+	Step 0: mean loss = 0.0210
+	Step 50: mean loss = 0.0194
+	Step 100: mean loss = 0.0194
+	Step 150: mean loss = 0.0193
+
+	Loss on validation set after epoch 81: 0.0186
+
+Epoch 82
+	Step 0: mean loss = 0.0196
+	Step 50: mean loss = 0.0191
+	Step 100: mean loss = 0.0192
+	Step 150: mean loss = 0.0191
+
+	Loss on validation set after epoch 82: 0.0183
+
+Epoch 83
+	Step 0: mean loss = 0.0202
+	Step 50: mean loss = 0.0189
+	Step 100: mean loss = 0.0190
+	Step 150: mean loss = 0.0190
+
+	Loss on validation set after epoch 83: 0.0184
+
+Epoch 84
+	Step 0: mean loss = 0.0155
+	Step 50: mean loss = 0.0185
+	Step 100: mean loss = 0.0185
+	Step 150: mean loss = 0.0183
+
+	Loss on validation set after epoch 84: 0.0184
+
+Epoch 85
+	Step 0: mean loss = 0.0166
+	Step 50: mean loss = 0.0179
+	Step 100: mean loss = 0.0179
+	Step 150: mean loss = 0.0178
+
+	Loss on validation set after epoch 85: 0.0177
+
+Epoch 86
+	Step 0: mean loss = 0.0169
+	Step 50: mean loss = 0.0177
+	Step 100: mean loss = 0.0176
+	Step 150: mean loss = 0.0176
+
+	Loss on validation set after epoch 86: 0.0172
+
+Epoch 87
+	Step 0: mean loss = 0.0174
+	Step 50: mean loss = 0.0174
+	Step 100: mean loss = 0.0174
+	Step 150: mean loss = 0.0175
+
+	Loss on validation set after epoch 87: 0.0177
+
+Epoch 88
+	Step 0: mean loss = 0.0192
+	Step 50: mean loss = 0.0172
+	Step 100: mean loss = 0.0174
+	Step 150: mean loss = 0.0172
+
+	Loss on validation set after epoch 88: 0.0169
+
+Epoch 89
+	Step 0: mean loss = 0.0187
+	Step 50: mean loss = 0.0169
+	Step 100: mean loss = 0.0170
+	Step 150: mean loss = 0.0170
+
+	Loss on validation set after epoch 89: 0.0168
+
+Epoch 90
+	Step 0: mean loss = 0.0189
+	Step 50: mean loss = 0.0170
+	Step 100: mean loss = 0.0170
+	Step 150: mean loss = 0.0170
+
+	Loss on validation set after epoch 90: 0.0163
+
+Epoch 91
+	Step 0: mean loss = 0.0156
+	Step 50: mean loss = 0.0167
+	Step 100: mean loss = 0.0166
+	Step 150: mean loss = 0.0168
+
+	Loss on validation set after epoch 91: 0.0164
+
+Epoch 92
+	Step 0: mean loss = 0.0169
+	Step 50: mean loss = 0.0167
+	Step 100: mean loss = 0.0167
+	Step 150: mean loss = 0.0166
+
+	Loss on validation set after epoch 92: 0.0165
+
+Epoch 93
+	Step 0: mean loss = 0.0147
+	Step 50: mean loss = 0.0165
+	Step 100: mean loss = 0.0167
+	Step 150: mean loss = 0.0167
+
+	Loss on validation set after epoch 93: 0.0170
+
+Epoch 94
+	Step 0: mean loss = 0.0145
+	Step 50: mean loss = 0.0167
+	Step 100: mean loss = 0.0165
+	Step 150: mean loss = 0.0164
+
+	Loss on validation set after epoch 94: 0.0184
+
+Epoch 95
+	Step 0: mean loss = 0.0174
+	Step 50: mean loss = 0.0168
+	Step 100: mean loss = 0.0166
+	Step 150: mean loss = 0.0166
+
+	Loss on validation set after epoch 95: 0.0168
+
+Epoch 96
+	Step 0: mean loss = 0.0159
+	Step 50: mean loss = 0.0165
+	Step 100: mean loss = 0.0165
+	Step 150: mean loss = 0.0163
+
+	Loss on validation set after epoch 96: 0.0162
+
+Epoch 97
+	Step 0: mean loss = 0.0173
+	Step 50: mean loss = 0.0161
+	Step 100: mean loss = 0.0163
+	Step 150: mean loss = 0.0162
+
+	Loss on validation set after epoch 97: 0.0152
+
+Epoch 98
+	Step 0: mean loss = 0.0149
+	Step 50: mean loss = 0.0157
+	Step 100: mean loss = 0.0159
+	Step 150: mean loss = 0.0159
+
+	Loss on validation set after epoch 98: 0.0154
+
+Epoch 99
+	Step 0: mean loss = 0.0174
+	Step 50: mean loss = 0.0155
+	Step 100: mean loss = 0.0156
+	Step 150: mean loss = 0.0155
+
+	Loss on validation set after epoch 99: 0.0148
+
+Epoch 100
+	Step 0: mean loss = 0.0145
+	Step 50: mean loss = 0.0153
+	Step 100: mean loss = 0.0155
+	Step 150: mean loss = 0.0154
+
+	Loss on validation set after epoch 100: 0.0157
+
+Epoch 101
+	Step 0: mean loss = 0.0185
+	Step 50: mean loss = 0.0152
+	Step 100: mean loss = 0.0152
+	Step 150: mean loss = 0.0150
+
+	Loss on validation set after epoch 101: 0.0145
+
+Epoch 102
+	Step 0: mean loss = 0.0123
+	Step 50: mean loss = 0.0147
+	Step 100: mean loss = 0.0147
+	Step 150: mean loss = 0.0146
+
+	Loss on validation set after epoch 102: 0.0146
+
+Epoch 103
+	Step 0: mean loss = 0.0123
+	Step 50: mean loss = 0.0143
+	Step 100: mean loss = 0.0144
+	Step 150: mean loss = 0.0144
+
+	Loss on validation set after epoch 103: 0.0150
+
+Epoch 104
+	Step 0: mean loss = 0.0152
+	Step 50: mean loss = 0.0138
+	Step 100: mean loss = 0.0139
+	Step 150: mean loss = 0.0138
+
+	Loss on validation set after epoch 104: 0.0139
+
+Epoch 105
+	Step 0: mean loss = 0.0128
+	Step 50: mean loss = 0.0134
+	Step 100: mean loss = 0.0136
+	Step 150: mean loss = 0.0136
+
+	Loss on validation set after epoch 105: 0.0140
+
+Epoch 106
+	Step 0: mean loss = 0.0127
+	Step 50: mean loss = 0.0142
+	Step 100: mean loss = 0.0138
+	Step 150: mean loss = 0.0136
+
+	Loss on validation set after epoch 106: 0.0127
+
+Epoch 107
+	Step 0: mean loss = 0.0161
+	Step 50: mean loss = 0.0129
+	Step 100: mean loss = 0.0130
+	Step 150: mean loss = 0.0129
+
+	Loss on validation set after epoch 107: 0.0130
+
+Epoch 108
+	Step 0: mean loss = 0.0140
+	Step 50: mean loss = 0.0124
+	Step 100: mean loss = 0.0126
+	Step 150: mean loss = 0.0127
+
+	Loss on validation set after epoch 108: 0.0143
+
+Epoch 109
+	Step 0: mean loss = 0.0116
+	Step 50: mean loss = 0.0126
+	Step 100: mean loss = 0.0125
+	Step 150: mean loss = 0.0123
+
+	Loss on validation set after epoch 109: 0.0116
+
+Epoch 110
+	Step 0: mean loss = 0.0135
+	Step 50: mean loss = 0.0123
+	Step 100: mean loss = 0.0123
+	Step 150: mean loss = 0.0122
+
+	Loss on validation set after epoch 110: 0.0118
+
+Epoch 111
+	Step 0: mean loss = 0.0125
+	Step 50: mean loss = 0.0121
+	Step 100: mean loss = 0.0120
+	Step 150: mean loss = 0.0119
+
+	Loss on validation set after epoch 111: 0.0113
+
+Epoch 112
+	Step 0: mean loss = 0.0125
+	Step 50: mean loss = 0.0117
+	Step 100: mean loss = 0.0118
+	Step 150: mean loss = 0.0118
+
+	Loss on validation set after epoch 112: 0.0117
+
+Epoch 113
+	Step 0: mean loss = 0.0156
+	Step 50: mean loss = 0.0114
+	Step 100: mean loss = 0.0116
+	Step 150: mean loss = 0.0116
+
+	Loss on validation set after epoch 113: 0.0114
+
+Epoch 114
+	Step 0: mean loss = 0.0118
+	Step 50: mean loss = 0.0114
+	Step 100: mean loss = 0.0114
+	Step 150: mean loss = 0.0114
+
+	Loss on validation set after epoch 114: 0.0109
+
+Epoch 115
+	Step 0: mean loss = 0.0149
+	Step 50: mean loss = 0.0115
+	Step 100: mean loss = 0.0116
+	Step 150: mean loss = 0.0116
+
+	Loss on validation set after epoch 115: 0.0119
+
+Epoch 116
+	Step 0: mean loss = 0.0145
+	Step 50: mean loss = 0.0112
+	Step 100: mean loss = 0.0112
+	Step 150: mean loss = 0.0113
+
+	Loss on validation set after epoch 116: 0.0106
+
+Epoch 117
+	Step 0: mean loss = 0.0111
+	Step 50: mean loss = 0.0110
+	Step 100: mean loss = 0.0110
+	Step 150: mean loss = 0.0110
+
+	Loss on validation set after epoch 117: 0.0109
+
+Epoch 118
+	Step 0: mean loss = 0.0109
+	Step 50: mean loss = 0.0109
+	Step 100: mean loss = 0.0108
+	Step 150: mean loss = 0.0109
+
+	Loss on validation set after epoch 118: 0.0104
+
+Epoch 119
+	Step 0: mean loss = 0.0088
+	Step 50: mean loss = 0.0108
+	Step 100: mean loss = 0.0109
+	Step 150: mean loss = 0.0109
+
+	Loss on validation set after epoch 119: 0.0109
+
+Epoch 120
+	Step 0: mean loss = 0.0136
+	Step 50: mean loss = 0.0105
+	Step 100: mean loss = 0.0107
+	Step 150: mean loss = 0.0107
+
+	Loss on validation set after epoch 120: 0.0102
+
+Epoch 121
+	Step 0: mean loss = 0.0113
+	Step 50: mean loss = 0.0107
+	Step 100: mean loss = 0.0106
+	Step 150: mean loss = 0.0107
+
+	Loss on validation set after epoch 121: 0.0108
+
+Epoch 122
+	Step 0: mean loss = 0.0093
+	Step 50: mean loss = 0.0107
+	Step 100: mean loss = 0.0107
+	Step 150: mean loss = 0.0106
+
+	Loss on validation set after epoch 122: 0.0112
+
+Epoch 123
+	Step 0: mean loss = 0.0099
+	Step 50: mean loss = 0.0103
+	Step 100: mean loss = 0.0104
+	Step 150: mean loss = 0.0104
+
+	Loss on validation set after epoch 123: 0.0103
+
+Epoch 124
+	Step 0: mean loss = 0.0084
+	Step 50: mean loss = 0.0102
+	Step 100: mean loss = 0.0104
+	Step 150: mean loss = 0.0104
+
+	Loss on validation set after epoch 124: 0.0104
+
+Epoch 125
+	Step 0: mean loss = 0.0097
+	Step 50: mean loss = 0.0104
+	Step 100: mean loss = 0.0104
+	Step 150: mean loss = 0.0104
+
+	Loss on validation set after epoch 125: 0.0102
+
+Epoch 126
+	Step 0: mean loss = 0.0089
+	Step 50: mean loss = 0.0100
+	Step 100: mean loss = 0.0102
+	Step 150: mean loss = 0.0102
+
+	Loss on validation set after epoch 126: 0.0098
+
+Epoch 127
+	Step 0: mean loss = 0.0086
+	Step 50: mean loss = 0.0101
+	Step 100: mean loss = 0.0102
+	Step 150: mean loss = 0.0102
+
+	Loss on validation set after epoch 127: 0.0099
+
+Epoch 128
+	Step 0: mean loss = 0.0095
+	Step 50: mean loss = 0.0101
+	Step 100: mean loss = 0.0101
+	Step 150: mean loss = 0.0100
+
+	Loss on validation set after epoch 128: 0.0099
+
+Epoch 129
+	Step 0: mean loss = 0.0091
+	Step 50: mean loss = 0.0098
+	Step 100: mean loss = 0.0100
+	Step 150: mean loss = 0.0100
+
+	Loss on validation set after epoch 129: 0.0100
+
+Epoch 130
+	Step 0: mean loss = 0.0110
+	Step 50: mean loss = 0.0104
+	Step 100: mean loss = 0.0103
+	Step 150: mean loss = 0.0101
+
+	Loss on validation set after epoch 130: 0.0102
+
+Epoch 131
+	Step 0: mean loss = 0.0097
+	Step 50: mean loss = 0.0098
+	Step 100: mean loss = 0.0099
+	Step 150: mean loss = 0.0099
+
+	Loss on validation set after epoch 131: 0.0095
+
+Epoch 132
+	Step 0: mean loss = 0.0094
+	Step 50: mean loss = 0.0097
+	Step 100: mean loss = 0.0098
+	Step 150: mean loss = 0.0098
+
+	Loss on validation set after epoch 132: 0.0097
+
+Epoch 133
+	Step 0: mean loss = 0.0116
+	Step 50: mean loss = 0.0098
+	Step 100: mean loss = 0.0099
+	Step 150: mean loss = 0.0100
+
+	Loss on validation set after epoch 133: 0.0099
+
+Epoch 134
+	Step 0: mean loss = 0.0119
+	Step 50: mean loss = 0.0096
+	Step 100: mean loss = 0.0097
+	Step 150: mean loss = 0.0097
+
+	Loss on validation set after epoch 134: 0.0095
+
+Epoch 135
+	Step 0: mean loss = 0.0102
+	Step 50: mean loss = 0.0094
+	Step 100: mean loss = 0.0096
+	Step 150: mean loss = 0.0096
+
+	Loss on validation set after epoch 135: 0.0094
+
+Epoch 136
+	Step 0: mean loss = 0.0112
+	Step 50: mean loss = 0.0094
+	Step 100: mean loss = 0.0095
+	Step 150: mean loss = 0.0095
+
+	Loss on validation set after epoch 136: 0.0099
+
+Epoch 137
+	Step 0: mean loss = 0.0121
+	Step 50: mean loss = 0.0096
+	Step 100: mean loss = 0.0096
+	Step 150: mean loss = 0.0096
+
+	Loss on validation set after epoch 137: 0.0093
+
+Epoch 138
+	Step 0: mean loss = 0.0104
+	Step 50: mean loss = 0.0093
+	Step 100: mean loss = 0.0094
+	Step 150: mean loss = 0.0095
+
+	Loss on validation set after epoch 138: 0.0096
+
+Epoch 139
+	Step 0: mean loss = 0.0098
+	Step 50: mean loss = 0.0092
+	Step 100: mean loss = 0.0094
+	Step 150: mean loss = 0.0094
+
+	Loss on validation set after epoch 139: 0.0094
+
+Epoch 140
+	Step 0: mean loss = 0.0105
+	Step 50: mean loss = 0.0092
+	Step 100: mean loss = 0.0093
+	Step 150: mean loss = 0.0094
+
+	Loss on validation set after epoch 140: 0.0096
+
+Epoch 141
+	Step 0: mean loss = 0.0091
+	Step 50: mean loss = 0.0095
+	Step 100: mean loss = 0.0095
+	Step 150: mean loss = 0.0095
+
+	Loss on validation set after epoch 141: 0.0095
+
+Epoch 142
+	Step 0: mean loss = 0.0093
+	Step 50: mean loss = 0.0092
+	Step 100: mean loss = 0.0092
+	Step 150: mean loss = 0.0093
+
+	Loss on validation set after epoch 142: 0.0094
+
+Epoch 143
+	Step 0: mean loss = 0.0100
+	Step 50: mean loss = 0.0091
+	Step 100: mean loss = 0.0093
+	Step 150: mean loss = 0.0092
+
+	Loss on validation set after epoch 143: 0.0090
+
+Epoch 144
+	Step 0: mean loss = 0.0097
+	Step 50: mean loss = 0.0091
+	Step 100: mean loss = 0.0092
+	Step 150: mean loss = 0.0092
+
+	Loss on validation set after epoch 144: 0.0096
+
+Epoch 145
+	Step 0: mean loss = 0.0104
+	Step 50: mean loss = 0.0091
+	Step 100: mean loss = 0.0091
+	Step 150: mean loss = 0.0091
+
+	Loss on validation set after epoch 145: 0.0092
+
+Epoch 146
+	Step 0: mean loss = 0.0081
+	Step 50: mean loss = 0.0089
+	Step 100: mean loss = 0.0091
+	Step 150: mean loss = 0.0091
+
+	Loss on validation set after epoch 146: 0.0089
+
+Epoch 147
+	Step 0: mean loss = 0.0088
+	Step 50: mean loss = 0.0090
+	Step 100: mean loss = 0.0090
+	Step 150: mean loss = 0.0091
+
+	Loss on validation set after epoch 147: 0.0088
+
+Epoch 148
+	Step 0: mean loss = 0.0090
+	Step 50: mean loss = 0.0089
+	Step 100: mean loss = 0.0089
+	Step 150: mean loss = 0.0091
+
+	Loss on validation set after epoch 148: 0.0106
+
+Epoch 149
+	Step 0: mean loss = 0.0091
+	Step 50: mean loss = 0.0095
+	Step 100: mean loss = 0.0093
+	Step 150: mean loss = 0.0092
+
+	Loss on validation set after epoch 149: 0.0088
+
+Epoch 150
+	Step 0: mean loss = 0.0084
+	Step 50: mean loss = 0.0090
+	Step 100: mean loss = 0.0090
+	Step 150: mean loss = 0.0089
+
+	Loss on validation set after epoch 150: 0.0092
+
+Epoch 151
+	Step 0: mean loss = 0.0105
+	Step 50: mean loss = 0.0086
+	Step 100: mean loss = 0.0089
+	Step 150: mean loss = 0.0089
+
+	Loss on validation set after epoch 151: 0.0088
+
+Epoch 152
+	Step 0: mean loss = 0.0085
+	Step 50: mean loss = 0.0087
+	Step 100: mean loss = 0.0088
+	Step 150: mean loss = 0.0088
+
+	Loss on validation set after epoch 152: 0.0090
+
+Epoch 153
+	Step 0: mean loss = 0.0125
+	Step 50: mean loss = 0.0086
+	Step 100: mean loss = 0.0088
+	Step 150: mean loss = 0.0088
+
+	Loss on validation set after epoch 153: 0.0086
+
+Epoch 154
+	Step 0: mean loss = 0.0077
+	Step 50: mean loss = 0.0086
+	Step 100: mean loss = 0.0088
+	Step 150: mean loss = 0.0088
+
+	Loss on validation set after epoch 154: 0.0086
+
+Epoch 155
+	Step 0: mean loss = 0.0111
+	Step 50: mean loss = 0.0086
+	Step 100: mean loss = 0.0087
+	Step 150: mean loss = 0.0087
+
+	Loss on validation set after epoch 155: 0.0088
+
+Epoch 156
+	Step 0: mean loss = 0.0097
+	Step 50: mean loss = 0.0087
+	Step 100: mean loss = 0.0087
+	Step 150: mean loss = 0.0087
+
+	Loss on validation set after epoch 156: 0.0087
+
+Epoch 157
+	Step 0: mean loss = 0.0094
+	Step 50: mean loss = 0.0088
+	Step 100: mean loss = 0.0088
+	Step 150: mean loss = 0.0088
+
+	Loss on validation set after epoch 157: 0.0086
+
+Epoch 158
+	Step 0: mean loss = 0.0087
+	Step 50: mean loss = 0.0084
+	Step 100: mean loss = 0.0086
+	Step 150: mean loss = 0.0085
+
+	Loss on validation set after epoch 158: 0.0085
+
+Epoch 159
+	Step 0: mean loss = 0.0083
+	Step 50: mean loss = 0.0084
+	Step 100: mean loss = 0.0085
+	Step 150: mean loss = 0.0085
+
+	Loss on validation set after epoch 159: 0.0086
+
+Epoch 160
+	Step 0: mean loss = 0.0076
+	Step 50: mean loss = 0.0084
+	Step 100: mean loss = 0.0086
+	Step 150: mean loss = 0.0086
+
+	Loss on validation set after epoch 160: 0.0083
+
+Epoch 161
+	Step 0: mean loss = 0.0088
+	Step 50: mean loss = 0.0083
+	Step 100: mean loss = 0.0085
+	Step 150: mean loss = 0.0085
+
+	Loss on validation set after epoch 161: 0.0090
+
+Epoch 162
+	Step 0: mean loss = 0.0073
+	Step 50: mean loss = 0.0085
+	Step 100: mean loss = 0.0086
+	Step 150: mean loss = 0.0085
+
+	Loss on validation set after epoch 162: 0.0088
+
+Epoch 163
+	Step 0: mean loss = 0.0091
+	Step 50: mean loss = 0.0084
+	Step 100: mean loss = 0.0086
+	Step 150: mean loss = 0.0085
+
+	Loss on validation set after epoch 163: 0.0086
+
+Epoch 164
+	Step 0: mean loss = 0.0103
+	Step 50: mean loss = 0.0088
+	Step 100: mean loss = 0.0087
+	Step 150: mean loss = 0.0086
+
+	Loss on validation set after epoch 164: 0.0083
+
+Epoch 165
+	Step 0: mean loss = 0.0071
+	Step 50: mean loss = 0.0082
+	Step 100: mean loss = 0.0085
+	Step 150: mean loss = 0.0084
+
+	Loss on validation set after epoch 165: 0.0090
+
+Epoch 166
+	Step 0: mean loss = 0.0102
+	Step 50: mean loss = 0.0085
+	Step 100: mean loss = 0.0085
+	Step 150: mean loss = 0.0084
+
+	Loss on validation set after epoch 166: 0.0086
+
+Epoch 167
+	Step 0: mean loss = 0.0101
+	Step 50: mean loss = 0.0082
+	Step 100: mean loss = 0.0083
+	Step 150: mean loss = 0.0083
+
+	Loss on validation set after epoch 167: 0.0081
+
+Epoch 168
+	Step 0: mean loss = 0.0079
+	Step 50: mean loss = 0.0082
+	Step 100: mean loss = 0.0083
+	Step 150: mean loss = 0.0083
+
+	Loss on validation set after epoch 168: 0.0080
+
+Epoch 169
+	Step 0: mean loss = 0.0093
+	Step 50: mean loss = 0.0081
+	Step 100: mean loss = 0.0082
+	Step 150: mean loss = 0.0082
+
+	Loss on validation set after epoch 169: 0.0082
+
+Epoch 170
+	Step 0: mean loss = 0.0086
+	Step 50: mean loss = 0.0079
+	Step 100: mean loss = 0.0082
+	Step 150: mean loss = 0.0082
+
+	Loss on validation set after epoch 170: 0.0081
+
+Epoch 171
+	Step 0: mean loss = 0.0088
+	Step 50: mean loss = 0.0080
+	Step 100: mean loss = 0.0081
+	Step 150: mean loss = 0.0082
+
+	Loss on validation set after epoch 171: 0.0083
+
+Epoch 172
+	Step 0: mean loss = 0.0076
+	Step 50: mean loss = 0.0081
+	Step 100: mean loss = 0.0081
+	Step 150: mean loss = 0.0082
+
+	Loss on validation set after epoch 172: 0.0103
+
+Epoch 173
+	Step 0: mean loss = 0.0105
+	Step 50: mean loss = 0.0080
+	Step 100: mean loss = 0.0081
+	Step 150: mean loss = 0.0082
+
+	Loss on validation set after epoch 173: 0.0082
+
+Epoch 174
+	Step 0: mean loss = 0.0077
+	Step 50: mean loss = 0.0080
+	Step 100: mean loss = 0.0083
+	Step 150: mean loss = 0.0082
+
+	Loss on validation set after epoch 174: 0.0082
+
+Epoch 175
+	Step 0: mean loss = 0.0082
+	Step 50: mean loss = 0.0079
+	Step 100: mean loss = 0.0081
+	Step 150: mean loss = 0.0080
+
+	Loss on validation set after epoch 175: 0.0079
+
+Epoch 176
+	Step 0: mean loss = 0.0073
+	Step 50: mean loss = 0.0078
+	Step 100: mean loss = 0.0080
+	Step 150: mean loss = 0.0080
+
+	Loss on validation set after epoch 176: 0.0079
+
+Epoch 177
+	Step 0: mean loss = 0.0078
+	Step 50: mean loss = 0.0079
+	Step 100: mean loss = 0.0080
+	Step 150: mean loss = 0.0080
+
+	Loss on validation set after epoch 177: 0.0082
+
+Epoch 178
+	Step 0: mean loss = 0.0109
+	Step 50: mean loss = 0.0078
+	Step 100: mean loss = 0.0080
+	Step 150: mean loss = 0.0079
+
+	Loss on validation set after epoch 178: 0.0077
+
+Epoch 179
+	Step 0: mean loss = 0.0069
+	Step 50: mean loss = 0.0078
+	Step 100: mean loss = 0.0078
+	Step 150: mean loss = 0.0079
+
+	Loss on validation set after epoch 179: 0.0079
+
+Epoch 180
+	Step 0: mean loss = 0.0079
+	Step 50: mean loss = 0.0078
+	Step 100: mean loss = 0.0079
+	Step 150: mean loss = 0.0079
+
+	Loss on validation set after epoch 180: 0.0082
+
+Epoch 181
+	Step 0: mean loss = 0.0071
+	Step 50: mean loss = 0.0076
+	Step 100: mean loss = 0.0078
+	Step 150: mean loss = 0.0077
+
+	Loss on validation set after epoch 181: 0.0078
+
+Epoch 182
+	Step 0: mean loss = 0.0093
+	Step 50: mean loss = 0.0076
+	Step 100: mean loss = 0.0077
+	Step 150: mean loss = 0.0077
+
+	Loss on validation set after epoch 182: 0.0078
+
+Epoch 183
+	Step 0: mean loss = 0.0086
+	Step 50: mean loss = 0.0076
+	Step 100: mean loss = 0.0077
+	Step 150: mean loss = 0.0077
+
+	Loss on validation set after epoch 183: 0.0076
+
+Epoch 184
+	Step 0: mean loss = 0.0086
+	Step 50: mean loss = 0.0074
+	Step 100: mean loss = 0.0076
+	Step 150: mean loss = 0.0075
+
+	Loss on validation set after epoch 184: 0.0078
+
+Epoch 185
+	Step 0: mean loss = 0.0076
+	Step 50: mean loss = 0.0075
+	Step 100: mean loss = 0.0076
+	Step 150: mean loss = 0.0076
+
+	Loss on validation set after epoch 185: 0.0078
+
+Epoch 186
+	Step 0: mean loss = 0.0066
+	Step 50: mean loss = 0.0075
+	Step 100: mean loss = 0.0076
+	Step 150: mean loss = 0.0075
+
+	Loss on validation set after epoch 186: 0.0075
+
+Epoch 187
+	Step 0: mean loss = 0.0098
+	Step 50: mean loss = 0.0073
+	Step 100: mean loss = 0.0074
+	Step 150: mean loss = 0.0074
+
+	Loss on validation set after epoch 187: 0.0071
+
+Epoch 188
+	Step 0: mean loss = 0.0070
+	Step 50: mean loss = 0.0073
+	Step 100: mean loss = 0.0074
+	Step 150: mean loss = 0.0073
+
+	Loss on validation set after epoch 188: 0.0072
+
+Epoch 189
+	Step 0: mean loss = 0.0075
+	Step 50: mean loss = 0.0072
+	Step 100: mean loss = 0.0072
+	Step 150: mean loss = 0.0073
+
+	Loss on validation set after epoch 189: 0.0073
+
+Epoch 190
+	Step 0: mean loss = 0.0069
+	Step 50: mean loss = 0.0072
+	Step 100: mean loss = 0.0073
+	Step 150: mean loss = 0.0073
+
+	Loss on validation set after epoch 190: 0.0073
+
+Epoch 191
+	Step 0: mean loss = 0.0066
+	Step 50: mean loss = 0.0072
+	Step 100: mean loss = 0.0072
+	Step 150: mean loss = 0.0072
+
+	Loss on validation set after epoch 191: 0.0070
+
+Epoch 192
+	Step 0: mean loss = 0.0075
+	Step 50: mean loss = 0.0069
+	Step 100: mean loss = 0.0070
+	Step 150: mean loss = 0.0071
+
+	Loss on validation set after epoch 192: 0.0070
+
+Epoch 193
+	Step 0: mean loss = 0.0073
+	Step 50: mean loss = 0.0071
+	Step 100: mean loss = 0.0071
+	Step 150: mean loss = 0.0071
+
+	Loss on validation set after epoch 193: 0.0072
+
+Epoch 194
+	Step 0: mean loss = 0.0062
+	Step 50: mean loss = 0.0069
+	Step 100: mean loss = 0.0070
+	Step 150: mean loss = 0.0070
+
+	Loss on validation set after epoch 194: 0.0069
+
+Epoch 195
+	Step 0: mean loss = 0.0071
+	Step 50: mean loss = 0.0069
+	Step 100: mean loss = 0.0069
+	Step 150: mean loss = 0.0070
+
+	Loss on validation set after epoch 195: 0.0070
+
+Epoch 196
+	Step 0: mean loss = 0.0083
+	Step 50: mean loss = 0.0069
+	Step 100: mean loss = 0.0070
+	Step 150: mean loss = 0.0070
+
+	Loss on validation set after epoch 196: 0.0072
+
+Epoch 197
+	Step 0: mean loss = 0.0089
+	Step 50: mean loss = 0.0069
+	Step 100: mean loss = 0.0069
+	Step 150: mean loss = 0.0069
+
+	Loss on validation set after epoch 197: 0.0067
+
+Epoch 198
+	Step 0: mean loss = 0.0075
+	Step 50: mean loss = 0.0068
+	Step 100: mean loss = 0.0070
+	Step 150: mean loss = 0.0069
+
+	Loss on validation set after epoch 198: 0.0067
+
+Epoch 199
+	Step 0: mean loss = 0.0060
+	Step 50: mean loss = 0.0067
+	Step 100: mean loss = 0.0068
+	Step 150: mean loss = 0.0067
+
+	Loss on validation set after epoch 199: 0.0071
+
+Epoch 200
+	Step 0: mean loss = 0.0081
+	Step 50: mean loss = 0.0065
+	Step 100: mean loss = 0.0067
+	Step 150: mean loss = 0.0067
+
+	Loss on validation set after epoch 200: 0.0072
+
+Epoch 201
+	Step 0: mean loss = 0.0075
+	Step 50: mean loss = 0.0066
+	Step 100: mean loss = 0.0068
+	Step 150: mean loss = 0.0067
+
+	Loss on validation set after epoch 201: 0.0066
+
+Epoch 202
+	Step 0: mean loss = 0.0066
+	Step 50: mean loss = 0.0065
+	Step 100: mean loss = 0.0066
+	Step 150: mean loss = 0.0066
+
+	Loss on validation set after epoch 202: 0.0065
+
+Epoch 203
+	Step 0: mean loss = 0.0073
+	Step 50: mean loss = 0.0065
+	Step 100: mean loss = 0.0065
+	Step 150: mean loss = 0.0065
+
+	Loss on validation set after epoch 203: 0.0064
+
+Epoch 204
+	Step 0: mean loss = 0.0047
+	Step 50: mean loss = 0.0064
+	Step 100: mean loss = 0.0065
+	Step 150: mean loss = 0.0065
+
+	Loss on validation set after epoch 204: 0.0065
+
+Epoch 205
+	Step 0: mean loss = 0.0085
+	Step 50: mean loss = 0.0064
+	Step 100: mean loss = 0.0065
+	Step 150: mean loss = 0.0064
+
+	Loss on validation set after epoch 205: 0.0065
+
+Epoch 206
+	Step 0: mean loss = 0.0078
+	Step 50: mean loss = 0.0064
+	Step 100: mean loss = 0.0064
+	Step 150: mean loss = 0.0064
+
+	Loss on validation set after epoch 206: 0.0065
+
+Epoch 207
+	Step 0: mean loss = 0.0067
+	Step 50: mean loss = 0.0063
+	Step 100: mean loss = 0.0064
+	Step 150: mean loss = 0.0064
+
+	Loss on validation set after epoch 207: 0.0064
+
+Epoch 208
+	Step 0: mean loss = 0.0066
+	Step 50: mean loss = 0.0063
+	Step 100: mean loss = 0.0064
+	Step 150: mean loss = 0.0064
+
+	Loss on validation set after epoch 208: 0.0062
+
+Epoch 209
+	Step 0: mean loss = 0.0060
+	Step 50: mean loss = 0.0062
+	Step 100: mean loss = 0.0063
+	Step 150: mean loss = 0.0063
+
+	Loss on validation set after epoch 209: 0.0064
+
+Epoch 210
+	Step 0: mean loss = 0.0064
+	Step 50: mean loss = 0.0062
+	Step 100: mean loss = 0.0063
+	Step 150: mean loss = 0.0063
+
+	Loss on validation set after epoch 210: 0.0063
+
+Epoch 211
+	Step 0: mean loss = 0.0066
+	Step 50: mean loss = 0.0061
+	Step 100: mean loss = 0.0062
+	Step 150: mean loss = 0.0062
+
+	Loss on validation set after epoch 211: 0.0061
+
+Epoch 212
+	Step 0: mean loss = 0.0063
+	Step 50: mean loss = 0.0061
+	Step 100: mean loss = 0.0062
+	Step 150: mean loss = 0.0063
+
+	Loss on validation set after epoch 212: 0.0065
+
+Epoch 213
+	Step 0: mean loss = 0.0069
+	Step 50: mean loss = 0.0061
+	Step 100: mean loss = 0.0062
+	Step 150: mean loss = 0.0061
+
+	Loss on validation set after epoch 213: 0.0063
+
+Epoch 214
+	Step 0: mean loss = 0.0060
+	Step 50: mean loss = 0.0059
+	Step 100: mean loss = 0.0061
+	Step 150: mean loss = 0.0061
+
+	Loss on validation set after epoch 214: 0.0060
+
+Epoch 215
+	Step 0: mean loss = 0.0058
+	Step 50: mean loss = 0.0061
+	Step 100: mean loss = 0.0061
+	Step 150: mean loss = 0.0061
+
+	Loss on validation set after epoch 215: 0.0064
+
+Epoch 216
+	Step 0: mean loss = 0.0070
+	Step 50: mean loss = 0.0060
+	Step 100: mean loss = 0.0060
+	Step 150: mean loss = 0.0060
+
+	Loss on validation set after epoch 216: 0.0060
+
+Epoch 217
+	Step 0: mean loss = 0.0066
+	Step 50: mean loss = 0.0059
+	Step 100: mean loss = 0.0061
+	Step 150: mean loss = 0.0060
+
+	Loss on validation set after epoch 217: 0.0064
+
+Epoch 218
+	Step 0: mean loss = 0.0065
+	Step 50: mean loss = 0.0058
+	Step 100: mean loss = 0.0059
+	Step 150: mean loss = 0.0059
+
+	Loss on validation set after epoch 218: 0.0063
+
+Epoch 219
+	Step 0: mean loss = 0.0072
+	Step 50: mean loss = 0.0058
+	Step 100: mean loss = 0.0059
+	Step 150: mean loss = 0.0059
+
+	Loss on validation set after epoch 219: 0.0061
+
+Epoch 220
+	Step 0: mean loss = 0.0051
+	Step 50: mean loss = 0.0058
+	Step 100: mean loss = 0.0059
+	Step 150: mean loss = 0.0059
+
+	Loss on validation set after epoch 220: 0.0060
+
+Epoch 221
+	Step 0: mean loss = 0.0053
+	Step 50: mean loss = 0.0057
+	Step 100: mean loss = 0.0058
+	Step 150: mean loss = 0.0058
+
+	Loss on validation set after epoch 221: 0.0061
+
+Epoch 222
+	Step 0: mean loss = 0.0079
+	Step 50: mean loss = 0.0058
+	Step 100: mean loss = 0.0058
+	Step 150: mean loss = 0.0058
+
+	Loss on validation set after epoch 222: 0.0059
+
+Epoch 223
+	Step 0: mean loss = 0.0065
+	Step 50: mean loss = 0.0058
+	Step 100: mean loss = 0.0059
+	Step 150: mean loss = 0.0059
+
+	Loss on validation set after epoch 223: 0.0058
+
+Epoch 224
+	Step 0: mean loss = 0.0058
+	Step 50: mean loss = 0.0057
+	Step 100: mean loss = 0.0059
+	Step 150: mean loss = 0.0058
+
+	Loss on validation set after epoch 224: 0.0060
+
+Epoch 225
+	Step 0: mean loss = 0.0051
+	Step 50: mean loss = 0.0057
+	Step 100: mean loss = 0.0057
+	Step 150: mean loss = 0.0057
+
+	Loss on validation set after epoch 225: 0.0061
+
+Epoch 226
+	Step 0: mean loss = 0.0065
+	Step 50: mean loss = 0.0057
+	Step 100: mean loss = 0.0058
+	Step 150: mean loss = 0.0057
+
+	Loss on validation set after epoch 226: 0.0060
+
+Epoch 227
+	Step 0: mean loss = 0.0052
+	Step 50: mean loss = 0.0056
+	Step 100: mean loss = 0.0057
+	Step 150: mean loss = 0.0056
+
+	Loss on validation set after epoch 227: 0.0062
+
+Epoch 228
+	Step 0: mean loss = 0.0070
+	Step 50: mean loss = 0.0056
+	Step 100: mean loss = 0.0057
+	Step 150: mean loss = 0.0056
+
+	Loss on validation set after epoch 228: 0.0063
+
+Epoch 229
+	Step 0: mean loss = 0.0072
+	Step 50: mean loss = 0.0058
+	Step 100: mean loss = 0.0058
+	Step 150: mean loss = 0.0057
+
+	Loss on validation set after epoch 229: 0.0060
+
+Epoch 230
+	Step 0: mean loss = 0.0072
+	Step 50: mean loss = 0.0056
+	Step 100: mean loss = 0.0056
+	Step 150: mean loss = 0.0056
+
+	Loss on validation set after epoch 230: 0.0056
+
+Epoch 231
+	Step 0: mean loss = 0.0063
+	Step 50: mean loss = 0.0055
+	Step 100: mean loss = 0.0055
+	Step 150: mean loss = 0.0055
+
+	Loss on validation set after epoch 231: 0.0059
+
+Epoch 232
+	Step 0: mean loss = 0.0066
+	Step 50: mean loss = 0.0055
+	Step 100: mean loss = 0.0056
+	Step 150: mean loss = 0.0055
+
+	Loss on validation set after epoch 232: 0.0059
+
+Epoch 233
+	Step 0: mean loss = 0.0057
+	Step 50: mean loss = 0.0054
+	Step 100: mean loss = 0.0055
+	Step 150: mean loss = 0.0055
+
+	Loss on validation set after epoch 233: 0.0054
+
+Epoch 234
+	Step 0: mean loss = 0.0055
+	Step 50: mean loss = 0.0054
+	Step 100: mean loss = 0.0055
+	Step 150: mean loss = 0.0055
+
+	Loss on validation set after epoch 234: 0.0058
+
+Epoch 235
+	Step 0: mean loss = 0.0053
+	Step 50: mean loss = 0.0053
+	Step 100: mean loss = 0.0055
+	Step 150: mean loss = 0.0054
+
+	Loss on validation set after epoch 235: 0.0057
+
+Epoch 236
+	Step 0: mean loss = 0.0066
+	Step 50: mean loss = 0.0054
+	Step 100: mean loss = 0.0055
+	Step 150: mean loss = 0.0055
+
+	Loss on validation set after epoch 236: 0.0057
+
+Epoch 237
+	Step 0: mean loss = 0.0048
+	Step 50: mean loss = 0.0054
+	Step 100: mean loss = 0.0054
+	Step 150: mean loss = 0.0054
+
+	Loss on validation set after epoch 237: 0.0056
+
+Epoch 238
+	Step 0: mean loss = 0.0054
+	Step 50: mean loss = 0.0054
+	Step 100: mean loss = 0.0055
+	Step 150: mean loss = 0.0055
+
+	Loss on validation set after epoch 238: 0.0056
+
+Epoch 239
+	Step 0: mean loss = 0.0049
+	Step 50: mean loss = 0.0053
+	Step 100: mean loss = 0.0054
+	Step 150: mean loss = 0.0053
+
+	Loss on validation set after epoch 239: 0.0056
+
+Epoch 240
+	Step 0: mean loss = 0.0056
+	Step 50: mean loss = 0.0053
+	Step 100: mean loss = 0.0054
+	Step 150: mean loss = 0.0054
+
+	Loss on validation set after epoch 240: 0.0058
+
+Epoch 241
+	Step 0: mean loss = 0.0051
+	Step 50: mean loss = 0.0053
+	Step 100: mean loss = 0.0053
+	Step 150: mean loss = 0.0053
+
+	Loss on validation set after epoch 241: 0.0055
+
+Epoch 242
+	Step 0: mean loss = 0.0049
+	Step 50: mean loss = 0.0054
+	Step 100: mean loss = 0.0055
+	Step 150: mean loss = 0.0054
+
+	Loss on validation set after epoch 242: 0.0057
+
+Epoch 243
+	Step 0: mean loss = 0.0058
+	Step 50: mean loss = 0.0052
+	Step 100: mean loss = 0.0053
+	Step 150: mean loss = 0.0053
+
+	Loss on validation set after epoch 243: 0.0054
+
+Epoch 244
+	Step 0: mean loss = 0.0055
+	Step 50: mean loss = 0.0052
+	Step 100: mean loss = 0.0053
+	Step 150: mean loss = 0.0053
+
+	Loss on validation set after epoch 244: 0.0055
+
+Epoch 245
+	Step 0: mean loss = 0.0035
+	Step 50: mean loss = 0.0053
+	Step 100: mean loss = 0.0053
+	Step 150: mean loss = 0.0053
+
+	Loss on validation set after epoch 245: 0.0054
+
+Epoch 246
+	Step 0: mean loss = 0.0053
+	Step 50: mean loss = 0.0053
+	Step 100: mean loss = 0.0053
+	Step 150: mean loss = 0.0053
+
+	Loss on validation set after epoch 246: 0.0053
+
+Epoch 247
+	Step 0: mean loss = 0.0045
+	Step 50: mean loss = 0.0052
+	Step 100: mean loss = 0.0053
+	Step 150: mean loss = 0.0053
+
+	Loss on validation set after epoch 247: 0.0054
+
+Epoch 248
+	Step 0: mean loss = 0.0041
+	Step 50: mean loss = 0.0051
+	Step 100: mean loss = 0.0052
+	Step 150: mean loss = 0.0052
+
+	Loss on validation set after epoch 248: 0.0059
+
+Epoch 249
+	Step 0: mean loss = 0.0054
+	Step 50: mean loss = 0.0052
+	Step 100: mean loss = 0.0053
+	Step 150: mean loss = 0.0052
+
+	Loss on validation set after epoch 249: 0.0059
+
+Epoch 250
+	Step 0: mean loss = 0.0058
+	Step 50: mean loss = 0.0052
+	Step 100: mean loss = 0.0052
+	Step 150: mean loss = 0.0052
+
+	Loss on validation set after epoch 250: 0.0055
+
+Epoch 251
+	Step 0: mean loss = 0.0043
+	Step 50: mean loss = 0.0052
+	Step 100: mean loss = 0.0052
+	Step 150: mean loss = 0.0052
+
+	Loss on validation set after epoch 251: 0.0053
+
+Epoch 252
+	Step 0: mean loss = 0.0046
+	Step 50: mean loss = 0.0051
+	Step 100: mean loss = 0.0052
+	Step 150: mean loss = 0.0052
+
+	Loss on validation set after epoch 252: 0.0057
+
+Epoch 253
+	Step 0: mean loss = 0.0049
+	Step 50: mean loss = 0.0051
+	Step 100: mean loss = 0.0052
+	Step 150: mean loss = 0.0052
+
+	Loss on validation set after epoch 253: 0.0053
+
+Epoch 254
+	Step 0: mean loss = 0.0051
+	Step 50: mean loss = 0.0050
+	Step 100: mean loss = 0.0051
+	Step 150: mean loss = 0.0051
+
+	Loss on validation set after epoch 254: 0.0055
+
+Epoch 255
+	Step 0: mean loss = 0.0046
+	Step 50: mean loss = 0.0051
+	Step 100: mean loss = 0.0051
+	Step 150: mean loss = 0.0051
+
+	Loss on validation set after epoch 255: 0.0054
+
+Epoch 256
+	Step 0: mean loss = 0.0057
+	Step 50: mean loss = 0.0049
+	Step 100: mean loss = 0.0050
+	Step 150: mean loss = 0.0051
+
+	Loss on validation set after epoch 256: 0.0057
+
+Epoch 257
+	Step 0: mean loss = 0.0067
+	Step 50: mean loss = 0.0050
+	Step 100: mean loss = 0.0051
+	Step 150: mean loss = 0.0051
+
+	Loss on validation set after epoch 257: 0.0052
+
+Epoch 258
+	Step 0: mean loss = 0.0056
+	Step 50: mean loss = 0.0050
+	Step 100: mean loss = 0.0051
+	Step 150: mean loss = 0.0051
+
+	Loss on validation set after epoch 258: 0.0051
+
+Epoch 259
+	Step 0: mean loss = 0.0064
+	Step 50: mean loss = 0.0049
+	Step 100: mean loss = 0.0051
+	Step 150: mean loss = 0.0051
+
+	Loss on validation set after epoch 259: 0.0054
+
+Epoch 260
+	Step 0: mean loss = 0.0042
+	Step 50: mean loss = 0.0049
+	Step 100: mean loss = 0.0050
+	Step 150: mean loss = 0.0050
+
+	Loss on validation set after epoch 260: 0.0053
+
+Epoch 261
+	Step 0: mean loss = 0.0042
+	Step 50: mean loss = 0.0049
+	Step 100: mean loss = 0.0050
+	Step 150: mean loss = 0.0050
+
+	Loss on validation set after epoch 261: 0.0053
+
+Epoch 262
+	Step 0: mean loss = 0.0047
+	Step 50: mean loss = 0.0049
+	Step 100: mean loss = 0.0050
+	Step 150: mean loss = 0.0050
+
+	Loss on validation set after epoch 262: 0.0053
+
+Epoch 263
+	Step 0: mean loss = 0.0067
+	Step 50: mean loss = 0.0049
+	Step 100: mean loss = 0.0049
+	Step 150: mean loss = 0.0050
+
+	Loss on validation set after epoch 263: 0.0055
+
+Epoch 264
+	Step 0: mean loss = 0.0047
+	Step 50: mean loss = 0.0049
+	Step 100: mean loss = 0.0049
+	Step 150: mean loss = 0.0050
+
+	Loss on validation set after epoch 264: 0.0054
+
+Epoch 265
+	Step 0: mean loss = 0.0046
+	Step 50: mean loss = 0.0048
+	Step 100: mean loss = 0.0049
+	Step 150: mean loss = 0.0049
+
+	Loss on validation set after epoch 265: 0.0052
+
+Epoch 266
+	Step 0: mean loss = 0.0056
+	Step 50: mean loss = 0.0049
+	Step 100: mean loss = 0.0049
+	Step 150: mean loss = 0.0049
+
+	Loss on validation set after epoch 266: 0.0055
+
+Epoch 267
+	Step 0: mean loss = 0.0050
+	Step 50: mean loss = 0.0048
+	Step 100: mean loss = 0.0049
+	Step 150: mean loss = 0.0050
+
+	Loss on validation set after epoch 267: 0.0053
+
+Epoch 268
+	Step 0: mean loss = 0.0045
+	Step 50: mean loss = 0.0048
+	Step 100: mean loss = 0.0049
+	Step 150: mean loss = 0.0049
+
+	Loss on validation set after epoch 268: 0.0052
+
+Model from epoch 258 was selected by early stopping.
+Training process will be stopped now.
+Deleted temporary files in ../data/trained_models/temp_01-04-17-08-20/
+Location of saved model: ../data/trained_models/last_hope_82_01-04-17-08-20/ 
+
+Adding feature wise convolutions with 32 filters per feature, 3 kernels and 1 strides ...
+Adding feature wise convolutions with 1 filters per feature, 3 kernels and 1 strides ...
+Adding feature based graph attention layer ...
+Adding time based graph attention layer ...
+Adding GRU layer with 256 units ...
+Adding GRU layer with 61 units ...
+Adding VAE as reconstruction model dimensions 3072 & 1024 and ...
+Adding dense layer to forecasting model with 512 units and ReLu activation ...
+Adding dense layer to forecasting model with 256 units and ReLu activation ...
+Adding last dense layer to forecasting model with 61 units and sigmoid activation ...
+VAE reconstructs the output of the gru layer.
+
+Grid search running in anomaly detection model selection mode.
+The following hyperparameters will not be evaluated:
+relevance_mapping
+unaffected_component_threshold
+si_mode
+si_parameter
+
+Testing 294 combinations via grid search 
+for model last_hope_82_01-04-17-08-20/ on the validation dataset. 
+
+
+Top 50 combinations tested:
+      gamma  single_timestamp_a.. affected_timestamp..     AD F1     AD F2    AD TPR   AD Prec    AD ACC    AD TNR    AD FPR  SI/ST AVG-HR@100%  SI/ST AVG-HR@150%  SI/ST AVG-HR@K  SI/ST F1  SI/ST TPR  SI/ST ACC
+Comb                                                                                                                                                                                                              
+7       0.3                 0.225                  100  0.373844  0.568501  0.870769  0.238015  0.445614  0.345848  0.654152           0.418747           0.521550        0.276923  0.092308   0.092308   0.860355
+8       0.3                 0.225                  110  0.371353  0.563834  0.861538  0.236686  0.445614  0.348014  0.651986           0.418747           0.521550        0.276923  0.092308   0.092308   0.860355
+10      0.3                 0.225                  130  0.370719  0.560065  0.849231  0.237113  0.452047  0.358845  0.641155           0.418747           0.521550        0.276923  0.092308   0.092308   0.860355
+9       0.3                 0.225                  120  0.369927  0.560936  0.855385  0.235993  0.446199  0.350181  0.649819           0.418747           0.521550        0.276923  0.092308   0.092308   0.860355
+11      0.3                 0.225                  140  0.366599  0.551471  0.830769  0.235192  0.454386  0.366065  0.633935           0.418747           0.521550        0.276923  0.092308   0.092308   0.860355
+12      0.3                 0.225                  150  0.366120  0.549405  0.824615  0.235294  0.457310  0.371119  0.628881           0.418747           0.521550        0.276923  0.092308   0.092308   0.860355
+13      0.3                 0.225                  160  0.365385  0.547100  0.818462  0.235190  0.459649  0.375451  0.624549           0.418747           0.521550        0.276923  0.092308   0.092308   0.860355
+20      0.3                 0.250                  160  0.358921  0.446106  0.532308  0.270736  0.638596  0.663538  0.336462           0.405269           0.502815        0.141538  0.061538   0.061538   0.855621
+172     0.6                 0.275                  140  0.358739  0.546656  0.840000  0.228070  0.429240  0.332852  0.667148           0.438136           0.531498        0.326154  0.110769   0.110769   0.863195
+76      0.4                 0.275                  160  0.357396  0.414835  0.464615  0.290385  0.682456  0.733574  0.266426           0.401057           0.495879        0.132308  0.067692   0.067692   0.856568
+171     0.6                 0.275                  130  0.357143  0.546720  0.846154  0.226337  0.421053  0.321300  0.678700           0.438136           0.531498        0.326154  0.110769   0.110769   0.863195
+75      0.4                 0.275                  150  0.357060  0.417576  0.470769  0.287594  0.677778  0.726354  0.273646           0.401057           0.495879        0.132308  0.067692   0.067692   0.856568
+71      0.4                 0.275                  110  0.355556  0.426667  0.492308  0.278261  0.660819  0.700361  0.299639           0.401057           0.495879        0.132308  0.067692   0.067692   0.856568
+19      0.3                 0.250                  150  0.355465  0.445241  0.535385  0.266055  0.630994  0.653430  0.346570           0.405269           0.502815        0.141538  0.061538   0.061538   0.855621
+70      0.4                 0.275                  100  0.355017  0.427736  0.495385  0.276632  0.657895  0.696029  0.303971           0.401057           0.495879        0.132308  0.067692   0.067692   0.856568
+173     0.6                 0.275                  150  0.354732  0.539019  0.824615  0.225970  0.429825  0.337184  0.662816           0.438136           0.531498        0.326154  0.110769   0.110769   0.863195
+18      0.3                 0.250                  140  0.354610  0.445973  0.538462  0.264350  0.627485  0.648375  0.351625           0.405269           0.502815        0.141538  0.061538   0.061538   0.855621
+170     0.6                 0.275                  120  0.354528  0.545024  0.849231  0.224026  0.412281  0.309747  0.690253           0.438136           0.531498        0.326154  0.110769   0.110769   0.863195
+74      0.4                 0.275                  140  0.354023  0.417344  0.473846  0.282569  0.671345  0.717690  0.282310           0.401057           0.495879        0.132308  0.067692   0.067692   0.856568
+174     0.6                 0.275                  160  0.353414  0.534629  0.812308  0.225834  0.435088  0.346570  0.653430           0.438136           0.531498        0.326154  0.110769   0.110769   0.863195
+72      0.4                 0.275                  120  0.353206  0.421137  0.483077  0.278369  0.663743  0.706137  0.293863           0.401057           0.495879        0.132308  0.067692   0.067692   0.856568
+65      0.4                 0.250                  120  0.352858  0.522575  0.769231  0.228938  0.463743  0.392058  0.607942           0.422070           0.527037        0.258462  0.101538   0.101538   0.861775
+63      0.4                 0.250                  100  0.352448  0.523909  0.775385  0.228054  0.458480  0.384116  0.615884           0.422070           0.527037        0.258462  0.101538   0.101538   0.861775
+181     0.6                 0.300                  160  0.352423  0.424854  0.492308  0.274443  0.656140  0.694585  0.305415           0.420373           0.522940        0.160000  0.083077   0.083077   0.858935
+169     0.6                 0.275                  110  0.352122  0.544244  0.855385  0.221691  0.401754  0.295307  0.704693           0.438136           0.531498        0.326154  0.110769   0.110769   0.863195
+73      0.4                 0.275                  130  0.351873  0.417565  0.476923  0.278777  0.666082  0.710469  0.289531           0.401057           0.495879        0.132308  0.067692   0.067692   0.856568
+64      0.4                 0.250                  110  0.351865  0.521703  0.769231  0.228102  0.461404  0.389170  0.610830           0.422070           0.527037        0.258462  0.101538   0.101538   0.861775
+17      0.3                 0.250                  130  0.350701  0.443487  0.538462  0.260030  0.621053  0.640433  0.359567           0.405269           0.502815        0.141538  0.061538   0.061538   0.855621
+168     0.6                 0.275                  100  0.350282  0.543224  0.858462  0.220032  0.394737  0.285921  0.714079           0.438136           0.531498        0.326154  0.110769   0.110769   0.863195
+15      0.3                 0.250                  110  0.347490  0.447539  0.553846  0.253165  0.604678  0.616606  0.383394           0.405269           0.502815        0.141538  0.061538   0.061538   0.855621
+16      0.3                 0.250                  120  0.346798  0.442211  0.541538  0.255072  0.612281  0.628881  0.371119           0.405269           0.502815        0.141538  0.061538   0.061538   0.855621
+14      0.3                 0.250                  100  0.346743  0.448242  0.556923  0.251739  0.601170  0.611552  0.388448           0.405269           0.502815        0.141538  0.061538   0.061538   0.855621
+180     0.6                 0.300                  150  0.346609  0.422794  0.495385  0.266556  0.645029  0.680144  0.319856           0.420373           0.522940        0.160000  0.083077   0.083077   0.858935
+179     0.6                 0.300                  140  0.343816  0.425091  0.504615  0.260731  0.633918  0.664260  0.335740           0.420373           0.522940        0.160000  0.083077   0.083077   0.858935
+66      0.4                 0.250                  130  0.343102  0.505476  0.738462  0.223464  0.462573  0.397834  0.602166           0.422070           0.527037        0.258462  0.101538   0.101538   0.861775
+6       0.3                 0.200                  160  0.340357  0.557325  0.969231  0.206422  0.285965  0.125632  0.874368           0.419162           0.519608        0.347692  0.104615   0.104615   0.862249
+4       0.3                 0.200                  140  0.339420  0.556926  0.972308  0.205595  0.280702  0.118412  0.881588           0.419162           0.519608        0.347692  0.104615   0.104615   0.862249
+116     0.5                 0.250                  140  0.339367  0.546847  0.923077  0.207900  0.316959  0.174729  0.825271           0.432285           0.529793        0.350769  0.110769   0.110769   0.863195
+5       0.3                 0.200                  150  0.339257  0.556144  0.969231  0.205614  0.282456  0.121300  0.878700           0.419162           0.519608        0.347692  0.104615   0.104615   0.862249
+62      0.4                 0.225                  160  0.339227  0.551167  0.944615  0.206734  0.300585  0.149458  0.850542           0.427462           0.524209        0.356923  0.120000   0.120000   0.864615
+117     0.5                 0.250                  150  0.339002  0.545820  0.920000  0.207783  0.318129  0.176895  0.823105           0.432285           0.529793        0.350769  0.110769   0.110769   0.863195
+178     0.6                 0.300                  130  0.338843  0.422028  0.504615  0.255054  0.625731  0.654152  0.345848           0.420373           0.522940        0.160000  0.083077   0.083077   0.858935
+114     0.5                 0.250                  120  0.338755  0.547498  0.929231  0.207133  0.310526  0.165343  0.834657           0.432285           0.529793        0.350769  0.110769   0.110769   0.863195
+3       0.3                 0.200                  130  0.338330  0.555751  0.972308  0.204796  0.277193  0.114079  0.885921           0.419162           0.519608        0.347692  0.104615   0.104615   0.862249
+61      0.4                 0.225                  150  0.338106  0.549982  0.944615  0.205902  0.297076  0.145126  0.854874           0.427462           0.524209        0.356923  0.120000   0.120000   0.864615
+67      0.4                 0.250                  140  0.337906  0.495763  0.720000  0.220755  0.463743  0.403610  0.596390           0.422070           0.527037        0.258462  0.101538   0.101538   0.861775
+115     0.5                 0.250                  130  0.337838  0.545256  0.923077  0.206754  0.312281  0.168953  0.831047           0.432285           0.529793        0.350769  0.110769   0.110769   0.863195
+113     0.5                 0.250                  110  0.337808  0.546507  0.929231  0.206425  0.307602  0.161733  0.838267           0.432285           0.529793        0.350769  0.110769   0.110769   0.863195
+112     0.5                 0.250                  100  0.337604  0.546931  0.932308  0.206122  0.304678  0.157401  0.842599           0.432285           0.529793        0.350769  0.110769   0.110769   0.863195
+69      0.4                 0.250                  160  0.337565  0.488332  0.695385  0.222880  0.481287  0.431047  0.568953           0.422070           0.527037        0.258462  0.101538   0.101538   0.861775
+
+Full result output for the best combination:
+                 #Examples   TP   FP   TN  FN       ACC       FNR       TNR       FPR       TPR      Prec        F1        F2  AVG # affected
+Component                                                                                                                                    
+no_failure            1385    0  906  479   0  0.345848       NaN  0.345848  0.654152       NaN  0.000000       NaN       NaN      280.831769
+txt15_i1                 5    5    0    0   0  1.000000  0.000000       NaN       NaN  1.000000  1.000000  1.000000  1.000000      495.400000
+txt15_i3                 5    3    0    0   2  0.600000  0.400000       NaN       NaN  0.600000  1.000000  0.750000  0.652174      147.800000
+txt15_conveyor           3    3    0    0   0  1.000000  0.000000       NaN       NaN  1.000000  1.000000  1.000000  1.000000      452.000000
+txt15_m1               160  147    0    0  13  0.918750  0.081250       NaN       NaN  0.918750  1.000000  0.957655  0.933926      383.387500
+txt15_pl                 9    6    0    0   3  0.666667  0.333333       NaN       NaN  0.666667  1.000000  0.800000  0.714286      216.000000
+txt16_i3                 4    4    0    0   0  1.000000  0.000000       NaN       NaN  1.000000  1.000000  1.000000  1.000000      430.000000
+txt16_conveyor           8    4    0    0   4  0.500000  0.500000       NaN       NaN  0.500000  1.000000  0.666667  0.555556      204.625000
+txt16_m3                65   51    0    0  14  0.784615  0.215385       NaN       NaN  0.784615  1.000000  0.879310  0.819936      346.276923
+txt16_turntable          2    2    0    0   0  1.000000  0.000000       NaN       NaN  1.000000  1.000000  1.000000  1.000000      263.000000
+txt17_i1                16   12    0    0   4  0.750000  0.250000       NaN       NaN  0.750000  1.000000  0.857143  0.789474      317.437500
+txt17_pl                14   14    0    0   0  1.000000  0.000000       NaN       NaN  1.000000  1.000000  1.000000  1.000000      454.642857
+txt18_pl                28   28    0    0   0  1.000000  0.000000       NaN       NaN  1.000000  1.000000  1.000000  1.000000      453.500000
+txt19_i4                 6    4    0    0   2  0.666667  0.333333       NaN       NaN  0.666667  1.000000  0.800000  0.714286      254.666667
+combined              1710  283  906  479  42  0.445614  0.129231  0.345848  0.654152  0.870769  0.238015  0.373844  0.568501      297.585380
+
+                 #Examples   TP   FP   TN  FN       ACC       FNR       TNR       FPR       TPR      Prec        F1        F2  AVG # affected
+Component                                                                                                                                    
+no_failure            1385    0  906  479   0  0.345848       NaN  0.345848  0.654152       NaN  0.000000       NaN       NaN      280.831769
+txt15_i1                 5    5    0    0   0  1.000000  0.000000       NaN       NaN  1.000000  1.000000  1.000000  1.000000      495.400000
+txt15_i3                 5    3    0    0   2  0.600000  0.400000       NaN       NaN  0.600000  1.000000  0.750000  0.652174      147.800000
+txt15_conveyor           3    3    0    0   0  1.000000  0.000000       NaN       NaN  1.000000  1.000000  1.000000  1.000000      452.000000
+txt15_m1               160  147    0    0  13  0.918750  0.081250       NaN       NaN  0.918750  1.000000  0.957655  0.933926      383.387500
+txt15_pl                 9    6    0    0   3  0.666667  0.333333       NaN       NaN  0.666667  1.000000  0.800000  0.714286      216.000000
+txt16_i3                 4    4    0    0   0  1.000000  0.000000       NaN       NaN  1.000000  1.000000  1.000000  1.000000      430.000000
+txt16_conveyor           8    4    0    0   4  0.500000  0.500000       NaN       NaN  0.500000  1.000000  0.666667  0.555556      204.625000
+txt16_m3                65   51    0    0  14  0.784615  0.215385       NaN       NaN  0.784615  1.000000  0.879310  0.819936      346.276923
+txt16_turntable          2    2    0    0   0  1.000000  0.000000       NaN       NaN  1.000000  1.000000  1.000000  1.000000      263.000000
+txt17_i1                16   12    0    0   4  0.750000  0.250000       NaN       NaN  0.750000  1.000000  0.857143  0.789474      317.437500
+txt17_pl                14   14    0    0   0  1.000000  0.000000       NaN       NaN  1.000000  1.000000  1.000000  1.000000      454.642857
+txt18_pl                28   28    0    0   0  1.000000  0.000000       NaN       NaN  1.000000  1.000000  1.000000  1.000000      453.500000
+txt19_i4                 6    4    0    0   2  0.666667  0.333333       NaN       NaN  0.666667  1.000000  0.800000  0.714286      254.666667
+combined              1710  283  906  479  42  0.445614  0.129231  0.345848  0.654152  0.870769  0.238015  0.373844  0.568501      297.585380
+
+Execution time: 6235.857218160061

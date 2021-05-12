@@ -1,0 +1,762 @@
+
+
+Importing dataframe 0/13 from file
+
+Split data by cases with the configured timestamps
+Processing case 0 to 19
+	Processing no_failure                              2019-05-23 09:30:20.040000     2019-05-23 09:48:00.220000     Failure time:                                 
+	Processing txt15_m1_t1_low_wear                    2019-05-23 09:48:00.320000     2019-05-23 09:48:12.630000     Failure time:        2019-05-23 09:49:31      
+	Processing no_failure                              2019-05-23 09:48:12.730000     2019-05-23 09:49:15.690000     Failure time:                                 
+	Processing txt15_m1_t1_high_wear                   2019-05-23 09:49:15.790000     2019-05-23 09:49:29.580000     Failure time:        2019-05-23 09:49:31      
+	Processing no_failure                              2019-05-23 09:49:29.680000     2019-05-23 10:07:54.710000     Failure time:                                 
+	Processing txt15_m1_t1_low_wear                    2019-05-23 10:07:54.810000     2019-05-23 10:08:04.340000     Failure time:        2019-05-23 10:15:52      
+	Processing no_failure                              2019-05-23 10:08:04.450000     2019-05-23 10:09:13.850000     Failure time:                                 
+	Processing txt15_m1_t1_low_wear                    2019-05-23 10:09:13.950000     2019-05-23 10:09:24.030000     Failure time:        2019-05-23 10:15:52      
+	Processing no_failure                              2019-05-23 10:09:24.130000     2019-05-23 10:10:26.510000     Failure time:                                 
+	Processing txt15_m1_t1_low_wear                    2019-05-23 10:10:26.610000     2019-05-23 10:10:35.520000     Failure time:        2019-05-23 10:15:52      
+	Processing no_failure                              2019-05-23 10:10:35.620000     2019-05-23 10:11:49.060000     Failure time:                                 
+	Processing txt15_m1_t1_low_wear                    2019-05-23 10:11:49.160000     2019-05-23 10:12:00.030000     Failure time:        2019-05-23 10:15:52      
+	Processing no_failure                              2019-05-23 10:12:00.130000     2019-05-23 10:12:59.600000     Failure time:                                 
+	Processing txt15_m1_t1_low_wear                    2019-05-23 10:12:59.700000     2019-05-23 10:13:11.690000     Failure time:        2019-05-23 10:15:52      
+	Processing no_failure                              2019-05-23 10:13:11.790000     2019-05-23 10:14:22.210000     Failure time:                                 
+	Processing txt15_m1_t1_high_wear                   2019-05-23 10:14:22.310000     2019-05-23 10:14:35.630000     Failure time:        2019-05-23 10:15:52      
+	Processing no_failure                              2019-05-23 10:14:35.730000     2019-05-23 10:15:44.740000     Failure time:                                 
+	Processing txt15_m1_t1_high_wear                   2019-05-23 10:15:44.840000     2019-05-23 10:15:53.220000     Failure time:        2019-05-23 10:15:52      
+	Processing txt15_m1_t1_low_wear                    2019-05-23 10:15:55            2019-05-23 10:16:00            Failure time:        2019-05-23 10:16:58      
+	Processing txt15_m1_t1_high_wear                   2019-05-23 10:19:47            2019-05-23 10:19:49            Failure time:        2019-05-23 10:19:49      
+Processing case 20 to 26
+	Processing no_failure                              2019-05-23 10:16:00.510000     2019-05-23 10:16:55.470000     Failure time:                                 
+	Processing txt18_WorkpieceDroppedCro...            2019-05-23 10:17:22            2019-05-23 10:17:27            Failure time:        2019-05-23 10:17:22      
+	Processing txt17_failuremode_working...            2019-05-23 10:17:54            2019-05-23 10:18:00            Failure time:        2019-05-23 10:17:54      
+	Processing txt16_failuremode_conveyo...            2019-05-23 10:18:13            2019-05-23 10:18:26            Failure time:        2019-05-23 10:18:13      
+	Processing txt17_failuremode_working...            2019-05-23 10:18:39            2019-05-23 10:18:51            Failure time:        2019-05-23 10:18:39      
+	Processing txt16_failuremode_conveyo...            2019-05-23 10:18:57            2019-05-23 10:19:10            Failure time:        2019-05-23 10:18:57      
+	Processing txt16_failuremode_oven_do...            2019-05-23 10:07:07            2019-05-23 10:07:12            Failure time:        2019-05-23 10:07:07      
+
+Splitting case 0 / 26 into examples. Length: 1060.148  Start:  2019-05-23 09:30:20.072000  End:  2019-05-23 09:48:00.220000
+Splitting case 1 / 26 into examples. Length: 12.308  Start:  2019-05-23 09:48:00.320000  End:  2019-05-23 09:48:12.628000
+Splitting case 2 / 26 into examples. Length: 62.956  Start:  2019-05-23 09:48:12.732000  End:  2019-05-23 09:49:15.688000
+Splitting case 3 / 26 into examples. Length: 13.788  Start:  2019-05-23 09:49:15.792000  End:  2019-05-23 09:49:29.580000
+Splitting case 4 / 26 into examples. Length: 1105.028  Start:  2019-05-23 09:49:29.680000  End:  2019-05-23 10:07:54.708000
+Splitting case 5 / 26 into examples. Length: 9.528  Start:  2019-05-23 10:07:54.812000  End:  2019-05-23 10:08:04.340000
+Splitting case 6 / 26 into examples. Length: 69.396  Start:  2019-05-23 10:08:04.452000  End:  2019-05-23 10:09:13.848000
+Splitting case 7 / 26 into examples. Length: 10.076  Start:  2019-05-23 10:09:13.952000  End:  2019-05-23 10:09:24.028000
+Splitting case 8 / 26 into examples. Length: 62.376  Start:  2019-05-23 10:09:24.132000  End:  2019-05-23 10:10:26.508000
+Splitting case 9 / 26 into examples. Length: 8.908  Start:  2019-05-23 10:10:26.612000  End:  2019-05-23 10:10:35.520000
+Splitting case 10 / 26 into examples. Length: 73.44  Start:  2019-05-23 10:10:35.620000  End:  2019-05-23 10:11:49.060000
+Splitting case 11 / 26 into examples. Length: 10.868  Start:  2019-05-23 10:11:49.160000  End:  2019-05-23 10:12:00.028000
+Splitting case 12 / 26 into examples. Length: 59.468  Start:  2019-05-23 10:12:00.132000  End:  2019-05-23 10:12:59.600000
+Splitting case 13 / 26 into examples. Length: 11.988  Start:  2019-05-23 10:12:59.700000  End:  2019-05-23 10:13:11.688000
+Splitting case 14 / 26 into examples. Length: 70.416  Start:  2019-05-23 10:13:11.792000  End:  2019-05-23 10:14:22.208000
+Splitting case 15 / 26 into examples. Length: 13.316  Start:  2019-05-23 10:14:22.312000  End:  2019-05-23 10:14:35.628000
+Splitting case 16 / 26 into examples. Length: 69.008  Start:  2019-05-23 10:14:35.732000  End:  2019-05-23 10:15:44.740000
+Splitting case 17 / 26 into examples. Length: 8.38  Start:  2019-05-23 10:15:44.840000  End:  2019-05-23 10:15:53.220000
+Splitting case 18 / 26 into examples. Length: 5.0  Start:  2019-05-23 10:15:55  End:  2019-05-23 10:16:00
+Splitting case 19 / 26 into examples. Length: 2.0  Start:  2019-05-23 10:19:47  End:  2019-05-23 10:19:49
+Splitting case 20 / 26 into examples. Length: 54.956  Start:  2019-05-23 10:16:00.512000  End:  2019-05-23 10:16:55.468000
+Splitting case 21 / 26 into examples. Length: 5.0  Start:  2019-05-23 10:17:22  End:  2019-05-23 10:17:27
+Splitting case 22 / 26 into examples. Length: 6.0  Start:  2019-05-23 10:17:54  End:  2019-05-23 10:18:00
+Splitting case 23 / 26 into examples. Length: 13.0  Start:  2019-05-23 10:18:13  End:  2019-05-23 10:18:26
+Splitting case 24 / 26 into examples. Length: 12.0  Start:  2019-05-23 10:18:39  End:  2019-05-23 10:18:51
+Splitting case 25 / 26 into examples. Length: 13.0  Start:  2019-05-23 10:18:57  End:  2019-05-23 10:19:10
+Splitting case 26 / 26 into examples. Length: 5.0  Start:  2019-05-23 10:07:07  End:  2019-05-23 10:07:12
+
+
+
+Importing dataframe 1/13 from file
+
+Split data by cases with the configured timestamps
+Processing case 0 to 19
+	Processing no_failure                              2019-06-07 18:30:42.300000     2019-06-07 18:45:51.390000     Failure time:                                 
+	Processing txt15_m1_t1_low_wear                    2019-06-07 18:45:51.500000     2019-06-07 18:46:01.230000     Failure time:        2019-06-07 18:48:25      
+	Processing no_failure                              2019-06-07 18:46:01.330000     2019-06-07 18:47:09.230000     Failure time:                                 
+	Processing txt15_m1_t1_high_wear                   2019-06-07 18:47:09.330000     2019-06-07 18:47:21.590000     Failure time:        2019-06-07 18:48:25      
+	Processing no_failure                              2019-06-07 18:48:32.250000     2019-06-07 18:49:39.770000     Failure time:                                 
+	Processing txt15_m1_t1_low_wear                    2019-06-07 18:49:39.870000     2019-06-07 18:49:52.090000     Failure time:        2019-06-07 18:51:02      
+	Processing no_failure                              2019-06-07 18:49:52.200000     2019-06-07 18:50:56.200000     Failure time:                                 
+	Processing txt15_m1_t1_high_wear                   2019-06-07 18:50:56.300000     2019-06-07 18:51:03.210000     Failure time:        2019-06-07 18:51:02      
+	Processing no_failure                              2019-06-07 18:51:12.060000     2019-06-07 18:53:20.230000     Failure time:                                 
+	Processing txt15_m1_t1_low_wear                    2019-06-07 18:53:20.230000     2019-06-07 18:53:33.760000     Failure time:        2019-06-07 19:09:36      
+	Processing no_failure                              2019-06-07 18:53:33.860000     2019-06-07 19:05:43.930000     Failure time:                                 
+	Processing txt15_m1_t1_low_wear                    2019-06-07 19:05:44.030000     2019-06-07 19:05:54.180000     Failure time:        2019-06-07 19:09:36      
+	Processing no_failure                              2019-06-07 19:05:54.290000     2019-06-07 19:06:53.760000     Failure time:                                 
+	Processing txt15_m1_t1_high_wear                   2019-06-07 19:06:53.860000     2019-06-07 19:07:03.230000     Failure time:        2019-06-07 19:09:36      
+	Processing no_failure                              2019-06-07 19:07:03.340000     2019-06-07 19:08:12.360000     Failure time:                                 
+	Processing txt15_m1_t1_high_wear                   2019-06-07 19:08:12.460000     2019-06-07 19:08:23.380000     Failure time:        2019-06-07 19:09:36      
+	Processing no_failure                              2019-06-07 19:08:23.480000     2019-06-07 19:09:29.990000     Failure time:                                 
+	Processing txt15_m1_t1_high_wear                   2019-06-07 19:09:30.090000     2019-06-07 19:09:37.160000     Failure time:        2019-06-07 19:09:36      
+	Processing no_failure                              2019-06-07 19:09:38.270000     2019-06-07 19:13:09.930000     Failure time:                                 
+	Processing txt15_m1_t1_low_wear                    2019-06-07 19:13:10.030000     2019-06-07 19:13:23.320000     Failure time:        2019-06-07 19:15:35      
+Processing case 20 to 39
+	Processing no_failure                              2019-06-07 19:13:23.420000     2019-06-07 19:14:18.370000     Failure time:                                 
+	Processing txt15_m1_t1_high_wear                   2019-06-07 19:14:18.470000     2019-06-07 19:14:34.530000     Failure time:        2019-06-07 19:15:35      
+	Processing no_failure                              2019-06-07 19:14:34.630000     2019-06-07 19:15:34.100000     Failure time:                                 
+	Processing txt15_m1_t1_high_wear                   2019-06-07 19:15:34.200000     2019-06-07 19:15:35            Failure time:        2019-06-07 19:15:35      
+	Processing no_failure                              2019-06-07 19:15:36.100000     2019-06-07 19:17:00.590000     Failure time:                                 
+	Processing no_failure                              2019-06-07 19:19:00.100000     2019-06-07 19:27:00.590000     Failure time:                                 
+	Processing no_failure                              2019-06-07 19:29:00.100000     2019-06-07 19:30:00.590000     Failure time:                                 
+	Processing no_failure                              2019-06-07 19:32:00.100000     2019-06-07 19:34:36.590000     Failure time:                                 
+	Processing txt15_m1_t1_low_wear                    2019-06-07 19:34:36.140000     2019-06-07 19:34:46.380000     Failure time:        2019-06-07 19:52:13      
+	Processing no_failure                              2019-06-07 19:34:46.490000     2019-06-07 19:35:52.890000     Failure time:                                 
+	Processing txt15_m1_t1_low_wear                    2019-06-07 19:35:52.990000     2019-06-07 19:36:06.630000     Failure time:        2019-06-07 19:52:13      
+	Processing no_failure                              2019-06-07 19:36:06.730000     2019-06-07 19:37:01.680000     Failure time:                                 
+	Processing txt15_m1_t1_low_wear                    2019-06-07 19:37:01.780000     2019-06-07 19:37:15.260000     Failure time:        2019-06-07 19:52:13      
+	Processing no_failure                              2019-06-07 19:37:15.360000     2019-06-07 19:38:18.350000     Failure time:                                 
+	Processing txt15_m1_t1_high_wear                   2019-06-07 19:38:18.450000     2019-06-07 19:38:32.550000     Failure time:        2019-06-07 19:52:13      
+	Processing no_failure                              2019-06-07 19:38:32.650000     2019-06-07 19:42:00.240000     Failure time:                                 
+	Processing no_failure                              2019-06-07 19:43:00            2019-06-07 19:51:00.240000     Failure time:                                 
+	Processing txt15_m1_t1_high_wear                   2019-06-07 19:51:00.340000     2019-06-07 19:51:10.520000     Failure time:        2019-06-07 19:52:13      
+	Processing no_failure                              2019-06-07 19:51:10.620000     2019-06-07 19:52:10.490000     Failure time:                                 
+	Processing txt15_m1_t1_high_wear                   2019-06-07 19:52:10.590000     2019-06-07 19:52:14.130000     Failure time:        2019-06-07 19:52:13      
+Processing case 40 to 59
+	Processing no_failure                              2019-06-07 19:52:14.240000     2019-06-07 19:58:27.400000     Failure time:                                 
+	Processing txt15_m1_t1_low_wear                    2019-06-07 19:58:27.500000     2019-06-07 19:58:40.450000     Failure time:        2019-06-07 20:13:24      
+	Processing no_failure                              2019-06-07 19:58:40.550000     2019-06-07 19:59:35.500000     Failure time:                                 
+	Processing txt15_m1_t1_low_wear                    2019-06-07 19:59:35.600000     2019-06-07 19:59:48.180000     Failure time:        2019-06-07 20:13:24      
+	Processing no_failure                              2019-06-07 19:59:48.280000     2019-06-07 20:00:51.760000     Failure time:                                 
+	Processing txt15_m1_t1_high_wear                   2019-06-07 20:00:51.870000     2019-06-07 20:01:05.700000     Failure time:        2019-06-07 20:13:24      
+	Processing no_failure                              2019-06-07 20:01:05.800000     2019-06-07 20:02:00.380000     Failure time:                                 
+	Processing no_failure                              2019-06-07 20:04:00.800000     2019-06-07 20:11:50.380000     Failure time:                                 
+	Processing txt19_failure_mode_crashe...            2019-06-07 20:11:52            2019-06-07 20:11:58            Failure time:        2019-06-07 20:11:58      
+	Processing no_failure                              2019-06-07 20:12:00            2019-06-07 20:13:15.380000     Failure time:                                 
+	Processing txt15_m1_t1_high_wear                   2019-06-07 20:13:15.480000     2019-06-07 20:13:25.530000     Failure time:        2019-06-07 20:13:24      
+	Processing no_failure                              2019-06-07 20:13:25.630000     2019-06-07 20:18:07.570000     Failure time:                                 
+	Processing txt15_m1_t1_low_wear                    2019-06-07 20:18:07.670000     2019-06-07 20:18:18.310000     Failure time:        2019-06-07 20:20:52      
+	Processing no_failure                              2019-06-07 20:18:18.410000     2019-06-07 20:19:23.900000     Failure time:                                 
+	Processing txt15_m1_t1_high_wear                   2019-06-07 20:19:24.010000     2019-06-07 20:19:35.200000     Failure time:        2019-06-07 20:20:52      
+	Processing no_failure                              2019-06-07 20:19:35.310000     2019-06-07 20:20:38.810000     Failure time:                                 
+	Processing txt15_m1_t1_high_wear                   2019-06-07 20:20:38.910000     2019-06-07 20:20:53.500000     Failure time:        2019-06-07 20:20:52      
+	Processing no_failure                              2019-06-07 20:20:53.600000     2019-06-07 20:21:47.040000     Failure time:                                 
+	Processing txt19_failure_mode_crashe...            2019-06-07 20:21:22            2019-06-07 20:21:27            Failure time:        2019-06-07 20:21:27      
+	Processing no_failure                              2019-06-07 20:22:02.440000     2019-06-07 20:23:01.910000     Failure time:                                 
+
+Splitting case 0 / 59 into examples. Length: 908.056  Start:  2019-06-07 18:30:43.332000  End:  2019-06-07 18:45:51.388000
+Splitting case 1 / 59 into examples. Length: 9.728  Start:  2019-06-07 18:45:51.500000  End:  2019-06-07 18:46:01.228000
+Splitting case 2 / 59 into examples. Length: 67.896  Start:  2019-06-07 18:46:01.332000  End:  2019-06-07 18:47:09.228000
+Splitting case 3 / 59 into examples. Length: 12.256  Start:  2019-06-07 18:47:09.332000  End:  2019-06-07 18:47:21.588000
+Splitting case 4 / 59 into examples. Length: 67.516  Start:  2019-06-07 18:48:32.252000  End:  2019-06-07 18:49:39.768000
+Splitting case 5 / 59 into examples. Length: 12.216  Start:  2019-06-07 18:49:39.872000  End:  2019-06-07 18:49:52.088000
+Splitting case 6 / 59 into examples. Length: 64.0  Start:  2019-06-07 18:49:52.200000  End:  2019-06-07 18:50:56.200000
+Splitting case 7 / 59 into examples. Length: 6.908  Start:  2019-06-07 18:50:56.300000  End:  2019-06-07 18:51:03.208000
+Splitting case 8 / 59 into examples. Length: 128.168  Start:  2019-06-07 18:51:12.060000  End:  2019-06-07 18:53:20.228000
+Splitting case 9 / 59 into examples. Length: 13.528  Start:  2019-06-07 18:53:20.232000  End:  2019-06-07 18:53:33.760000
+Splitting case 10 / 59 into examples. Length: 730.068  Start:  2019-06-07 18:53:33.860000  End:  2019-06-07 19:05:43.928000
+Splitting case 11 / 59 into examples. Length: 10.148  Start:  2019-06-07 19:05:44.032000  End:  2019-06-07 19:05:54.180000
+Splitting case 12 / 59 into examples. Length: 59.468  Start:  2019-06-07 19:05:54.292000  End:  2019-06-07 19:06:53.760000
+Splitting case 13 / 59 into examples. Length: 9.368  Start:  2019-06-07 19:06:53.860000  End:  2019-06-07 19:07:03.228000
+Splitting case 14 / 59 into examples. Length: 69.02  Start:  2019-06-07 19:07:03.340000  End:  2019-06-07 19:08:12.360000
+Splitting case 15 / 59 into examples. Length: 10.92  Start:  2019-06-07 19:08:12.460000  End:  2019-06-07 19:08:23.380000
+Splitting case 16 / 59 into examples. Length: 66.508  Start:  2019-06-07 19:08:23.480000  End:  2019-06-07 19:09:29.988000
+Splitting case 17 / 59 into examples. Length: 7.068  Start:  2019-06-07 19:09:30.092000  End:  2019-06-07 19:09:37.160000
+Splitting case 18 / 59 into examples. Length: 211.656  Start:  2019-06-07 19:09:38.272000  End:  2019-06-07 19:13:09.928000
+Splitting case 19 / 59 into examples. Length: 13.288  Start:  2019-06-07 19:13:10.032000  End:  2019-06-07 19:13:23.320000
+Splitting case 20 / 59 into examples. Length: 54.948  Start:  2019-06-07 19:13:23.420000  End:  2019-06-07 19:14:18.368000
+Splitting case 21 / 59 into examples. Length: 16.056  Start:  2019-06-07 19:14:18.472000  End:  2019-06-07 19:14:34.528000
+Splitting case 22 / 59 into examples. Length: 59.468  Start:  2019-06-07 19:14:34.632000  End:  2019-06-07 19:15:34.100000
+Splitting case 23 / 59 into examples. Length: 0.8  Start:  2019-06-07 19:15:34.200000  End:  2019-06-07 19:15:35
+Splitting case 24 / 59 into examples. Length: 84.488  Start:  2019-06-07 19:15:36.100000  End:  2019-06-07 19:17:00.588000
+Splitting case 25 / 59 into examples. Length: 480.488  Start:  2019-06-07 19:19:00.100000  End:  2019-06-07 19:27:00.588000
+Splitting case 26 / 59 into examples. Length: 60.488  Start:  2019-06-07 19:29:00.100000  End:  2019-06-07 19:30:00.588000
+Splitting case 27 / 59 into examples. Length: 156.488  Start:  2019-06-07 19:32:00.100000  End:  2019-06-07 19:34:36.588000
+Splitting case 28 / 59 into examples. Length: 10.24  Start:  2019-06-07 19:34:36.140000  End:  2019-06-07 19:34:46.380000
+Splitting case 29 / 59 into examples. Length: 66.396  Start:  2019-06-07 19:34:46.492000  End:  2019-06-07 19:35:52.888000
+Splitting case 30 / 59 into examples. Length: 13.636  Start:  2019-06-07 19:35:52.992000  End:  2019-06-07 19:36:06.628000
+Splitting case 31 / 59 into examples. Length: 54.948  Start:  2019-06-07 19:36:06.732000  End:  2019-06-07 19:37:01.680000
+Splitting case 32 / 59 into examples. Length: 13.48  Start:  2019-06-07 19:37:01.780000  End:  2019-06-07 19:37:15.260000
+Splitting case 33 / 59 into examples. Length: 62.988  Start:  2019-06-07 19:37:15.360000  End:  2019-06-07 19:38:18.348000
+Splitting case 34 / 59 into examples. Length: 14.096  Start:  2019-06-07 19:38:18.452000  End:  2019-06-07 19:38:32.548000
+Splitting case 35 / 59 into examples. Length: 207.588  Start:  2019-06-07 19:38:32.652000  End:  2019-06-07 19:42:00.240000
+Splitting case 36 / 59 into examples. Length: 480.24  Start:  2019-06-07 19:43:00  End:  2019-06-07 19:51:00.240000
+Splitting case 37 / 59 into examples. Length: 10.18  Start:  2019-06-07 19:51:00.340000  End:  2019-06-07 19:51:10.520000
+Splitting case 38 / 59 into examples. Length: 59.868  Start:  2019-06-07 19:51:10.620000  End:  2019-06-07 19:52:10.488000
+Splitting case 39 / 59 into examples. Length: 3.536  Start:  2019-06-07 19:52:10.592000  End:  2019-06-07 19:52:14.128000
+Splitting case 40 / 59 into examples. Length: 373.16  Start:  2019-06-07 19:52:14.240000  End:  2019-06-07 19:58:27.400000
+Splitting case 41 / 59 into examples. Length: 12.948  Start:  2019-06-07 19:58:27.500000  End:  2019-06-07 19:58:40.448000
+Splitting case 42 / 59 into examples. Length: 54.948  Start:  2019-06-07 19:58:40.552000  End:  2019-06-07 19:59:35.500000
+Splitting case 43 / 59 into examples. Length: 12.58  Start:  2019-06-07 19:59:35.600000  End:  2019-06-07 19:59:48.180000
+Splitting case 44 / 59 into examples. Length: 63.48  Start:  2019-06-07 19:59:48.280000  End:  2019-06-07 20:00:51.760000
+Splitting case 45 / 59 into examples. Length: 13.828  Start:  2019-06-07 20:00:51.872000  End:  2019-06-07 20:01:05.700000
+Splitting case 46 / 59 into examples. Length: 54.58  Start:  2019-06-07 20:01:05.800000  End:  2019-06-07 20:02:00.380000
+Splitting case 47 / 59 into examples. Length: 469.58  Start:  2019-06-07 20:04:00.800000  End:  2019-06-07 20:11:50.380000
+Splitting case 48 / 59 into examples. Length: 6.0  Start:  2019-06-07 20:11:52  End:  2019-06-07 20:11:58
+Splitting case 49 / 59 into examples. Length: 75.38  Start:  2019-06-07 20:12:00  End:  2019-06-07 20:13:15.380000
+Splitting case 50 / 59 into examples. Length: 10.048  Start:  2019-06-07 20:13:15.480000  End:  2019-06-07 20:13:25.528000
+Splitting case 51 / 59 into examples. Length: 281.936  Start:  2019-06-07 20:13:25.632000  End:  2019-06-07 20:18:07.568000
+Splitting case 52 / 59 into examples. Length: 10.636  Start:  2019-06-07 20:18:07.672000  End:  2019-06-07 20:18:18.308000
+Splitting case 53 / 59 into examples. Length: 65.488  Start:  2019-06-07 20:18:18.412000  End:  2019-06-07 20:19:23.900000
+Splitting case 54 / 59 into examples. Length: 11.188  Start:  2019-06-07 20:19:24.012000  End:  2019-06-07 20:19:35.200000
+Splitting case 55 / 59 into examples. Length: 63.496  Start:  2019-06-07 20:19:35.312000  End:  2019-06-07 20:20:38.808000
+Splitting case 56 / 59 into examples. Length: 14.588  Start:  2019-06-07 20:20:38.912000  End:  2019-06-07 20:20:53.500000
+Splitting case 57 / 59 into examples. Length: 53.44  Start:  2019-06-07 20:20:53.600000  End:  2019-06-07 20:21:47.040000
+Splitting case 58 / 59 into examples. Length: 5.0  Start:  2019-06-07 20:21:22  End:  2019-06-07 20:21:27
+Splitting case 59 / 59 into examples. Length: 59.468  Start:  2019-06-07 20:22:02.440000  End:  2019-06-07 20:23:01.908000
+
+
+
+Importing dataframe 2/13 from file
+
+Split data by cases with the configured timestamps
+Processing case 0 to 4
+	Processing no_failure                              2019-05-23 10:27:51.520000     2019-05-23 10:49:13.890000     Failure time:                                 
+	Processing txt15_m1_t2_wear                        2019-05-23 10:49:14            2019-05-23 10:49:26.390000     Failure time:        2019-05-23 10:50:34      
+	Processing no_failure                              2019-05-23 10:49:26.490000     2019-05-23 10:50:30.470000     Failure time:                                 
+	Processing txt15_m1_t2_wear                        2019-05-23 10:50:30.570000     2019-05-23 10:50:35.460000     Failure time:        2019-05-23 10:50:34      
+	Processing no_failure                              2019-05-23 10:50:37.560000     2019-05-23 11:09:11.390000     Failure time:                                 
+
+Splitting case 0 / 4 into examples. Length: 1282.096  Start:  2019-05-23 10:27:51.792000  End:  2019-05-23 10:49:13.888000
+Splitting case 1 / 4 into examples. Length: 12.388  Start:  2019-05-23 10:49:14  End:  2019-05-23 10:49:26.388000
+Splitting case 2 / 4 into examples. Length: 63.976  Start:  2019-05-23 10:49:26.492000  End:  2019-05-23 10:50:30.468000
+Splitting case 3 / 4 into examples. Length: 4.888  Start:  2019-05-23 10:50:30.572000  End:  2019-05-23 10:50:35.460000
+Splitting case 4 / 4 into examples. Length: 1113.44  Start:  2019-05-23 10:50:37.560000  End:  2019-05-23 11:09:11
+
+
+
+Importing dataframe 3/13 from file
+
+Split data by cases with the configured timestamps
+Processing case 0 to 18
+	Processing no_failure                              2019-05-28 07:41:07.260000     2019-05-28 08:00:50.120000     Failure time:                                 
+	Processing txt15_m1_t2_wear                        2019-05-28 08:00:50.240000     2019-05-28 08:00:53.100000     Failure time:        2019-05-28 08:03:27      
+	Processing no_failure                              2019-05-28 08:00:53.200000     2019-05-28 08:02:03.190000     Failure time:                                 
+	Processing txt15_m1_t2_wear                        2019-05-28 08:02:03.290000     2019-05-28 08:02:13.960000     Failure time:        2019-05-28 08:03:27      
+	Processing no_failure                              2019-05-28 08:02:14.070000     2019-05-28 08:03:23.560000     Failure time:                                 
+	Processing txt15_m1_t2_wear                        2019-05-28 08:03:23.660000     2019-05-28 08:03:28.530000     Failure time:        2019-05-28 08:03:27      
+	Processing txt15_m1_t2_wear                        2019-05-28 08:03:28.630000     2019-05-28 08:03:38.780000     Failure time:        2019-05-28 08:03:37      
+	Processing no_failure                              2019-05-28 08:03:38.880000     2019-05-28 08:05:57.870000     Failure time:                                 
+	Processing txt15_m1_t2_wear                        2019-05-28 08:05:57.970000     2019-05-28 08:06:11.100000     Failure time:        2019-05-28 08:19:18      
+	Processing no_failure                              2019-05-28 08:06:11.200000     2019-05-28 08:19:12.410000     Failure time:                                 
+	Processing txt15_m1_t2_wear                        2019-05-28 08:19:12.520000     2019-05-28 08:19:19.340000     Failure time:        2019-05-28 08:19:18      
+	Processing no_failure                              2019-05-28 08:19:19.440000     2019-05-28 08:25:52.600000     Failure time:                                 
+	Processing txt15_m1_t2_wear                        2019-05-28 08:25:52.700000     2019-05-28 08:25:59.220000     Failure time:        2019-05-28 08:27:24      
+	Processing no_failure                              2019-05-28 08:25:59.330000     2019-05-28 08:27:09.320000     Failure time:                                 
+	Processing txt15_m1_t2_wear                        2019-05-28 08:27:09.420000     2019-05-28 08:27:22.590000     Failure time:        2019-05-28 08:27:24      
+	Processing no_failure                              2019-05-28 08:27:22.690000     2019-05-28 08:48:26.140000     Failure time:                                 
+	Processing txt15_m1_t2_wear                        2019-05-28 08:48:26.240000     2019-05-28 08:48:36.800000     Failure time:        2019-05-28 08:49:58      
+	Processing no_failure                              2019-05-28 08:48:36.900000     2019-05-28 08:49:48.410000     Failure time:                                 
+	Processing txt15_m1_t2_wear                        2019-05-28 08:49:48.510000     2019-05-28 08:49:59.440000     Failure time:        2019-05-28 08:49:58      
+
+Splitting case 0 / 18 into examples. Length: 1124.672  Start:  2019-05-28 07:42:05.448000  End:  2019-05-28 08:00:50.120000
+Splitting case 1 / 18 into examples. Length: 2.86  Start:  2019-05-28 08:00:50.240000  End:  2019-05-28 08:00:53.100000
+Splitting case 2 / 18 into examples. Length: 69.988  Start:  2019-05-28 08:00:53.200000  End:  2019-05-28 08:02:03.188000
+Splitting case 3 / 18 into examples. Length: 10.668  Start:  2019-05-28 08:02:03.292000  End:  2019-05-28 08:02:13.960000
+Splitting case 4 / 18 into examples. Length: 69.488  Start:  2019-05-28 08:02:14.072000  End:  2019-05-28 08:03:23.560000
+Splitting case 5 / 18 into examples. Length: 4.868  Start:  2019-05-28 08:03:23.660000  End:  2019-05-28 08:03:28.528000
+Splitting case 6 / 18 into examples. Length: 10.148  Start:  2019-05-28 08:03:28.632000  End:  2019-05-28 08:03:38.780000
+Splitting case 7 / 18 into examples. Length: 138.988  Start:  2019-05-28 08:03:38.880000  End:  2019-05-28 08:05:57.868000
+Splitting case 8 / 18 into examples. Length: 13.128  Start:  2019-05-28 08:05:57.972000  End:  2019-05-28 08:06:11.100000
+Splitting case 9 / 18 into examples. Length: 781.208  Start:  2019-05-28 08:06:11.200000  End:  2019-05-28 08:19:12.408000
+Splitting case 10 / 18 into examples. Length: 6.82  Start:  2019-05-28 08:19:12.520000  End:  2019-05-28 08:19:19.340000
+Splitting case 11 / 18 into examples. Length: 393.16  Start:  2019-05-28 08:19:19.440000  End:  2019-05-28 08:25:52.600000
+Splitting case 12 / 18 into examples. Length: 6.52  Start:  2019-05-28 08:25:52.700000  End:  2019-05-28 08:25:59.220000
+Splitting case 13 / 18 into examples. Length: 69.988  Start:  2019-05-28 08:25:59.332000  End:  2019-05-28 08:27:09.320000
+Splitting case 14 / 18 into examples. Length: 13.168  Start:  2019-05-28 08:27:09.420000  End:  2019-05-28 08:27:22.588000
+Splitting case 15 / 18 into examples. Length: 1263.448  Start:  2019-05-28 08:27:22.692000  End:  2019-05-28 08:48:26.140000
+Splitting case 16 / 18 into examples. Length: 10.56  Start:  2019-05-28 08:48:26.240000  End:  2019-05-28 08:48:36.800000
+Splitting case 17 / 18 into examples. Length: 71.508  Start:  2019-05-28 08:48:36.900000  End:  2019-05-28 08:49:48.408000
+Splitting case 18 / 18 into examples. Length: 10.928  Start:  2019-05-28 08:49:48.512000  End:  2019-05-28 08:49:59.440000
+
+
+
+Importing dataframe 4/13 from file
+
+Split data by cases with the configured timestamps
+Processing case 0 to 19
+	Processing no_failure                              2019-05-23 13:21:45.630000     2019-05-23 13:27:17            Failure time:                                 
+	Processing txt19_hrs_position_switch...            2019-05-23 13:27:19.630000     2019-05-23 13:27:30            Failure time:        2019-05-23 13:27:19.630000
+	Processing no_failure                              2019-05-23 13:27:30.630000     2019-05-23 13:36:44.940000     Failure time:                                 
+	Processing txt16_m3_t1_low_wear                    2019-05-23 13:36:45.040000     2019-05-23 13:36:57.430000     Failure time:        2019-05-23 13:39:55      
+	Processing txt19_hrs_position_switch...            2019-05-23 13:36:55.040000     2019-05-23 13:37:01.430000     Failure time:        2019-05-23 13:36:55.040000
+	Processing no_failure                              2019-05-23 13:37:02.530000     2019-05-23 13:38:14.480000     Failure time:                                 
+	Processing txt16_m3_t1_high_wear                   2019-05-23 13:38:14.580000     2019-05-23 13:38:26.970000     Failure time:        2019-05-23 13:39:55      
+	Processing no_failure                              2019-05-23 13:38:27.070000     2019-05-23 13:39:46.600000     Failure time:                                 
+	Processing txt16_m3_t1_high_wear                   2019-05-23 13:39:46.700000     2019-05-23 13:39:56.450000     Failure time:        2019-05-23 13:39:55      
+	Processing no_failure                              2019-05-23 13:39:59.060000     2019-05-23 13:40:55.010000     Failure time:                                 
+	Processing txt16_m3_t1_low_wear                    2019-05-23 13:40:55.110000     2019-05-23 13:41:03.480000     Failure time:        2019-05-23 13:42:19      
+	Processing txt16_m3_t1_high_wear                   2019-05-23 13:41:04.110000     2019-05-23 13:41:07.480000     Failure time:        2019-05-23 13:42:19      
+	Processing no_failure                              2019-05-23 13:41:07.580000     2019-05-23 13:42:18.520000     Failure time:                                 
+	Processing txt16_m3_t1_high_wear                   2019-05-23 13:42:18.620000     2019-05-23 13:42:20.780000     Failure time:        2019-05-23 13:42:19      
+	Processing no_failure                              2019-05-23 13:42:22.890000     2019-05-23 13:45:11.630000     Failure time:                                 
+	Processing txt19_hrs_position_switch...            2019-05-23 13:43:36.040000     2019-05-23 13:43:55.430000     Failure time:        2019-05-23 13:43:36.040000
+	Processing no_failure                              2019-05-23 13:43:59.430000     2019-05-23 13:45:11.630000     Failure time:                                 
+	Processing txt16_m3_t1_low_wear                    2019-05-23 13:45:11.730000     2019-05-23 13:45:24.070000     Failure time:        2019-05-23 13:47:06      
+	Processing txt19_hrs_position_switch...            2019-05-23 13:45:20.040000     2019-05-23 13:45:44.430000     Failure time:        2019-05-23 13:45:20.040000
+	Processing no_failure                              2019-05-23 13:45:50.170000     2019-05-23 13:46:55.110000     Failure time:                                 
+Processing case 20 to 20
+	Processing txt16_m3_t1_high_wear                   2019-05-23 13:46:55.210000     2019-05-23 13:47:07.550000     Failure time:        2019-05-23 13:47:06      
+
+Splitting case 0 / 20 into examples. Length: 331.04  Start:  2019-05-23 13:21:45.960000  End:  2019-05-23 13:27:17
+Splitting case 1 / 20 into examples. Length: 10.368  Start:  2019-05-23 13:27:19.632000  End:  2019-05-23 13:27:30
+Splitting case 2 / 20 into examples. Length: 554.308  Start:  2019-05-23 13:27:30.632000  End:  2019-05-23 13:36:44.940000
+Splitting case 3 / 20 into examples. Length: 12.388  Start:  2019-05-23 13:36:45.040000  End:  2019-05-23 13:36:57.428000
+Splitting case 4 / 20 into examples. Length: 6.388  Start:  2019-05-23 13:36:55.040000  End:  2019-05-23 13:37:01.428000
+Splitting case 5 / 20 into examples. Length: 71.948  Start:  2019-05-23 13:37:02.532000  End:  2019-05-23 13:38:14.480000
+Splitting case 6 / 20 into examples. Length: 12.388  Start:  2019-05-23 13:38:14.580000  End:  2019-05-23 13:38:26.968000
+Splitting case 7 / 20 into examples. Length: 79.528  Start:  2019-05-23 13:38:27.072000  End:  2019-05-23 13:39:46.600000
+Splitting case 8 / 20 into examples. Length: 9.748  Start:  2019-05-23 13:39:46.700000  End:  2019-05-23 13:39:56.448000
+Splitting case 9 / 20 into examples. Length: 55.948  Start:  2019-05-23 13:39:59.060000  End:  2019-05-23 13:40:55.008000
+Splitting case 10 / 20 into examples. Length: 8.368  Start:  2019-05-23 13:40:55.112000  End:  2019-05-23 13:41:03.480000
+Splitting case 11 / 20 into examples. Length: 3.368  Start:  2019-05-23 13:41:04.112000  End:  2019-05-23 13:41:07.480000
+Splitting case 12 / 20 into examples. Length: 70.94  Start:  2019-05-23 13:41:07.580000  End:  2019-05-23 13:42:18.520000
+Splitting case 13 / 20 into examples. Length: 2.16  Start:  2019-05-23 13:42:18.620000  End:  2019-05-23 13:42:20.780000
+Splitting case 14 / 20 into examples. Length: 168.736  Start:  2019-05-23 13:42:22.892000  End:  2019-05-23 13:45:11.628000
+Splitting case 15 / 20 into examples. Length: 19.388  Start:  2019-05-23 13:43:36.040000  End:  2019-05-23 13:43:55.428000
+Splitting case 16 / 20 into examples. Length: 72.196  Start:  2019-05-23 13:43:59.432000  End:  2019-05-23 13:45:11.628000
+Splitting case 17 / 20 into examples. Length: 12.336  Start:  2019-05-23 13:45:11.732000  End:  2019-05-23 13:45:24.068000
+Splitting case 18 / 20 into examples. Length: 24.388  Start:  2019-05-23 13:45:20.040000  End:  2019-05-23 13:45:44.428000
+Splitting case 19 / 20 into examples. Length: 64.936  Start:  2019-05-23 13:45:50.172000  End:  2019-05-23 13:46:55.108000
+Splitting case 20 / 20 into examples. Length: 12.336  Start:  2019-05-23 13:46:55.212000  End:  2019-05-23 13:47:07.548000
+
+
+
+Importing dataframe 5/13 from file
+
+Split data by cases with the configured timestamps
+Processing case 0 to 9
+	Processing no_failure                              2019-06-07 17:33:42.700000     2019-06-07 17:46:36.220000     Failure time:                                 
+	Processing no_failure                              2019-06-07 17:46:49.170000     2019-06-07 17:47:47.410000     Failure time:                                 
+	Processing txt16_m3_t1_high_wear                   2019-06-07 17:47:47.520000     2019-06-07 17:48:00.310000     Failure time:        2019-06-07 17:49:09      
+	Processing no_failure                              2019-06-07 17:48:00.410000     2019-06-07 17:49:05.650000     Failure time:                                 
+	Processing txt16_m3_t1_high_wear                   2019-06-07 17:49:05.750000     2019-06-07 17:49:10.420000     Failure time:        2019-06-07 17:49:09      
+	Processing no_failure                              2019-06-07 17:50:37.360000     2019-06-07 17:51:33.130000     Failure time:                                 
+	Processing no_failure                              2019-06-07 17:51:46.040000     2019-06-07 17:52:49.340000     Failure time:                                 
+	Processing txt16_m3_t1_high_wear                   2019-06-07 17:52:49.440000     2019-06-07 17:53:02.130000     Failure time:        2019-06-07 17:54:08      
+	Processing no_failure                              2019-06-07 17:53:02.230000     2019-06-07 17:54:06.120000     Failure time:                                 
+	Processing txt16_m3_t1_high_wear                   2019-06-07 17:54:06.220000     2019-06-07 17:54:09.270000     Failure time:        2019-06-07 17:54:08      
+
+Splitting case 0 / 9 into examples. Length: 765.44  Start:  2019-06-07 17:33:50.780000  End:  2019-06-07 17:46:36.220000
+Splitting case 1 / 9 into examples. Length: 58.236  Start:  2019-06-07 17:46:49.172000  End:  2019-06-07 17:47:47.408000
+Splitting case 2 / 9 into examples. Length: 12.788  Start:  2019-06-07 17:47:47.520000  End:  2019-06-07 17:48:00.308000
+Splitting case 3 / 9 into examples. Length: 65.236  Start:  2019-06-07 17:48:00.412000  End:  2019-06-07 17:49:05.648000
+Splitting case 4 / 9 into examples. Length: 4.668  Start:  2019-06-07 17:49:05.752000  End:  2019-06-07 17:49:10.420000
+Splitting case 5 / 9 into examples. Length: 55.768  Start:  2019-06-07 17:50:37.360000  End:  2019-06-07 17:51:33.128000
+Splitting case 6 / 9 into examples. Length: 63.3  Start:  2019-06-07 17:51:46.040000  End:  2019-06-07 17:52:49.340000
+Splitting case 7 / 9 into examples. Length: 12.688  Start:  2019-06-07 17:52:49.440000  End:  2019-06-07 17:53:02.128000
+Splitting case 8 / 9 into examples. Length: 63.888  Start:  2019-06-07 17:53:02.232000  End:  2019-06-07 17:54:06.120000
+Splitting case 9 / 9 into examples. Length: 2.108  Start:  2019-06-07 17:54:06.220000  End:  2019-06-07 17:54:08.328000
+
+
+
+Importing dataframe 6/13 from file
+
+Split data by cases with the configured timestamps
+Processing case 0 to 7
+	Processing no_failure                              2019-05-23 16:26:22.390000     2019-05-23 16:41:08.750000     Failure time:                                 
+	Processing txt16_m3_t2_wear                        2019-05-23 16:41:08.850000     2019-05-23 16:41:11.870000     Failure time:        2019-05-23 16:43:57      
+	Processing no_failure                              2019-05-23 16:41:11.970000     2019-05-23 16:42:21.360000     Failure time:                                 
+	Processing txt16_m3_t2_wear                        2019-05-23 16:42:21.460000     2019-05-23 16:42:33.910000     Failure time:        2019-05-23 16:43:57      
+	Processing no_failure                              2019-05-23 16:42:34.010000     2019-05-23 16:43:56.940000     Failure time:                                 
+	Processing txt16_m3_t2_wear                        2019-05-23 16:43:57.050000     2019-05-23 16:43:58.800000     Failure time:        2019-05-23 16:43:57      
+	Processing no_failure                              2019-05-23 16:42:34.010000     2019-05-23 16:43:56.940000     Failure time:                                 
+	Processing txt16_m3_t2_wear                        2019-05-23 16:43:57.050000     2019-05-23 16:43:58.800000     Failure time:        2019-05-23 16:43:57      
+
+Splitting case 0 / 7 into examples. Length: 886.156  Start:  2019-05-23 16:26:22.592000  End:  2019-05-23 16:41:08.748000
+Splitting case 1 / 7 into examples. Length: 3.016  Start:  2019-05-23 16:41:08.852000  End:  2019-05-23 16:41:11.868000
+Splitting case 2 / 7 into examples. Length: 69.388  Start:  2019-05-23 16:41:11.972000  End:  2019-05-23 16:42:21.360000
+Splitting case 3 / 7 into examples. Length: 12.448  Start:  2019-05-23 16:42:21.460000  End:  2019-05-23 16:42:33.908000
+Splitting case 4 / 7 into examples. Length: 82.928  Start:  2019-05-23 16:42:34.012000  End:  2019-05-23 16:43:56.940000
+Splitting case 5 / 7 into examples. Length: 1.748  Start:  2019-05-23 16:43:57.052000  End:  2019-05-23 16:43:58.800000
+Splitting case 6 / 7 into examples. Length: 82.928  Start:  2019-05-23 16:42:34.012000  End:  2019-05-23 16:43:56.940000
+Splitting case 7 / 7 into examples. Length: 1.748  Start:  2019-05-23 16:43:57.052000  End:  2019-05-23 16:43:58.800000
+
+
+
+Importing dataframe 7/13 from file
+
+Split data by cases with the configured timestamps
+Processing case 0 to 19
+	Processing no_failure                              2019-05-28 18:27:37.740000     2019-05-28 18:41:20            Failure time:                                 
+	Processing txt18_WorkpieceDroppedCro...            2019-05-28 18:41:20            2019-05-28 18:41:25            Failure time:        2019-05-28 18:41:25      
+	Processing no_failure                              2019-05-28 18:41:25            2019-05-28 18:43:39.650000     Failure time:                                 
+	Processing txt16_m3_t2_wear                        2019-05-28 18:43:39.750000     2019-05-28 18:43:48.590000     Failure time:        2019-05-28 18:46:12      
+	Processing no_failure                              2019-05-28 18:43:48.690000     2019-05-28 18:44:57.530000     Failure time:                                 
+	Processing txt16_m3_t2_wear                        2019-05-28 18:44:57.640000     2019-05-28 18:45:10.460000     Failure time:        2019-05-28 18:46:12      
+	Processing no_failure                              2019-05-28 18:45:10.560000     2019-05-28 18:46:09.320000     Failure time:                                 
+	Processing txt16_m3_t2_wear                        2019-05-28 18:46:09.420000     2019-05-28 18:46:12.930000     Failure time:        2019-05-28 18:46:12      
+	Processing no_failure                              2019-05-28 18:46:13.030000     2019-05-28 18:46:21.960000     Failure time:                                 
+	Processing txt16_m3_t2_wear                        2019-05-28 18:46:22.070000     2019-05-28 18:46:22.270000     Failure time:        2019-05-28 18:48:54      
+	Processing no_failure                              2019-05-28 18:46:22.370000     2019-05-28 18:47:28.710000     Failure time:                                 
+	Processing txt16_m3_t2_wear                        2019-05-28 18:47:28.810000     2019-05-28 18:47:41.640000     Failure time:        2019-05-28 18:48:54      
+	Processing no_failure                              2019-05-28 18:47:41.740000     2019-05-28 18:48:47.590000     Failure time:                                 
+	Processing txt16_m3_t2_wear                        2019-05-28 18:48:47.690000     2019-05-28 18:48:55.280000     Failure time:        2019-05-28 18:48:54      
+	Processing no_failure                              2019-05-28 18:48:55.380000     2019-05-28 19:09:31.360000     Failure time:                                 
+	Processing txt16_m3_t2_wear                        2019-05-28 19:09:31.460000     2019-05-28 19:09:32.060000     Failure time:        2019-05-28 19:12:09      
+	Processing no_failure                              2019-05-28 19:09:32.160000     2019-05-28 19:10:38.520000     Failure time:                                 
+	Processing txt16_m3_t2_wear                        2019-05-28 19:10:38.620000     2019-05-28 19:10:51.450000     Failure time:        2019-05-28 19:12:09      
+	Processing no_failure                              2019-05-28 19:10:51.550000     2019-05-28 19:11:57.920000     Failure time:                                 
+	Processing txt18_WorkpieceLostDuring...            2019-05-28 19:10:59            2019-05-28 19:11:02            Failure time:        2019-05-28 19:11:01      
+Processing case 20 to 32
+	Processing txt18_TransportWithoutWor...            2019-05-28 19:11:02            2019-05-28 19:11:09            Failure time:        2019-05-28 19:11:02      
+	Processing txt16_m3_t2_wear                        2019-05-28 19:11:58.020000     2019-05-28 19:12:10.610000     Failure time:        2019-05-28 19:12:09      
+	Processing no_failure                              2019-05-28 19:12:10.710000     2019-05-28 19:31:23.310000     Failure time:                                 
+	Processing txt19_failure_mode_crashe...            2019-05-28 19:14:20            2019-05-28 19:14:24            Failure time:        2019-05-28 19:14:20      
+	Processing no_failure                              2019-05-28 19:14:24            2019-05-28 19:25:55            Failure time:                                 
+	Processing txt19_failure_mode_crashe...            2019-05-28 19:25:55            2019-05-28 19:25:58            Failure time:        2019-05-28 19:25:55      
+	Processing no_failure                              2019-05-28 19:25:58            2019-05-28 19:31:23.310000     Failure time:                                 
+	Processing txt16_m3_t2_wear                        2019-05-28 19:31:23.420000     2019-05-28 19:31:29.440000     Failure time:        2019-05-28 19:34:15      
+	Processing no_failure                              2019-05-28 19:31:29.540000     2019-05-28 19:32:27.380000     Failure time:                                 
+	Processing txt16_m3_t2_wear                        2019-05-28 19:32:27.480000     2019-05-28 19:32:40.220000     Failure time:        2019-05-28 19:34:15      
+	Processing txt16_m3_t2_wear                        2019-05-28 19:34:11.360000     2019-05-28 19:34:16.740000     Failure time:        2019-05-28 19:34:15      
+	Processing txt18_WorkpieceLostDuring...            2019-05-28 19:34:31            2019-05-28 19:34:35            Failure time:        2019-05-28 19:34:31      
+	Processing txt17_failuremode_working...            2019-05-28 19:35:08            2019-05-28 19:35:22            Failure time:        2019-05-28 19:35:08      
+
+Splitting case 0 / 32 into examples. Length: 819.448  Start:  2019-05-28 18:27:40.552000  End:  2019-05-28 18:41:20
+Splitting case 1 / 32 into examples. Length: 5.0  Start:  2019-05-28 18:41:20  End:  2019-05-28 18:41:25
+Splitting case 2 / 32 into examples. Length: 134.648  Start:  2019-05-28 18:41:25  End:  2019-05-28 18:43:39.648000
+Splitting case 3 / 32 into examples. Length: 8.836  Start:  2019-05-28 18:43:39.752000  End:  2019-05-28 18:43:48.588000
+Splitting case 4 / 32 into examples. Length: 68.836  Start:  2019-05-28 18:43:48.692000  End:  2019-05-28 18:44:57.528000
+Splitting case 5 / 32 into examples. Length: 12.82  Start:  2019-05-28 18:44:57.640000  End:  2019-05-28 18:45:10.460000
+Splitting case 6 / 32 into examples. Length: 58.76  Start:  2019-05-28 18:45:10.560000  End:  2019-05-28 18:46:09.320000
+Splitting case 7 / 32 into examples. Length: 3.508  Start:  2019-05-28 18:46:09.420000  End:  2019-05-28 18:46:12.928000
+Splitting case 8 / 32 into examples. Length: 8.928  Start:  2019-05-28 18:46:13.032000  End:  2019-05-28 18:46:21.960000
+Splitting case 9 / 32 into examples. Length: 0.196  Start:  2019-05-28 18:46:22.072000  End:  2019-05-28 18:46:22.268000
+Splitting case 10 / 32 into examples. Length: 66.336  Start:  2019-05-28 18:46:22.372000  End:  2019-05-28 18:47:28.708000
+Splitting case 11 / 32 into examples. Length: 12.828  Start:  2019-05-28 18:47:28.812000  End:  2019-05-28 18:47:41.640000
+Splitting case 12 / 32 into examples. Length: 65.848  Start:  2019-05-28 18:47:41.740000  End:  2019-05-28 18:48:47.588000
+Splitting case 13 / 32 into examples. Length: 7.588  Start:  2019-05-28 18:48:47.692000  End:  2019-05-28 18:48:55.280000
+Splitting case 14 / 32 into examples. Length: 1235.98  Start:  2019-05-28 18:48:55.380000  End:  2019-05-28 19:09:31.360000
+Splitting case 15 / 32 into examples. Length: 0.6  Start:  2019-05-28 19:09:31.460000  End:  2019-05-28 19:09:32.060000
+Splitting case 16 / 32 into examples. Length: 66.36  Start:  2019-05-28 19:09:32.160000  End:  2019-05-28 19:10:38.520000
+Splitting case 17 / 32 into examples. Length: 12.828  Start:  2019-05-28 19:10:38.620000  End:  2019-05-28 19:10:51.448000
+Splitting case 18 / 32 into examples. Length: 66.368  Start:  2019-05-28 19:10:51.552000  End:  2019-05-28 19:11:57.920000
+Splitting case 19 / 32 into examples. Length: 3.0  Start:  2019-05-28 19:10:59  End:  2019-05-28 19:11:02
+Splitting case 20 / 32 into examples. Length: 7.0  Start:  2019-05-28 19:11:02  End:  2019-05-28 19:11:09
+Splitting case 21 / 32 into examples. Length: 12.588  Start:  2019-05-28 19:11:58.020000  End:  2019-05-28 19:12:10.608000
+Splitting case 22 / 32 into examples. Length: 1152.596  Start:  2019-05-28 19:12:10.712000  End:  2019-05-28 19:31:23.308000
+Splitting case 23 / 32 into examples. Length: 4.0  Start:  2019-05-28 19:14:20  End:  2019-05-28 19:14:24
+Splitting case 24 / 32 into examples. Length: 691.0  Start:  2019-05-28 19:14:24  End:  2019-05-28 19:25:55
+Splitting case 25 / 32 into examples. Length: 3.0  Start:  2019-05-28 19:25:55  End:  2019-05-28 19:25:58
+Splitting case 26 / 32 into examples. Length: 325.308  Start:  2019-05-28 19:25:58  End:  2019-05-28 19:31:23.308000
+Splitting case 27 / 32 into examples. Length: 6.02  Start:  2019-05-28 19:31:23.420000  End:  2019-05-28 19:31:29.440000
+Splitting case 28 / 32 into examples. Length: 57.84  Start:  2019-05-28 19:31:29.540000  End:  2019-05-28 19:32:27.380000
+Splitting case 29 / 32 into examples. Length: 12.74  Start:  2019-05-28 19:32:27.480000  End:  2019-05-28 19:32:40.220000
+Splitting case 30 / 32 into examples. Length: 5.38  Start:  2019-05-28 19:34:11.360000  End:  2019-05-28 19:34:16.740000
+Splitting case 31 / 32 into examples. Length: 4.0  Start:  2019-05-28 19:34:31  End:  2019-05-28 19:34:35
+Splitting case 32 / 32 into examples. Length: 14.0  Start:  2019-05-28 19:35:08  End:  2019-05-28 19:35:22
+
+
+
+Importing dataframe 8/13 from file
+
+Split data by cases with the configured timestamps
+Processing case 0 to 19
+	Processing no_failure                              2019-05-23 17:49:00.040000     2019-05-23 18:35:00.930000     Failure time:                                 
+	Processing no_failure                              2019-05-23 18:37:00.930000     2019-05-23 18:50:00.930000     Failure time:                                 
+	Processing no_failure                              2019-05-23 18:50:00.040000     2019-05-23 19:05:00.930000     Failure time:                                 
+	Processing txt18_pneumatic_leakage_f...            2019-05-23 19:07:15            2019-05-23 19:07:18            Failure time:        2019-05-23 19:07:15      
+	Processing txt18_pneumatic_leakage_f...            2019-05-23 19:16:20            2019-05-23 19:16:30            Failure time:        2019-05-23 19:16:20      
+	Processing txt18_pneumatic_leakage_f...            2019-05-23 19:22:47            2019-05-23 19:22:48            Failure time:        2019-05-23 19:22:48      
+	Processing txt18_pneumatic_leakage_f...            2019-05-23 19:22:48            2019-05-23 19:22:51            Failure time:        2019-05-23 19:22:48      
+	Processing txt18_pneumatic_leakage_f...            2019-05-23 19:27:01            2019-05-23 19:27:03            Failure time:        2019-05-23 19:27:03      
+	Processing txt18_pneumatic_leakage_f...            2019-05-23 19:27:03            2019-05-23 19:27:11            Failure time:        2019-05-23 19:27:03      
+	Processing txt18_pneumatic_leakage_f...            2019-05-23 19:54:03            2019-05-23 19:54:04            Failure time:        2019-05-23 19:54:04      
+	Processing txt18_pneumatic_leakage_f...            2019-05-23 19:54:04            2019-05-23 19:54:06            Failure time:        2019-05-23 19:54:04      
+	Processing txt18_pneumatic_leakage_f...            2019-05-23 20:12:23            2019-05-23 20:12:25            Failure time:        2019-05-23 20:12:25      
+	Processing txt18_pneumatic_leakage_f...            2019-05-23 20:12:25            2019-05-23 20:12:26            Failure time:        2019-05-23 20:12:25      
+	Processing txt18_pneumatic_leakage_f...            2019-05-23 20:16:39            2019-05-23 20:16:48            Failure time:        2019-05-23 20:16:39      
+	Processing txt18_pneumatic_leakage_f...            2019-05-23 20:18:52            2019-05-23 20:18:54            Failure time:        2019-05-23 20:18:52      
+	Processing txt15_pneumatic_leakage_f...            2019-05-23 19:45:58            2019-05-23 19:46:10            Failure time:        2019-05-23 19:46:10      
+	Processing txt15_pneumatic_leakage_f...            2019-05-23 20:08:22            2019-05-23 20:08:35            Failure time:        2019-05-23 20:08:35      
+	Processing txt15_pneumatic_leakage_f...            2019-05-23 20:09:44            2019-05-23 20:09:55            Failure time:        2019-05-23 20:09:55      
+	Processing txt17_pneumatic_leakage_f...            2019-05-23 20:20:52            2019-05-23 20:20:57            Failure time:        2019-05-23 20:20:57      
+	Processing txt17_pneumatic_leakage_f...            2019-05-23 20:20:57            2019-05-23 20:21:07            Failure time:        2019-05-23 20:20:57      
+Processing case 20 to 20
+	Processing txt17_failuremode_working...            2019-05-23 20:20:57            2019-05-23 20:21:07            Failure time:        2019-05-23 20:21:07      
+
+Splitting case 0 / 20 into examples. Length: 2759.108  Start:  2019-05-23 17:49:01.820000  End:  2019-05-23 18:35:00.928000
+Splitting case 1 / 20 into examples. Length: 779.996  Start:  2019-05-23 18:37:00.932000  End:  2019-05-23 18:50:00.928000
+Splitting case 2 / 20 into examples. Length: 900.888  Start:  2019-05-23 18:50:00.040000  End:  2019-05-23 19:05:00.928000
+Splitting case 3 / 20 into examples. Length: 3.0  Start:  2019-05-23 19:07:15  End:  2019-05-23 19:07:18
+Splitting case 4 / 20 into examples. Length: 10.0  Start:  2019-05-23 19:16:20  End:  2019-05-23 19:16:30
+Splitting case 5 / 20 into examples. Length: 1.0  Start:  2019-05-23 19:22:47  End:  2019-05-23 19:22:48
+Splitting case 6 / 20 into examples. Length: 3.0  Start:  2019-05-23 19:22:48  End:  2019-05-23 19:22:51
+Splitting case 7 / 20 into examples. Length: 2.0  Start:  2019-05-23 19:27:01  End:  2019-05-23 19:27:03
+Splitting case 8 / 20 into examples. Length: 8.0  Start:  2019-05-23 19:27:03  End:  2019-05-23 19:27:11
+Splitting case 9 / 20 into examples. Length: 1.0  Start:  2019-05-23 19:54:03  End:  2019-05-23 19:54:04
+Splitting case 10 / 20 into examples. Length: 2.0  Start:  2019-05-23 19:54:04  End:  2019-05-23 19:54:06
+Splitting case 11 / 20 into examples. Length: 2.0  Start:  2019-05-23 20:12:23  End:  2019-05-23 20:12:25
+Splitting case 12 / 20 into examples. Length: 1.0  Start:  2019-05-23 20:12:25  End:  2019-05-23 20:12:26
+Splitting case 13 / 20 into examples. Length: 9.0  Start:  2019-05-23 20:16:39  End:  2019-05-23 20:16:48
+Splitting case 14 / 20 into examples. Length: 2.0  Start:  2019-05-23 20:18:52  End:  2019-05-23 20:18:54
+Splitting case 15 / 20 into examples. Length: 12.0  Start:  2019-05-23 19:45:58  End:  2019-05-23 19:46:10
+Splitting case 16 / 20 into examples. Length: 13.0  Start:  2019-05-23 20:08:22  End:  2019-05-23 20:08:35
+Splitting case 17 / 20 into examples. Length: 11.0  Start:  2019-05-23 20:09:44  End:  2019-05-23 20:09:55
+Splitting case 18 / 20 into examples. Length: 5.0  Start:  2019-05-23 20:20:52  End:  2019-05-23 20:20:57
+Splitting case 19 / 20 into examples. Length: 10.0  Start:  2019-05-23 20:20:57  End:  2019-05-23 20:21:07
+Splitting case 20 / 20 into examples. Length: 10.0  Start:  2019-05-23 20:20:57  End:  2019-05-23 20:21:07
+
+
+
+Importing dataframe 9/13 from file
+
+Split data by cases with the configured timestamps
+Processing case 0 to 6
+	Processing txt16_i4_lightbarrier_fai...            2019-05-28 15:20:24            2019-05-28 15:20:35            Failure time:        2019-05-28 15:20:24      
+	Processing txt16_i4_lightbarrier_fai...            2019-05-28 15:22:47            2019-05-28 15:23:07            Failure time:        2019-05-28 15:22:47      
+	Processing txt16_i4_lightbarrier_fai...            2019-05-28 15:25:31            2019-05-28 15:25:53            Failure time:        2019-05-28 15:25:31      
+	Processing txt16_i4_lightbarrier_fai...            2019-05-28 15:31:22            2019-05-28 15:31:39            Failure time:        2019-05-28 15:31:22      
+	Processing txt16_i4_lightbarrier_fai...            2019-05-28 15:34:14            2019-05-28 15:34:22            Failure time:        2019-05-28 15:34:14      
+	Processing txt16_i4_lightbarrier_fai...            2019-05-28 15:39:45            2019-05-28 15:40:58            Failure time:        2019-05-28 15:39:45      
+	Processing txt16_i4_lightbarrier_fai...            2019-05-28 15:43:54            2019-05-28 15:52:48            Failure time:        2019-05-28 15:43:54      
+
+Splitting case 0 / 6 into examples. Length: 11.0  Start:  2019-05-28 15:20:24  End:  2019-05-28 15:20:35
+Splitting case 1 / 6 into examples. Length: 20.0  Start:  2019-05-28 15:22:47  End:  2019-05-28 15:23:07
+Splitting case 2 / 6 into examples. Length: 22.0  Start:  2019-05-28 15:25:31  End:  2019-05-28 15:25:53
+Splitting case 3 / 6 into examples. Length: 17.0  Start:  2019-05-28 15:31:22  End:  2019-05-28 15:31:39
+Splitting case 4 / 6 into examples. Length: 8.0  Start:  2019-05-28 15:34:14  End:  2019-05-28 15:34:22
+Splitting case 5 / 6 into examples. Length: 73.0  Start:  2019-05-28 15:39:45  End:  2019-05-28 15:40:58
+Splitting case 6 / 6 into examples. Length: 534.0  Start:  2019-05-28 15:43:54  End:  2019-05-28 15:52:48
+
+
+
+Importing dataframe 10/13 from file
+
+Split data by cases with the configured timestamps
+Processing case 0 to 17
+	Processing txt18_pneumatic_leakage_f...            2019-06-08 11:43:49            2019-06-08 11:43:55            Failure time:        2019-06-08 11:43:55      
+	Processing txt18_pneumatic_leakage_f...            2019-06-08 11:43:55            2019-06-08 11:43:59            Failure time:        2019-06-08 11:43:55      
+	Processing txt18_pneumatic_leakage_f...            2019-06-08 11:45:08            2019-06-08 11:45:13            Failure time:        2019-06-08 11:45:13      
+	Processing txt18_pneumatic_leakage_f...            2019-06-08 11:45:13            2019-06-08 11:45:19            Failure time:        2019-06-08 11:45:13      
+	Processing txt18_pneumatic_leakage_f...            2019-06-08 11:46:27            2019-06-08 11:46:28            Failure time:        2019-06-08 11:46:28      
+	Processing txt18_pneumatic_leakage_f...            2019-06-08 11:46:28            2019-06-08 11:46:37            Failure time:        2019-06-08 11:46:28      
+	Processing txt18_pneumatic_leakage_f...            2019-06-08 11:56:15            2019-06-08 11:56:18            Failure time:        2019-06-08 11:56:18      
+	Processing txt18_pneumatic_leakage_f...            2019-06-08 11:56:18            2019-06-08 11:56:27            Failure time:        2019-06-08 11:56:18      
+	Processing txt18_pneumatic_leakage_f...            2019-06-08 11:57:32            2019-06-08 11:57:40            Failure time:        2019-06-08 11:57:40      
+	Processing txt18_pneumatic_leakage_f...            2019-06-08 11:57:40            2019-06-08 11:57:44            Failure time:        2019-06-08 11:57:40      
+	Processing txt17_pneumatic_leakage_f...            2019-06-08 12:13:13            2019-06-08 12:13:26            Failure time:        2019-06-08 12:13:26      
+	Processing txt16_pneumatic_leakage_f...            2019-06-08 12:13:31            2019-06-08 12:13:33            Failure time:        2019-06-08 12:13:33      
+	Processing txt16_failuremode_conveyo...            2019-06-08 12:13:33            2019-06-08 12:13:45            Failure time:        2019-06-08 12:13:33      
+	Processing txt18_failuremode1_Workpi...            2019-06-08 12:13:44            2019-06-08 12:13:51            Failure time:        2019-06-08 12:13:51      
+	Processing txt18_failuremode1_Workpi...            2019-06-08 12:13:44            2019-06-08 12:13:56            Failure time:        2019-06-08 12:13:51      
+	Processing txt16_pneumatic_leakage_f...            2019-06-08 12:18:30            2019-06-08 12:18:32            Failure time:        2019-06-08 12:18:32      
+	Processing txt16_failuremode_conveyo...            2019-06-08 12:18:32            2019-06-08 12:18:44            Failure time:        2019-06-08 12:18:32      
+	Processing txt17_pneumatic_leakage_f...            2019-06-08 12:20:51            2019-06-08 12:21:04            Failure time:        2019-06-08 12:21:04      
+
+Splitting case 0 / 17 into examples. Length: 6.0  Start:  2019-06-08 11:43:49  End:  2019-06-08 11:43:55
+Splitting case 1 / 17 into examples. Length: 4.0  Start:  2019-06-08 11:43:55  End:  2019-06-08 11:43:59
+Splitting case 2 / 17 into examples. Length: 5.0  Start:  2019-06-08 11:45:08  End:  2019-06-08 11:45:13
+Splitting case 3 / 17 into examples. Length: 6.0  Start:  2019-06-08 11:45:13  End:  2019-06-08 11:45:19
+Splitting case 4 / 17 into examples. Length: 1.0  Start:  2019-06-08 11:46:27  End:  2019-06-08 11:46:28
+Splitting case 5 / 17 into examples. Length: 9.0  Start:  2019-06-08 11:46:28  End:  2019-06-08 11:46:37
+Splitting case 6 / 17 into examples. Length: 3.0  Start:  2019-06-08 11:56:15  End:  2019-06-08 11:56:18
+Splitting case 7 / 17 into examples. Length: 9.0  Start:  2019-06-08 11:56:18  End:  2019-06-08 11:56:27
+Splitting case 8 / 17 into examples. Length: 8.0  Start:  2019-06-08 11:57:32  End:  2019-06-08 11:57:40
+Splitting case 9 / 17 into examples. Length: 4.0  Start:  2019-06-08 11:57:40  End:  2019-06-08 11:57:44
+Splitting case 10 / 17 into examples. Length: 13.0  Start:  2019-06-08 12:13:13  End:  2019-06-08 12:13:26
+Splitting case 11 / 17 into examples. Length: 2.0  Start:  2019-06-08 12:13:31  End:  2019-06-08 12:13:33
+Splitting case 12 / 17 into examples. Length: 12.0  Start:  2019-06-08 12:13:33  End:  2019-06-08 12:13:45
+Splitting case 13 / 17 into examples. Length: 7.0  Start:  2019-06-08 12:13:44  End:  2019-06-08 12:13:51
+Splitting case 14 / 17 into examples. Length: 12.0  Start:  2019-06-08 12:13:44  End:  2019-06-08 12:13:56
+Splitting case 15 / 17 into examples. Length: 2.0  Start:  2019-06-08 12:18:30  End:  2019-06-08 12:18:32
+Splitting case 16 / 17 into examples. Length: 12.0  Start:  2019-06-08 12:18:32  End:  2019-06-08 12:18:44
+Splitting case 17 / 17 into examples. Length: 13.0  Start:  2019-06-08 12:20:51  End:  2019-06-08 12:21:04
+
+
+
+Importing dataframe 11/13 from file
+
+Split data by cases with the configured timestamps
+Processing case 0 to 11
+	Processing txt16_i3_switch_failuremo...            2019-06-08 13:23:16            2019-06-08 13:23:25.970000     Failure time:        2019-06-08 13:23:16      
+	Processing txt17_i1_switch_failuremo...            2019-06-08 13:25:05            2019-06-08 13:25:13            Failure time:        2019-06-08 13:25:13      
+	Processing txt17_i1_switch_failuremo...            2019-06-08 13:25:13            2019-06-08 13:25:19            Failure time:        2019-06-08 13:25:05      
+	Processing txt17_i1_switch_failuremo...            2019-06-08 13:26:11            2019-06-08 13:26:21            Failure time:        2019-06-08 13:26:11      
+	Processing txt17_i1_switch_failuremo...            2019-06-08 13:27:16            2019-06-08 13:27:20            Failure time:        2019-06-08 13:27:16      
+	Processing txt17_i1_switch_failuremo...            2019-06-08 13:27:20            2019-06-08 13:27:26            Failure time:        2019-06-08 13:27:16      
+	Processing txt17_i1_switch_failuremo...            2019-06-08 13:28:52            2019-06-08 13:29:00            Failure time:        2019-06-08 13:28:52      
+	Processing txt17_i1_switch_failuremo...            2019-06-08 13:29:00            2019-06-08 13:29:06            Failure time:        2019-06-08 13:28:52      
+	Processing txt17_i1_switch_failuremo...            2019-06-08 13:30:11            2019-06-08 13:30:19            Failure time:        2019-06-08 13:30:11      
+	Processing txt17_i1_switch_failuremo...            2019-06-08 13:30:19            2019-06-08 13:30:26            Failure time:        2019-06-08 13:30:11      
+	Processing txt17_i1_switch_failuremo...            2019-06-08 13:31:51            2019-06-08 13:32:00            Failure time:        2019-06-08 13:31:51      
+	Processing txt17_i1_switch_failuremo...            2019-06-08 13:32:00            2019-06-08 13:32:06            Failure time:        2019-06-08 13:31:51      
+
+Splitting case 0 / 11 into examples. Length: 9.968  Start:  2019-06-08 13:23:16  End:  2019-06-08 13:23:25.968000
+Splitting case 1 / 11 into examples. Length: 8.0  Start:  2019-06-08 13:25:05  End:  2019-06-08 13:25:13
+Splitting case 2 / 11 into examples. Length: 6.0  Start:  2019-06-08 13:25:13  End:  2019-06-08 13:25:19
+Splitting case 3 / 11 into examples. Length: 10.0  Start:  2019-06-08 13:26:11  End:  2019-06-08 13:26:21
+Splitting case 4 / 11 into examples. Length: 4.0  Start:  2019-06-08 13:27:16  End:  2019-06-08 13:27:20
+Splitting case 5 / 11 into examples. Length: 6.0  Start:  2019-06-08 13:27:20  End:  2019-06-08 13:27:26
+Splitting case 6 / 11 into examples. Length: 8.0  Start:  2019-06-08 13:28:52  End:  2019-06-08 13:29:00
+Splitting case 7 / 11 into examples. Length: 6.0  Start:  2019-06-08 13:29:00  End:  2019-06-08 13:29:06
+Splitting case 8 / 11 into examples. Length: 8.0  Start:  2019-06-08 13:30:11  End:  2019-06-08 13:30:19
+Splitting case 9 / 11 into examples. Length: 7.0  Start:  2019-06-08 13:30:19  End:  2019-06-08 13:30:26
+Splitting case 10 / 11 into examples. Length: 9.0  Start:  2019-06-08 13:31:51  End:  2019-06-08 13:32:00
+Splitting case 11 / 11 into examples. Length: 6.0  Start:  2019-06-08 13:32:00  End:  2019-06-08 13:32:06
+
+
+
+Importing dataframe 12/13 from file
+
+Split data by cases with the configured timestamps
+Processing case 0 to 8
+	Processing txt15_i3_lightbarrier_fai...            2019-06-08 12:54:21            2019-06-08 12:54:25            Failure time:        2019-06-08 12:54:21      
+	Processing txt15_i3_lightbarrier_fai...            2019-06-08 12:54:30            2019-06-08 12:54:36            Failure time:        2019-06-08 12:54:30      
+	Processing txt15_i3_lightbarrier_fai...            2019-06-08 12:55:46            2019-06-08 12:55:55            Failure time:        2019-06-08 12:55:46      
+	Processing txt15_i1_lightbarrier_fai...            2019-06-08 12:56:46            2019-06-08 12:56:54            Failure time:        2019-06-08 12:56:46      
+	Processing txt15_i1_lightbarrier_fai...            2019-06-08 12:56:54            2019-06-08 12:57:01            Failure time:        2019-06-08 12:56:46      
+	Processing txt15_i1_lightbarrier_fai...            2019-06-08 12:58:06            2019-06-08 12:58:25            Failure time:        2019-06-08 12:58:06      
+	Processing txt16_i7_lightbarrier_fai...            2019-06-08 12:59:46            2019-06-08 12:59:56            Failure time:        2019-06-08 12:59:46      
+	Processing txt19_i4_lightbarrier_fai...            2019-06-08 13:00:52            2019-06-08 13:01:02            Failure time:        2019-06-08 13:00:52      
+	Processing txt19_i4_lightbarrier_fai...            2019-06-08 13:02:06            2019-06-08 13:02:15            Failure time:        2019-06-08 13:02:06      
+
+Splitting case 0 / 8 into examples. Length: 4.0  Start:  2019-06-08 12:54:21  End:  2019-06-08 12:54:25
+Splitting case 1 / 8 into examples. Length: 6.0  Start:  2019-06-08 12:54:30  End:  2019-06-08 12:54:36
+Splitting case 2 / 8 into examples. Length: 9.0  Start:  2019-06-08 12:55:46  End:  2019-06-08 12:55:55
+Splitting case 3 / 8 into examples. Length: 8.0  Start:  2019-06-08 12:56:46  End:  2019-06-08 12:56:54
+Splitting case 4 / 8 into examples. Length: 7.0  Start:  2019-06-08 12:56:54  End:  2019-06-08 12:57:01
+Splitting case 5 / 8 into examples. Length: 19.0  Start:  2019-06-08 12:58:06  End:  2019-06-08 12:58:25
+Splitting case 6 / 8 into examples. Length: 10.0  Start:  2019-06-08 12:59:46  End:  2019-06-08 12:59:56
+Splitting case 7 / 8 into examples. Length: 10.0  Start:  2019-06-08 13:00:52  End:  2019-06-08 13:01:02
+Splitting case 8 / 8 into examples. Length: 9.0  Start:  2019-06-08 13:02:06  End:  2019-06-08 13:02:15
+
+
+
+Importing dataframe 13/13 from file
+
+Split data by cases with the configured timestamps
+Processing case 0 to 14
+	Processing txt19_failuremode_bucket_...            2019-05-28 20:06:31            2019-05-28 20:06:38            Failure time:        2019-05-28 20:06:38      
+	Processing txt19_failuremode_tanspor...            2019-05-28 20:06:38            2019-05-28 20:06:49            Failure time:        2019-05-28 20:06:38      
+	Processing txt16_failuremode_conveyo...            2019-05-28 20:10:33            2019-05-28 20:10:37            Failure time:        2019-05-28 20:10:37      
+	Processing txt16_failuremode_conveyo...            2019-05-28 20:23:17            2019-05-28 20:23:17            Failure time:        2019-05-28 20:23:17      
+	Processing txt16_failuremode_conveyo...            2019-05-28 20:23:17            2019-05-28 20:23:21            Failure time:        2019-05-28 20:23:17      
+	Processing txt16_failuremode_conveyo...            2019-05-28 20:24:30            2019-05-28 20:24:41            Failure time:        2019-05-28 20:24:41      
+	Processing txt16_failuremode_conveyo...            2019-05-28 20:25:51            2019-05-28 20:26:03            Failure time:        2019-05-28 20:26:03      
+	Processing txt16_failuremode_drivesh...            2019-05-28 20:29:41            2019-05-28 20:29:53            Failure time:        2019-05-28 20:29:53      
+	Processing txt16_failuremode_drivesh...            2019-05-28 20:30:59            2019-05-28 20:31:12            Failure time:        2019-05-28 20:31:12      
+	Processing txt16_failuremode_turntab...            2019-05-28 20:47:15            2019-05-28 20:47:16            Failure time:        2019-05-28 20:47:26      
+	Processing txt16_failuremode_turntab...            2019-05-28 20:47:16            2019-05-28 20:47:26            Failure time:        2019-05-28 20:47:26      
+	Processing txt16_failuremode_turntab...            2019-05-28 20:48:35            2019-05-28 20:48:36            Failure time:        2019-05-28 20:48:40      
+	Processing txt16_failuremode_turntab...            2019-05-28 20:48:36            2019-05-28 20:48:40            Failure time:        2019-05-28 20:48:40      
+	Processing txt15_failuremode_drivesh...            2019-05-28 20:51:12            2019-05-28 20:51:13            Failure time:        2019-05-28 20:51:25      
+	Processing txt15_failuremode_drivesh...            2019-05-28 20:51:13            2019-05-28 20:51:25            Failure time:        2019-05-28 20:51:25      
+
+Splitting case 0 / 14 into examples. Length: 7.0  Start:  2019-05-28 20:06:31  End:  2019-05-28 20:06:38
+Splitting case 1 / 14 into examples. Length: 11.0  Start:  2019-05-28 20:06:38  End:  2019-05-28 20:06:49
+Splitting case 2 / 14 into examples. Length: 4.0  Start:  2019-05-28 20:10:33  End:  2019-05-28 20:10:37
+Splitting case 3 / 14 into examples. Length: 0.0  Start:  2019-05-28 20:23:17  End:  2019-05-28 20:23:17
+Splitting case 4 / 14 into examples. Length: 4.0  Start:  2019-05-28 20:23:17  End:  2019-05-28 20:23:21
+Splitting case 5 / 14 into examples. Length: 11.0  Start:  2019-05-28 20:24:30  End:  2019-05-28 20:24:41
+Splitting case 6 / 14 into examples. Length: 12.0  Start:  2019-05-28 20:25:51  End:  2019-05-28 20:26:03
+Splitting case 7 / 14 into examples. Length: 12.0  Start:  2019-05-28 20:29:41  End:  2019-05-28 20:29:53
+Splitting case 8 / 14 into examples. Length: 13.0  Start:  2019-05-28 20:30:59  End:  2019-05-28 20:31:12
+Splitting case 9 / 14 into examples. Length: 1.0  Start:  2019-05-28 20:47:15  End:  2019-05-28 20:47:16
+Splitting case 10 / 14 into examples. Length: 10.0  Start:  2019-05-28 20:47:16  End:  2019-05-28 20:47:26
+Splitting case 11 / 14 into examples. Length: 1.0  Start:  2019-05-28 20:48:35  End:  2019-05-28 20:48:36
+Splitting case 12 / 14 into examples. Length: 4.0  Start:  2019-05-28 20:48:36  End:  2019-05-28 20:48:40
+Splitting case 13 / 14 into examples. Length: 1.0  Start:  2019-05-28 20:51:12  End:  2019-05-28 20:51:13
+Splitting case 14 / 14 into examples. Length: 12.0  Start:  2019-05-28 20:51:13  End:  2019-05-28 20:51:25
+
+
+Examples before pre train/test split cleaning: 29744
+
+Number of examples removed with label  txt15_i3_lightbarrier_failure_mode_1 : 	 3
+Number of examples removed with label  txt19_failure_mode_tansport_without_bucket_box : 	 10
+Number of examples removed with label  txt16_failure_mode_turntable_broken_bigh_gear_tooth_1 : 	 0
+Number of examples removed with label  txt18_WorkpieceLostDuringTransport_diagnosis : 	 5
+Number of examples removed with label  txt18_pneumatic_leakage_failure_mode_1_1 : 	 0
+Number of examples removed with label  txt16_pneumatic_leakage_failure_mode_1 : 	 2
+Number of examples removed with label  txt18_pneumatic_leakage_failure_mode_3_2 : 	 0
+Number of examples removed with label  txt17_pneumatic_leakage_failure_mode_1_1 : 	 0
+Number of examples removed with label  txt16_i4_lightbarrier_failure_mode_1 : 	 73
+Number of examples removed with label  txt18_pneumatic_leakage_failure_mode_3_faulty : 	 1
+Number of examples removed with label  txt18_failure_mode_1_Workpiecelost_white_1 : 	 6
+Number of examples removed with label  txt16_i4_lightbarrier_failure_mode_2 : 	 605
+Number of examples removed with label  txt17_pneumatic_leakage_failure_mode_1_faulty : 	 4
+Number of examples removed with label  txt15_i1_lightbarrier_failure_mode_1 : 	 7
+Number of examples removed with label  txt16_failure_mode_conveyorbelt_operation_without_a_workpiece : 	 46
+Number of examples removed with label  txt16_conveyorbelt_small_gear_tooth_broken_failure : 	 3
+Number of examples removed with label  txt16_failure_mode_turntable_broken_bigh_gear_tooth_2 : 	 0
+Number of examples removed with label  txt16_i7_lightbarrier_failure_mode_1 : 	 9
+Number of examples removed with label  txt17_workingstation_transport_failure_mode_wout_workpiece : 	 38
+Number of examples removed with label  txt19_failure_mode_bucket_box_fallen_down : 	 6
+Number of examples removed with label  txt18_WorkpieceDroppedCrosswiseIntoOven : 	 8
+Number of examples removed with label  txt16_failure_mode_oven_door_blocked : 	 4
+Number of examples removed with label  txt19_hrs_position_switch_not_reached : 	 59
+Number of examples removed with label  txt19_failure_mode_crashed_into_HRS : 	 14
+Number of examples removed with label  txt18_transport_failure_mode_wout_workpiece : 	 6
+Number of examples removed with label  txt15_failure_mode_driveshaft_slippage_1 : 	 0
+Number of examples removed with label  txt18_failure_mode_1_Workpiecelost_white_2 : 	 11
+
+Examples after pre train/test split cleaning: 28824
+
+Execute train/test split in ANOMALY_DETECTION mode.
+
+Examples in train before: 23125
+Examples in test before: 5699 
+
+Number of examples moved from train to test for failure time  2019-05-23 13:39:55 : 	 0
+Number of examples moved from train to test for failure time  2019-06-08 11:46:28 : 	 0
+Number of examples moved from train to test for failure time  2019-05-28 15:31:22 : 	 0
+Number of examples moved from train to test for failure time  2019-06-08 13:30:11 : 	 0
+Number of examples moved from train to test for failure time  2019-05-28 08:27:24 : 	 0
+Number of examples moved from train to test for failure time  2019-06-07 20:20:52 : 	 0
+Number of examples moved from train to test for failure time  2019-06-08 11:57:40 : 	 0
+Number of examples moved from train to test for failure time  2019-05-23 10:17:54 : 	 0
+Number of examples moved from train to test for failure time  2019-05-28 19:12:09 : 	 0
+Number of examples moved from train to test for failure time  2019-05-28 19:35:08 : 	 0
+Number of examples moved from train to test for failure time  2019-05-28 08:19:18 : 	 0
+Number of examples moved from train to test for failure time  2019-05-28 20:26:03 : 	 0
+Number of examples moved from train to test for failure time  2019-05-28 08:49:58 : 	 0
+Number of examples moved from train to test for failure time  2019-06-07 20:13:24 : 	 0
+
+Examples in train after: 23125
+Examples in test after: 5699 
+
+
+Execute normalisation
+x_train: (20812, 500, 61) x_test: (3989, 500, 61) x_test_val: (1710, 500, 61) x_train_val: (2313, 500, 61)
+y_train: (20812,) y_test: (3989,) y_test_val: (1710,) y_train_val: (2313,)
+next_values_train: (20812, 61) next_values_test: (3989, 61) next_values_test_val: (1710, 61)
+failure_times_train: (20812,) failure_times_test: (3989,) failure_times_test_val: (1710,)
+window_times_train: (20812, 2) window_times_test: (3989, 2) window_times_test: (1710, 2)
+
+Classes in the train set:
+ ['no_failure']
+Classes in the test set:
+ ['no_failure' 'txt15_conveyor_failure_mode_driveshaft_slippage_failure'
+ 'txt15_i1_lightbarrier_failure_mode_2'
+ 'txt15_i3_lightbarrier_failure_mode_2' 'txt15_m1_t1_high_wear'
+ 'txt15_m1_t1_low_wear' 'txt15_m1_t2_wear'
+ 'txt15_pneumatic_leakage_failure_mode_1'
+ 'txt15_pneumatic_leakage_failure_mode_2'
+ 'txt15_pneumatic_leakage_failure_mode_3'
+ 'txt16_conveyor_failure_mode_driveshaft_slippage_failure'
+ 'txt16_conveyorbelt_big_gear_tooth_broken_failure'
+ 'txt16_i3_switch_failure_mode_2' 'txt16_m3_t1_high_wear'
+ 'txt16_m3_t1_low_wear' 'txt16_m3_t2_wear'
+ 'txt16_turntable_big_gear_tooth_broken_failure'
+ 'txt17_i1_switch_failure_mode_1' 'txt17_i1_switch_failure_mode_2'
+ 'txt17_pneumatic_leakage_failure_mode_1'
+ 'txt18_pneumatic_leakage_failure_mode_1'
+ 'txt18_pneumatic_leakage_failure_mode_2'
+ 'txt18_pneumatic_leakage_failure_mode_2_faulty'
+ 'txt19_i4_lightbarrier_failure_mode_1'
+ 'txt19_i4_lightbarrier_failure_mode_2']
+Classes in the train validation set:
+ ['no_failure']
+Classes in the test validation set:
+ ['no_failure' 'txt15_conveyor_failure_mode_driveshaft_slippage_failure'
+ 'txt15_i1_lightbarrier_failure_mode_2'
+ 'txt15_i3_lightbarrier_failure_mode_2' 'txt15_m1_t1_high_wear'
+ 'txt15_m1_t1_low_wear' 'txt15_m1_t2_wear'
+ 'txt15_pneumatic_leakage_failure_mode_1'
+ 'txt15_pneumatic_leakage_failure_mode_2'
+ 'txt15_pneumatic_leakage_failure_mode_3'
+ 'txt16_conveyor_failure_mode_driveshaft_slippage_failure'
+ 'txt16_conveyorbelt_big_gear_tooth_broken_failure'
+ 'txt16_i3_switch_failure_mode_2' 'txt16_m3_t1_high_wear'
+ 'txt16_m3_t1_low_wear' 'txt16_m3_t2_wear'
+ 'txt16_turntable_big_gear_tooth_broken_failure'
+ 'txt17_i1_switch_failure_mode_1' 'txt17_i1_switch_failure_mode_2'
+ 'txt17_pneumatic_leakage_failure_mode_1'
+ 'txt18_pneumatic_leakage_failure_mode_1'
+ 'txt18_pneumatic_leakage_failure_mode_2'
+ 'txt18_pneumatic_leakage_failure_mode_2_faulty'
+ 'txt19_i4_lightbarrier_failure_mode_1'
+ 'txt19_i4_lightbarrier_failure_mode_2']
+
+Saving as np arrays to ../data/training_data/
+Saving train dataset ... 
+Saving test dataset ... 
+Saving training validation dataset ... 
+Saving test validation dataset ... 

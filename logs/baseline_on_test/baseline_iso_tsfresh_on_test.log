@@ -1,0 +1,22 @@
+
+Dataset loaded:
+Shape of training set (example, time, channels): (20812, 500, 61)
+Shape of test set (example, time, channels): (3989, 500, 61)
+Shape of train validation set (example, time, channels): (2313, 500, 61)
+Shape of test validation set (example, time, channels): (1710, 500, 61)
+Num of classes in all: 25
+
+Using the TSFresh representation of the data as input
+
+(20812, 47519) (3989, 47519)
+Evaluating IsolationForest on the test dataset with 1 parameter configurations.
+
+Evaluating IsolationForest with configuration 1/1
+
+Grid search results:
+        ACC         FNR         TNR       FPR       TPR      Prec        F1       F2                                                                                                                   Parameters
+0  0.172474  0.00146199  0.00151286  0.998487  0.998538  0.171479  0.292693  0.50826  {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.05, 'max_samples': 64, 'n_estimators': 50, 'warm_start': False}
+
+
+Best result in detail:
+0

@@ -1,0 +1,210 @@
+
+
+Importing dataframe 0/13 from file
+
+Cleaning up dataframe with shape:  (12838433, 61) ...
+	Fill NA for categorical and integer columns with values
+	Change categorical columns to numeric representation
+	Interpolate NA values for real valued streams
+	Drop first/last rows that contain NA for any of the streams
+	Resampling (depending on freq: Downsampling) the data at a constant frequency using nearest neighbor to forward fill NAN values
+
+Shape after cleaning up the dataframe:  (747446, 61)
+
+Saving datafrane as pickle file in ../data/datasets/txt15_m1_t1_p1/
+Saving finished
+
+
+Importing dataframe 1/13 from file
+
+Cleaning up dataframe with shape:  (21877488, 61) ...
+	Fill NA for categorical and integer columns with values
+	Change categorical columns to numeric representation
+	Interpolate NA values for real valued streams
+	Drop first/last rows that contain NA for any of the streams
+	Resampling (depending on freq: Downsampling) the data at a constant frequency using nearest neighbor to forward fill NAN values
+
+Shape after cleaning up the dataframe:  (1689909, 61)
+
+Saving datafrane as pickle file in ../data/datasets/txt15_m1_t1_p2/
+Saving finished
+
+
+Importing dataframe 2/13 from file
+
+Cleaning up dataframe with shape:  (10305165, 61) ...
+	Fill NA for categorical and integer columns with values
+	Change categorical columns to numeric representation
+	Interpolate NA values for real valued streams
+	Drop first/last rows that contain NA for any of the streams
+	Resampling (depending on freq: Downsampling) the data at a constant frequency using nearest neighbor to forward fill NAN values
+
+Shape after cleaning up the dataframe:  (619804, 61)
+
+Saving datafrane as pickle file in ../data/datasets/txt15_m1_t2_p1/
+Saving finished
+
+
+Importing dataframe 3/13 from file
+
+Cleaning up dataframe with shape:  (18667403, 61) ...
+	Fill NA for categorical and integer columns with values
+	Change categorical columns to numeric representation
+	Interpolate NA values for real valued streams
+	Drop first/last rows that contain NA for any of the streams
+	Resampling (depending on freq: Downsampling) the data at a constant frequency using nearest neighbor to forward fill NAN values
+
+Shape after cleaning up the dataframe:  (1025055, 61)
+
+Saving datafrane as pickle file in ../data/datasets/txt15_m1_t2_p2/
+Saving finished
+
+
+Importing dataframe 4/13 from file
+
+Cleaning up dataframe with shape:  (6320160, 61) ...
+	Fill NA for categorical and integer columns with values
+	Change categorical columns to numeric representation
+	Interpolate NA values for real valued streams
+	Drop first/last rows that contain NA for any of the streams
+	Resampling (depending on freq: Downsampling) the data at a constant frequency using nearest neighbor to forward fill NAN values
+
+Shape after cleaning up the dataframe:  (380398, 61)
+
+Saving datafrane as pickle file in ../data/datasets/txt16_m3_t1_p1/
+Saving finished
+
+
+Importing dataframe 5/13 from file
+
+Cleaning up dataframe with shape:  (5026023, 61) ...
+	Fill NA for categorical and integer columns with values
+	Change categorical columns to numeric representation
+	Interpolate NA values for real valued streams
+	Drop first/last rows that contain NA for any of the streams
+	Resampling (depending on freq: Downsampling) the data at a constant frequency using nearest neighbor to forward fill NAN values
+
+Shape after cleaning up the dataframe:  (304388, 61)
+
+Saving datafrane as pickle file in ../data/datasets/txt16_m3_t1_p6/
+Saving finished
+
+
+Importing dataframe 6/13 from file
+
+Cleaning up dataframe with shape:  (16395708, 61) ...
+	Fill NA for categorical and integer columns with values
+	Change categorical columns to numeric representation
+	Interpolate NA values for real valued streams
+	Drop first/last rows that contain NA for any of the streams
+	Resampling (depending on freq: Downsampling) the data at a constant frequency using nearest neighbor to forward fill NAN values
+
+Shape after cleaning up the dataframe:  (1032289, 61)
+
+Saving datafrane as pickle file in ../data/datasets/txt16_m3_t2_p1/
+Saving finished
+
+
+Importing dataframe 7/13 from file
+
+Cleaning up dataframe with shape:  (16139606, 61) ...
+	Fill NA for categorical and integer columns with values
+	Change categorical columns to numeric representation
+	Interpolate NA values for real valued streams
+	Drop first/last rows that contain NA for any of the streams
+	Resampling (depending on freq: Downsampling) the data at a constant frequency using nearest neighbor to forward fill NAN values
+
+Shape after cleaning up the dataframe:  (1052506, 61)
+
+Saving datafrane as pickle file in ../data/datasets/txt16_m3_t2_p2/
+Saving finished
+
+
+Importing dataframe 8/13 from file
+
+Cleaning up dataframe with shape:  (28795171, 61) ...
+	Fill NA for categorical and integer columns with values
+	Change categorical columns to numeric representation
+	Interpolate NA values for real valued streams
+	Drop first/last rows that contain NA for any of the streams
+	Resampling (depending on freq: Downsampling) the data at a constant frequency using nearest neighbor to forward fill NAN values
+
+Shape after cleaning up the dataframe:  (2415513, 61)
+
+Saving datafrane as pickle file in ../data/datasets/no_failure_and_leakage/
+Saving finished
+
+
+Importing dataframe 9/13 from file
+
+Cleaning up dataframe with shape:  (12314448, 61) ...
+	Fill NA for categorical and integer columns with values
+	Change categorical columns to numeric representation
+	Interpolate NA values for real valued streams
+	Drop first/last rows that contain NA for any of the streams
+	Resampling (depending on freq: Downsampling) the data at a constant frequency using nearest neighbor to forward fill NAN values
+
+Shape after cleaning up the dataframe:  (740643, 61)
+
+Saving datafrane as pickle file in ../data/datasets/light_barrier_txt16_i4/
+Saving finished
+
+
+Importing dataframe 10/13 from file
+
+Cleaning up dataframe with shape:  (11600746, 61) ...
+	Fill NA for categorical and integer columns with values
+	Change categorical columns to numeric representation
+	Interpolate NA values for real valued streams
+	Drop first/last rows that contain NA for any of the streams
+	Resampling (depending on freq: Downsampling) the data at a constant frequency using nearest neighbor to forward fill NAN values
+
+Shape after cleaning up the dataframe:  (669891, 61)
+
+Saving datafrane as pickle file in ../data/datasets/leakage_p1/
+Saving finished
+
+
+Importing dataframe 11/13 from file
+
+Cleaning up dataframe with shape:  (17796390, 61) ...
+	Fill NA for categorical and integer columns with values
+	Change categorical columns to numeric representation
+	Interpolate NA values for real valued streams
+	Drop first/last rows that contain NA for any of the streams
+	Resampling (depending on freq: Downsampling) the data at a constant frequency using nearest neighbor to forward fill NAN values
+
+Shape after cleaning up the dataframe:  (1770401, 61)
+
+Saving datafrane as pickle file in ../data/datasets/position_switch_mix/
+Saving finished
+
+
+Importing dataframe 12/13 from file
+
+Cleaning up dataframe with shape:  (15771669, 61) ...
+	Fill NA for categorical and integer columns with values
+	Change categorical columns to numeric representation
+	Interpolate NA values for real valued streams
+	Drop first/last rows that contain NA for any of the streams
+	Resampling (depending on freq: Downsampling) the data at a constant frequency using nearest neighbor to forward fill NAN values
+
+Shape after cleaning up the dataframe:  (1355111, 61)
+
+Saving datafrane as pickle file in ../data/datasets/light_barrier_mix/
+Saving finished
+
+
+Importing dataframe 13/13 from file
+
+Cleaning up dataframe with shape:  (15594586, 61) ...
+	Fill NA for categorical and integer columns with values
+	Change categorical columns to numeric representation
+	Interpolate NA values for real valued streams
+	Drop first/last rows that contain NA for any of the streams
+	Resampling (depending on freq: Downsampling) the data at a constant frequency using nearest neighbor to forward fill NAN values
+
+Shape after cleaning up the dataframe:  (1011096, 61)
+
+Saving datafrane as pickle file in ../data/datasets/failure_mix/
+Saving finished

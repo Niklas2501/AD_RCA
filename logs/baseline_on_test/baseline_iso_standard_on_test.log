@@ -1,0 +1,52 @@
+
+Dataset loaded:
+Shape of training set (example, time, channels): (20812, 500, 61)
+Shape of test set (example, time, channels): (3989, 500, 61)
+Shape of train validation set (example, time, channels): (2313, 500, 61)
+Shape of test validation set (example, time, channels): (1710, 500, 61)
+Num of classes in all: 25
+
+Using the standard data as input
+
+(20812, 30500) (3989, 30500)
+Evaluating IsolationForest on the test dataset with 16 parameter configurations.
+
+Evaluating IsolationForest with configuration 1/16
+Evaluating IsolationForest with configuration 2/16
+Evaluating IsolationForest with configuration 3/16
+Evaluating IsolationForest with configuration 4/16
+Evaluating IsolationForest with configuration 5/16
+Evaluating IsolationForest with configuration 6/16
+Evaluating IsolationForest with configuration 7/16
+Evaluating IsolationForest with configuration 8/16
+Evaluating IsolationForest with configuration 9/16
+Evaluating IsolationForest with configuration 10/16
+Evaluating IsolationForest with configuration 11/16
+Evaluating IsolationForest with configuration 12/16
+Evaluating IsolationForest with configuration 13/16
+Evaluating IsolationForest with configuration 14/16
+Evaluating IsolationForest with configuration 15/16
+Evaluating IsolationForest with configuration 16/16
+
+Grid search results:
+         ACC FNR TNR FPR TPR      Prec        F1       F2                                                                                                                    Parameters
+0   0.171472   0   0   1   1  0.171472  0.292746  0.50855   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.05, 'max_samples': 32, 'n_estimators': 50, 'warm_start': False}
+1   0.171472   0   0   1   1  0.171472  0.292746  0.50855   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.05, 'max_samples': 64, 'n_estimators': 50, 'warm_start': False}
+2   0.171472   0   0   1   1  0.171472  0.292746  0.50855  {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.05, 'max_samples': 128, 'n_estimators': 50, 'warm_start': False}
+3   0.171472   0   0   1   1  0.171472  0.292746  0.50855  {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.05, 'max_samples': 256, 'n_estimators': 50, 'warm_start': False}
+4   0.171472   0   0   1   1  0.171472  0.292746  0.50855    {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.1, 'max_samples': 32, 'n_estimators': 50, 'warm_start': False}
+5   0.171472   0   0   1   1  0.171472  0.292746  0.50855    {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.1, 'max_samples': 64, 'n_estimators': 50, 'warm_start': False}
+6   0.171472   0   0   1   1  0.171472  0.292746  0.50855   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.1, 'max_samples': 128, 'n_estimators': 50, 'warm_start': False}
+7   0.171472   0   0   1   1  0.171472  0.292746  0.50855   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.1, 'max_samples': 256, 'n_estimators': 50, 'warm_start': False}
+8   0.171472   0   0   1   1  0.171472  0.292746  0.50855    {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.2, 'max_samples': 32, 'n_estimators': 50, 'warm_start': False}
+9   0.171472   0   0   1   1  0.171472  0.292746  0.50855    {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.2, 'max_samples': 64, 'n_estimators': 50, 'warm_start': False}
+10  0.171472   0   0   1   1  0.171472  0.292746  0.50855   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.2, 'max_samples': 128, 'n_estimators': 50, 'warm_start': False}
+11  0.171472   0   0   1   1  0.171472  0.292746  0.50855   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.2, 'max_samples': 256, 'n_estimators': 50, 'warm_start': False}
+12  0.171472   0   0   1   1  0.171472  0.292746  0.50855   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.25, 'max_samples': 32, 'n_estimators': 50, 'warm_start': False}
+13  0.171472   0   0   1   1  0.171472  0.292746  0.50855   {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.25, 'max_samples': 64, 'n_estimators': 50, 'warm_start': False}
+14  0.171472   0   0   1   1  0.171472  0.292746  0.50855  {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.25, 'max_samples': 128, 'n_estimators': 50, 'warm_start': False}
+15  0.171472   0   0   1   1  0.171472  0.292746  0.50855  {'bootstrap': True, 'contamination': 0.0, 'max_features': 0.25, 'max_samples': 256, 'n_estimators': 50, 'warm_start': False}
+
+
+Best result in detail:
+0
